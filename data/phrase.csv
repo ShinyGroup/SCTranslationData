@@ -1023,43 +1023,43 @@ present.receiveAll.noPresentMessage,受け取れるプレゼントはありま�
 present.receiveAll.itemNameNum,%{type} ×%{num},
 present.valentine.title,バレンタインプレゼント受け取り,
 present.valentine.message,%{firstName}から\nバレンタインプレゼントを受け取りました,
-idolRoad.needsProduceEnd.title,アイドルロード進行不可,
-idolRoad.needsProduceEnd.message1,%{idolName}は\n現在プロデュース中のため\nアイドルロードを進行する事ができません,
-idolRoad.needsProduceEnd.message2,プロデュースを完了するか\nプロデュースを終了してください,
-idolRoad.cantReceive.title,アイテム所持上限,
-idolRoad.cantReceive.message,獲得アイテムが所持上限を超えているため\nアイドルロードを進行する事ができません,
-idolRoad.rewardDetail.rarityUp.name,レアリティ上昇,
-idolRoad.rewardDetail.rarityUp.comment,%{beforeRarityText}プロデュースアイドルのレアリティが%{rarityText}に上昇,
-idolRoad.rewardDetail.unlockVoice.name,%{charName}\nホームボイス追加,
-idolRoad.rewardDetail.unlockVoice.comment,%{voiceName}を追加,
-idolRoad.rewardDetail.evolutionStage.name,特訓数＋1,
-idolRoad.rewardDetail.evolutionStage.comment,%{rarityText}プロデュースアイドルの特訓数を＋1,
-idolRoad.rewardDetail.trustUp.name,%{charName}の\n信頼度Lv.上限＋%{num},
-idolRoad.rewardDetail.trustUp.comment,%{charName} の信頼度Lv.の上限が%{num}上昇,
-idolRoad.rewardDetail.title.name,専用称号『%{titleName}』x１,
-idolRoad.rewardDetail.title.comment,%{charName} 専用称号『%{titleName}』を獲得,
-idolRoad.rewardDetail.supportIdol.comment,%{rarityText}サポートアイドルです,
-idolRoad.evolutionStageUnlockPop.title,特訓数増加,
-idolRoad.evolutionStageUnlockPop.message,アイドルロードの進行によって\n特訓段階が増加しました,
-idolRoad.evolutionStageNotEnoughPop.title,特訓数不足,
-idolRoad.evolutionStageNotEnoughPop.message1,特訓数が足りていない為\nアイドルロードを進行することが出来ません,
-idolRoad.evolutionStageNotEnoughPop.message2,%{idolName}\nの特訓数を4まで上昇させる事で\nアイドルロードの進行が可能になります,
-idolRoad.produceAttentionPop.title,アイドルロード進行不可,
-idolRoad.produceAttentionPop.message1,%{idolName}\nは現在プロデュース中の為\nアイドルロードを進行させることが出来ません,
-idolRoad.produceAttentionPop.message2,プロデュースを完了するか\nプロデュースを終了してください,
-idolRoad.rarityUpPop.title,レアリティ上昇,
-idolRoad.rarityUpPop.message,アイドルロードの進行によって\nレアリティが上昇しました,
-idolRoad.trustLimitUpPop.title,信頼度上限解放,
-idolRoad.trustLimitUpPop.message1,アイドルロードの進行によって,
-idolRoad.trustLimitUpPop.message2,[%{idolName}]の信頼度lv上限が%{limit},
-idolRoad.trustLimitUpPop.message3,に上昇しました,
+idolRoad.needsProduceEnd.title,アイドルロード進行不可,不能推进偶像之路
+idolRoad.needsProduceEnd.message1,%{idolName}は\n現在プロデュース中のため\nアイドルロードを進行する事ができません,%{idolName}\n现在正被Produce中\n无法推进偶像之路
+idolRoad.needsProduceEnd.message2,プロデュースを完了するか\nプロデュースを終了してください,请完成或中止Produce
+idolRoad.cantReceive.title,アイテム所持上限,所持道具上限
+idolRoad.cantReceive.message,獲得アイテムが所持上限を超えているため\nアイドルロードを進行する事ができません,由于获得道具超过最大所持上限\n无法推进偶像之路
+idolRoad.rewardDetail.rarityUp.name,レアリティ上昇,稀有度上升
+idolRoad.rewardDetail.rarityUp.comment,%{beforeRarityText}プロデュースアイドルのレアリティが%{rarityText}に上昇,%{beforeRarityText}Produce偶像的稀有度上升到了%{rarityText}
+idolRoad.rewardDetail.unlockVoice.name,%{charName}\nホームボイス追加,%{charName}\n主页语音追加
+idolRoad.rewardDetail.unlockVoice.comment,%{voiceName}を追加,%{voiceName}追加
+idolRoad.rewardDetail.evolutionStage.name,特訓数＋1,特训数＋1
+idolRoad.rewardDetail.evolutionStage.comment,%{rarityText}プロデュースアイドルの特訓数を＋1,%{rarityText}Produce偶像的特训数＋1
+idolRoad.rewardDetail.trustUp.name,%{charName}の\n信頼度Lv.上限＋%{num},%{charName}的\n信赖度Lv.上限＋%{num}
+idolRoad.rewardDetail.trustUp.comment,%{charName} の信頼度Lv.の上限が%{num}上昇,%{charName} 的信赖度Lv.上限上升到了%{num}
+idolRoad.rewardDetail.title.name,専用称号『%{titleName}』x１,专有称号『%{titleName}』x１
+idolRoad.rewardDetail.title.comment,%{charName} 専用称号『%{titleName}』を獲得,获得了%{charName} 的专有称号『%{titleName}』
+idolRoad.rewardDetail.supportIdol.comment,%{rarityText}サポートアイドルです,%{rarityText}Support偶像
+idolRoad.evolutionStageUnlockPop.title,特訓数増加,特训数增加
+idolRoad.evolutionStageUnlockPop.message,アイドルロードの進行によって\n特訓段階が増加しました,随着偶像之路的推进\n特训等级增加了
+idolRoad.evolutionStageNotEnoughPop.title,特訓数不足,特训数不足
+idolRoad.evolutionStageNotEnoughPop.message1,特訓数が足りていない為\nアイドルロードを進行することが出来ません,因为特训数不足\n无法进行偶像之路
+idolRoad.evolutionStageNotEnoughPop.message2,%{idolName}\nの特訓数を4まで上昇させる事で\nアイドルロードの進行が可能になります,%{idolName}\n的特训数上升到4的话\n就能进行偶像之路了
+idolRoad.produceAttentionPop.title,アイドルロード進行不可,不能进行偶像之路
+idolRoad.produceAttentionPop.message1,%{idolName}\nは現在プロデュース中の為\nアイドルロードを進行させることが出来ません,因为现在%{idolName}\n正被Produce中\n所以无法推进偶像之路
+idolRoad.produceAttentionPop.message2,プロデュースを完了するか\nプロデュースを終了してください,请完成或中止Produce
+idolRoad.rarityUpPop.title,レアリティ上昇,稀有度上升
+idolRoad.rarityUpPop.message,アイドルロードの進行によって\nレアリティが上昇しました,随着偶像之路的推进\n稀有度上升了
+idolRoad.trustLimitUpPop.title,信頼度上限解放,信赖度上限解放
+idolRoad.trustLimitUpPop.message1,アイドルロードの進行によって,随着偶像之路的推进
+idolRoad.trustLimitUpPop.message2,[%{idolName}]の信頼度lv上限が%{limit},[%{idolName}]的信赖度lv上限
+idolRoad.trustLimitUpPop.message3,に上昇しました,上升到了%{limit}
 idolRoad.roadRewardDetail.received,獲得済み,已获得
 idolRoad.roadRewardDetail.notReceived,あとミッション%{count}個達成で到達,还需完成%{count}个任务才能到达
-idolRoad.popReceive.title,アイドルロード進行報酬,
-idolRoad.popReceive.comment,アイドルロード進行の報酬として\n以下を獲得しました,
-idolRoad.needsEvolution,%{idolName}を最大まで特訓しよう,
+idolRoad.popReceive.title,アイドルロード進行報酬,推进偶像之路的报酬
+idolRoad.popReceive.comment,アイドルロード進行の報酬として\n以下を獲得しました,作为推进偶像之路的报酬\n获得了以下道具
+idolRoad.needsEvolution,%{idolName}を最大まで特訓しよう,将%{idolName}特训到最高等级吧
 idolRoad.canProcessText,あと%{canProceedCount}歩進めます,还能前进%{canProceedCount}步
-idolRoad.recommendProcessText,ミッションをクリアして進めよう,
+idolRoad.recommendProcessText,ミッションをクリアして進めよう,完成任务目标以前进吧
 releasedCommentsPop.title,ボイス解放,语音解锁
 releasedCommentsPop.message,を解放しました\n\nホーム画面にて聞くことができます\nアイドルアルバムで再生のON/OFFが可能です,
 filterPop.filterTitle,絞り込み,筛选
