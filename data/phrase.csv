@@ -28,6 +28,14 @@ beginnerMission.idolSelectConfirmPop.txtNotice," 初心者ミッション開始�
 beginnerMission.clearedAlert.title,初心者ミッション達成,
 beginnerMission.clearedAlert.text,以下のミッションを達成しました\n初心者ミッションページで報酬を受け取りましょう,
 beginnerMission.clearedAlert.reward,%{rewardName} ×%{num},
+countUpCampaign.unit.fes_raid_laps,周,
+countUpCampaign.countUpText,%{unit}で%{title}達成,
+countUpCampaign.clearedFooterText.fes_raid_laps,コラボフェスの到達周数でボーナスをGET!,
+countUpCampaign.clearedFooterText.fan,プロデューサーズカップの累計獲得ファン数でボーナスをGET!,
+countUpCampaign.closeAt,集計期間: %{closeAt} まで,
+countUpCampaign.lastChallengeTitle,前回のチャレンジ結果,
+countUpCampaign.pCupAttention,休憩時間中のプロデュースなどで獲得したファン数も集計対象に含まれます,
+countUpCampaign.fanCount,約%{count}億,
 downLoad.confirmTitle,データダウンロード,数据下载
 downLoad.confirmComment,ゲームデータを一括でダウンロードし、端末に保存します\n\nゲーム中の読み込み時間が減るため、より快適にプレイすることができます\n最大約 %{gb} GB のデバイスの空き容量が必要となります,游戏数据一次性下载后，游戏中保存到终端的的读取时间减少，以便于游玩更加流畅，至少需要%{gb} GB的空余容量
 downLoad.persistMessageMobile,データダウンロードを開始するためには\rアイドルマスターシャイニーカラーズのURL(shinycolors.enza.fun)を\rホーム画面に追加、またはブックマークする必要があります,为了开始下载数据，必须将\n偶像大师闪耀色彩的URL(shinycolors.enza.fun)\n添加到主页屏幕上或书签中
@@ -99,6 +107,7 @@ characterAlbum.voiceDetailPop.notice,%{itemName}での解放は%{date}より可�
 characterAlbum.commuDetailPop.title,コミュ詳細,剧情详情
 characterAlbum.commuDetailPop.useItem.title,%{itemName}を使ってコミュを解放できます,使用%{itemName}后可解锁剧情
 characterAlbum.commuDetailPop.notice,%{itemName}での解放は%{date}より可能です,使用%{itemName}解锁需要%{date}之后方可进行
+common.remainingText,あと,
 common.day,%{day}日,%{day}日
 common.hour,%{hour}時間,%{hour}小时
 common.min,%{min}分,%{min}分
@@ -145,6 +154,9 @@ common.produceItem,プロデュースアイテム,Produce道具
 common.staffItemPoint,はづきさんシール,叶月贴纸
 common.ticketNum,%{num}枚,
 common.hiddenText,？？？？,
+common.ssrText,SSR,
+common.srText,SR,
+common.rText,R,
 commonMenu.bannerListTitle,キャンペーン一覧,活动一览
 commonMenu.fesIdolLimit.title,フェスアイドル所属上限,Fes偶像所属上限
 commonMenu.fesIdolLimit.text,これ以上フェスアイドルを所属させられません\nフェスアイドル詳細画面から移籍を行ってください,无法拥有更多的fes偶像\n请在fes偶像详情中进行移籍
@@ -457,7 +469,12 @@ idolPortal.staffComment6,プロデューサーさんの現在の担当アイド�
 jewelDetailDialog.title,所持フェザージュエル確認,所持羽石确认
 evolution.skillListTitle,解放されるスキル,解锁的技能
 evolution.confirm.title,特訓確認,特训确认
-evolution.confirm.comment,選択した対象を消費して、特訓をします。\nよろしいですか？,确认消耗选择的对象进行特训吗？
+evolution.confirm.comment,選択した対象を消費して、特訓をします\nよろしいですか？,确认消耗选择的对象进行特训吗？
+evolution.confirm.maxStaffComment,最大特訓はづきさんを消費して、特訓をします\nよろしいですか？,
+evolution.confirm.notice,特訓はづきさんが含まれています\n本当によろしいですか？,
+evolution.confirm.checkDescription,特訓を有効にする,
+evolution.confirm.maxStaffNotice,1回以上特訓しているアイドルが選択されています\n特訓を開始した場合、余剰分の特訓回数は消失します,
+evolution.confirm.maxStaffNoticeLevel,Lv.2以上のサポートアイドルが選択されています\n特訓を開始した場合、余剰分のExpは消失します,
 evolution.complete.title,特訓結果,特训结果
 evolution.complete.comment,特訓が完了しました！,特训完成！
 evolution.costumeRelease.first,最大まで特訓したことによって\n,由于已特训至最终阶段\n
@@ -467,6 +484,9 @@ evolution.reward.header,%{name}を\n%{times}回特訓したため,由于%{name}\
 evolution.reward.getTitle,・特訓称号,・特训称号
 evolution.reward.getVoiceHeader,・特訓ホームボイス,・特训主页语音
 evolution.reward.footer,が解放されました。,已被解锁
+evolution.normalInvalidBlockText,%{name}は\n他のアイドルや特訓はづきさんと\n一緒に使用することはできません,
+evolution.featuredInvalidBlockText,アイドルまたは他の特訓はづきさんと\n一緒に使用することはできません,
+evolution.featuredTrainingResultComment,%{name}の\n使用により、レベルが最大になりました,
 fes.top.title,フェス,Fes
 fes.top.scoreTitle,現在のスコア,当前分数
 fes.top.rankingTitle,グレード内順位/,当前等级内排名/
@@ -740,6 +760,7 @@ header.homeDeckAnimationCharacterChange.right,Rightアイドル選択,右侧偶�
 header.homeDeckMemberSelect,ホームユニットメンバー編成,主界面队伍成员编成
 header.idolPortal,アイドル,偶像
 header.idolList,アイドル一覧,偶像一览
+header.idolRoad,アイドルロード,偶像之路
 header.musicSelect,楽曲選択,歌曲选择
 header.notice,お知らせ,通知
 header.fesMatchRanking,ランキング,排行榜
@@ -876,6 +897,7 @@ option.twitterDeAuthorizeDialog.message,Twitter連携を解除しました,已�
 idol,アイドル,偶像
 supportIdolDetail.fromGashaNotice,最大まで特訓とトレーニングを行なった状態を表示しています。,当前显示为已达到最终特训和训练时的状态
 idolDetail.fromGashaNotice,最大特訓時の状態を表示しています。,当前显示为最大特训时的状态
+idolDetail.fromGashaNoticeWithIdolRoad,最大特訓時、アイドルロード未進行の状態を表示しています。,
 idolDetail.headerTitle.produce,プロデュースアイドル詳細,Produce偶像详情
 idolDetail.headerTitle.support,サポートアイドル詳細,Support偶像详情
 idolDetail.headerTitle.fes,フェスアイドル詳細,Fes偶像详情
@@ -932,6 +954,7 @@ invitation.receivedMessage.multipleNum,×%{num},
 invitation.receivedMessage.message,・%{typeText}%{numText},
 invitation.tweetComments.text,アイドルマスターシャイニーカラーズ\nこの招待リンクからゲームを始めると１回ガシャチケットもらえる！,
 invitation.tweetComments.hashTag,"シャニマス,idolmaster",
+item.limitNumSimple,最大所持数:,
 item.limitNum,最大所持数: %{num},最大所持数: %{num}
 item.headerTitle,アイテム一覧,道具一览
 item.noItem,アイテムがありません。,　　　  无道具
@@ -958,6 +981,9 @@ item.maxFesTicket,参加権がMAXのため、これ以上回復できません�
 item.expiredItem,期限を過ぎたため、使用できません。,期限已过，无法使用
 item.recoveryItem.type.produce.valueName,スタミナ,精力值
 item.recoveryItem.type.fes.valueName,参加権,参加权
+item.evolutionNotice,アイドルや他の特訓はづきさんと一緒に使うことはできません,
+item.evolutionNotice2,すでに1回以上特訓しているアイドルに使用した場合\n余剰分の特訓回数は消失します,
+item.evolutionNoticeLevel,すでにLv.2以上トレーニングしているアイドルに使用した場合\n余剰分のExpは消失します,
 item.commuReleaseItem.imageCharacterSelectTitle,対象アイドル選択,
 item.commuReleaseItem.giveItemToCharacterConfirmation,%{characterName}に\n以下のアイテムを使用しますか？,
 item.commuReleaseItem.commuReleasedTitle,コミュ解放,
@@ -997,6 +1023,45 @@ present.receiveAll.noPresentMessage,受け取れるプレゼントはありま�
 present.receiveAll.itemNameNum,%{type} ×%{num},
 present.valentine.title,バレンタインプレゼント受け取り,
 present.valentine.message,%{firstName}から\nバレンタインプレゼントを受け取りました,
+idolRoad.needsProduceEnd.title,アイドルロード進行不可,
+idolRoad.needsProduceEnd.message1,%{idolName}は\n現在プロデュース中のため\nアイドルロードを進行する事ができません,
+idolRoad.needsProduceEnd.message2,プロデュースを完了するか\nプロデュースを終了してください,
+idolRoad.cantReceive.title,アイテム所持上限,
+idolRoad.cantReceive.message,獲得アイテムが所持上限を超えているため\nアイドルロードを進行する事ができません,
+idolRoad.rewardDetail.rarityUp.name,レアリティ上昇,
+idolRoad.rewardDetail.rarityUp.comment,%{beforeRarityText}プロデュースアイドルのレアリティが%{rarityText}に上昇,
+idolRoad.rewardDetail.unlockVoice.name,%{charName}\nホームボイス追加,
+idolRoad.rewardDetail.unlockVoice.comment,%{voiceName}を追加,
+idolRoad.rewardDetail.evolutionStage.name,特訓数＋1,
+idolRoad.rewardDetail.evolutionStage.comment,%{rarityText}プロデュースアイドルの特訓数を＋1,
+idolRoad.rewardDetail.trustUp.name,%{charName}の\n信頼度Lv.上限＋%{num},
+idolRoad.rewardDetail.trustUp.comment,%{charName} の信頼度Lv.の上限が%{num}上昇,
+idolRoad.rewardDetail.title.name,専用称号『%{titleName}』x１,
+idolRoad.rewardDetail.title.comment,%{charName} 専用称号『%{titleName}』を獲得,
+idolRoad.rewardDetail.supportIdol.comment,%{rarityText}サポートアイドルです,
+idolRoad.evolutionStageUnlockPop.title,特訓数増加,
+idolRoad.evolutionStageUnlockPop.message,アイドルロードの進行によって\n特訓段階が増加しました,
+idolRoad.evolutionStageNotEnoughPop.title,特訓数不足,
+idolRoad.evolutionStageNotEnoughPop.message1,特訓数が足りていない為\nアイドルロードを進行することが出来ません,
+idolRoad.evolutionStageNotEnoughPop.message2,%{idolName}\nの特訓数を4まで上昇させる事で\nアイドルロードの進行が可能になります,
+idolRoad.produceAttentionPop.title,アイドルロード進行不可,
+idolRoad.produceAttentionPop.message1,%{idolName}\nは現在プロデュース中の為\nアイドルロードを進行させることが出来ません,
+idolRoad.produceAttentionPop.message2,プロデュースを完了するか\nプロデュースを終了してください,
+idolRoad.rarityUpPop.title,レアリティ上昇,
+idolRoad.rarityUpPop.message,アイドルロードの進行によって\nレアリティが上昇しました,
+idolRoad.trustLimitUpPop.title,信頼度上限解放,
+idolRoad.trustLimitUpPop.message1,アイドルロードの進行によって,
+idolRoad.trustLimitUpPop.message2,[%{idolName}]の信頼度lv上限が%{limit},
+idolRoad.trustLimitUpPop.message3,に上昇しました,
+idolRoad.roadRewardDetail.received,獲得済み,
+idolRoad.roadRewardDetail.notReceived,あとミッション%{count}個達成で到達,
+idolRoad.popReceive.title,アイドルロード進行報酬,
+idolRoad.popReceive.comment,アイドルロード進行の報酬として\n以下を獲得しました,
+idolRoad.needsEvolution,%{idolName}を最大まで特訓しよう,
+idolRoad.canProcessText,あと%{canProceedCount}歩進めます,
+idolRoad.recommendProcessText,ミッションをクリアして進めよう,
+releasedCommentsPop.title,ボイス解放,语音解锁
+releasedCommentsPop.message,を解放しました\n\nホーム画面にて聞くことができます\nアイドルアルバムで再生のON/OFFが可能です,
 filterPop.filterTitle,絞り込み,筛选
 filterPop.filter.friendship,絆,绊
 filterPop.filter.recoveryStamina,体力,体力
@@ -1038,8 +1103,6 @@ produceTop.homeConfirmPop.title,ホームに戻る,回到主界面
 produceTop.homeConfirmPop.message,現在のプロデュース内容を保存して、\nホームに戻りますか？,要保存当前的Produce内容，并回到主界面吗？
 produceTop.restConfirmPop.title,確認画面,确认界面
 produceTop.restConfirmPop.message,アイドルを休ませますか？,要让偶像休息一下吗？
-produceTop.releasedCommentsPop.title,ボイス解放,语音解锁
-produceTop.releasedCommentsPop.message,を解放しました\n\nホーム画面にて聞くことができます\nアイドルアルバムで再生のON/OFFが可能です,已解锁并可在主界面欣赏
 produceTop.concertConfirmPop.title,確認画面,确认界面
 produceTop.concertConfirmPop.message,ライブを開始しますか？,要开始Live吗？
 produceTop.ideaNoteAlertPop.title,アイデアノート確認,创想笔记确认
@@ -1218,7 +1281,6 @@ raidConcert.chain.appealCommentRegExp,(?:[a-zA-Z＆]+[0-9.～〜最大]+倍|思�
 raidConcert.chain.unsupportedSkill,チェイン対象外,非连锁对象
 raidTop.announce.defaultMessages.opening,ステージを選んでコラボフェスに参加してください,请选择舞台参加COLLABO FES
 raidTop.announce.defaultMessages.closed,コラボフェス期間は終了しました,COLLABO FES时段已结束
-raidTop.header.closeDate,開催期間 %{closeAt}まで,举办时段 %{closeAt}截止
 raidTop.passShortageDialog.title,コラボフェスパス,COLLABO FES通行券
 raidTop.passShortageDialog.text,コラボフェスパスが不足しています,COLLABO FES通行券不足
 raidTop.resumeDialog.title,コラボフェス,COLLABO FES
@@ -1292,6 +1354,7 @@ training.startConfirm,トレーニング確認,训练确认
 training.resultTitle,トレーニング成功,训练成功
 training.resultTitleGreat,トレーニング大成功,训练大成功
 training.resultTitleSuper,トレーニング超成功,训练超成功
+training.resultTitleFeatured,トレーニング結果,训练结果
 training.trainingTicketReturn.title,トレーニングキャンペーン,训练活动
 training.trainingTicketReturn.message,%{type}ボーナスの余剰Exp分を\nブロンズトレーニングチケットに変換して\nプレゼントに送りました,%{type}加成奖励的剩余Exp\n已兑换成青铜训练券\n并送入礼物盒中
 training.successType.great,大成功,
