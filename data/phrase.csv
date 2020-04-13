@@ -1053,12 +1053,12 @@ idolRoad.trustLimitUpPop.title,信頼度上限解放,
 idolRoad.trustLimitUpPop.message1,アイドルロードの進行によって,
 idolRoad.trustLimitUpPop.message2,[%{idolName}]の信頼度lv上限が%{limit},
 idolRoad.trustLimitUpPop.message3,に上昇しました,
-idolRoad.roadRewardDetail.received,獲得済み,
-idolRoad.roadRewardDetail.notReceived,あとミッション%{count}個達成で到達,
+idolRoad.roadRewardDetail.received,獲得済み,已获得
+idolRoad.roadRewardDetail.notReceived,あとミッション%{count}個達成で到達,还需完成%{count}个任务才能到达
 idolRoad.popReceive.title,アイドルロード進行報酬,
 idolRoad.popReceive.comment,アイドルロード進行の報酬として\n以下を獲得しました,
 idolRoad.needsEvolution,%{idolName}を最大まで特訓しよう,
-idolRoad.canProcessText,あと%{canProceedCount}歩進めます,
+idolRoad.canProcessText,あと%{canProceedCount}歩進めます,还能前进%{canProceedCount}步
 idolRoad.recommendProcessText,ミッションをクリアして進めよう,
 releasedCommentsPop.title,ボイス解放,语音解锁
 releasedCommentsPop.message,を解放しました\n\nホーム画面にて聞くことができます\nアイドルアルバムで再生のON/OFFが可能です,
