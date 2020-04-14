@@ -1029,16 +1029,16 @@ idolRoad.needsProduceEnd.message2,プロデュースを完了するか\nプロ�
 idolRoad.cantReceive.title,アイテム所持上限,所持道具上限
 idolRoad.cantReceive.message,獲得アイテムが所持上限を超えているため\nアイドルロードを進行する事ができません,由于获得道具超过最大所持上限\n无法推进偶像之路
 idolRoad.rewardDetail.rarityUp.name,レアリティ上昇,稀有度上升
-idolRoad.rewardDetail.rarityUp.comment,%{beforeRarityText}プロデュースアイドルのレアリティが%{rarityText}に上昇,%{beforeRarityText}Produce偶像的稀有度上升到了%{rarityText}
+idolRoad.rewardDetail.rarityUp.comment,%{beforeRarityText}プロデュースアイドルのレアリティが%{rarityText}に上昇,%{beforeRarityText} Produce偶像的稀有度上升到了%{rarityText}
 idolRoad.rewardDetail.unlockVoice.name,%{charName}\nホームボイス追加,%{charName}\n主页语音追加
 idolRoad.rewardDetail.unlockVoice.comment,%{voiceName}を追加,%{voiceName}追加
 idolRoad.rewardDetail.evolutionStage.name,特訓数＋1,特训数＋1
-idolRoad.rewardDetail.evolutionStage.comment,%{rarityText}プロデュースアイドルの特訓数を＋1,%{rarityText}Produce偶像的特训数＋1
+idolRoad.rewardDetail.evolutionStage.comment,%{rarityText}プロデュースアイドルの特訓数を＋1,%{rarityText} Produce偶像的特训数＋1
 idolRoad.rewardDetail.trustUp.name,%{charName}の\n信頼度Lv.上限＋%{num},%{charName}的\n信赖度Lv.上限＋%{num}
 idolRoad.rewardDetail.trustUp.comment,%{charName} の信頼度Lv.の上限が%{num}上昇,%{charName} 的信赖度Lv.上限上升到了%{num}
 idolRoad.rewardDetail.title.name,専用称号『%{titleName}』x１,专有称号『%{titleName}』x１
 idolRoad.rewardDetail.title.comment,%{charName} 専用称号『%{titleName}』を獲得,获得了%{charName} 的专有称号『%{titleName}』
-idolRoad.rewardDetail.supportIdol.comment,%{rarityText}サポートアイドルです,%{rarityText}Support偶像
+idolRoad.rewardDetail.supportIdol.comment,%{rarityText}サポートアイドルです,%{rarityText} Support偶像
 idolRoad.evolutionStageUnlockPop.title,特訓数増加,特训数增加
 idolRoad.evolutionStageUnlockPop.message,アイドルロードの進行によって\n特訓段階が増加しました,随着偶像之路的推进\n特训等级增加了
 idolRoad.evolutionStageNotEnoughPop.title,特訓数不足,特训数不足
