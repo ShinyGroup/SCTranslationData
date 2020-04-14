@@ -7,7 +7,7 @@ achievementRewardDialog.rewardNameNum,%{name} x %{num},
 beginnerMission.headerTitle,初心者ミッション,新手任务
 beginnerMission.staffComment,初心者ミッションを進めて報酬を受け取ってくださいね〜,
 beginnerMission.detailPopTitle,初心者ミッション詳細,新手任务详情
-beginnerMission.receivePopTitle,初心者ミッション達成,新手任务达成
+beginnerMission.receivePopTitle,初心者ミッション達成,新手任务完成
 beginnerMission.selectIdolPopTitle,初心者ミッションを始めるプロデュースアイドルを選択します,
 beginnerMission.groupLabel.step,STEP %{step},
 beginnerMission.groupLabel.label.1,好きなアイドルを育てよう,
@@ -25,8 +25,8 @@ beginnerMission.availableSupportIdolsDetailPop.tips2,のアイドル5人に来�
 beginnerMission.idolSelectConfirmPop.title,初心者ミッション開始確認,
 beginnerMission.idolSelectConfirmPop.text,選択したプロデュースアイドルでは\n以下のサポートアイドルが手に入ります\n初心者ミッションを開始しますか？,
 beginnerMission.idolSelectConfirmPop.txtNotice," 初心者ミッション開始後に選びなおすことはできません",
-beginnerMission.clearedAlert.title,初心者ミッション達成,
-beginnerMission.clearedAlert.text,以下のミッションを達成しました\n初心者ミッションページで報酬を受け取りましょう,
+beginnerMission.clearedAlert.title,初心者ミッション達成,新手任务完成
+beginnerMission.clearedAlert.text,以下のミッションを達成しました\n初心者ミッションページで報酬を受け取りましょう,以下任务已完成\n前往新手任务页面领取奖励
 beginnerMission.clearedAlert.reward,%{rewardName} ×%{num},
 countUpCampaign.unit.fes_raid_laps,周,
 countUpCampaign.countUpText,%{unit}で%{title}達成,
