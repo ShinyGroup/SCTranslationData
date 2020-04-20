@@ -2,7 +2,7 @@
 
 ## 1. 下载并安装[GitHub客户端](https://desktop.github.com/)
 
-![image-20200330132924894](guide/1-1.png)
+![](https://cdn.jsdelivr.net/gh/ShinyGroup/SCTranslationData/guide/1-1.png)
 
 
 
@@ -14,9 +14,9 @@
 
 在本仓库下选择【Clone or download】-【Open in Desktop】
 
-![image-20200330133539591](guide/3-1.png)
+![](https://cdn.jsdelivr.net/gh/ShinyGroup/SCTranslationData/guide/3-1.png)
 
-![image-20200330134242498](guide/3-2.png)
+![](https://cdn.jsdelivr.net/gh/ShinyGroup/SCTranslationData/guide/3-2.png)
 
 之后会自动打开GitHub客户端并弹出以上提示，图中红框为仓库保存的本地位置，可以自行更改，但必须记住！
 
@@ -26,7 +26,7 @@
 
 **为请确保同步，每次提交更改前都建议手动点一次【Fetch Origin】检查远程仓库是否有更新**
 
-![image-20200330134615768](guide/4-1.png)
+![](https://cdn.jsdelivr.net/gh/ShinyGroup/SCTranslationData/guide/4-1.png)
 
 仓库克隆完毕后，请确保上方的状态栏和图中一样。
 
@@ -48,7 +48,7 @@
 
 当你完成翻译之后，回到GitHub客户端，你会发现你所做的修改在左侧状态栏全部列出，并且右侧会显示每个文件详细的更改。
 
-![image-20200330141957795](guide/6-1.png)
+![](https://cdn.jsdelivr.net/gh/ShinyGroup/SCTranslationData/guide/6-1.png)
 
 绿色[+]符号表示你新建的文件
 
@@ -68,7 +68,7 @@
 
 确认完毕后，请点击【Fetch Origin】，先同步最新文件
 
-![image-20200330144022569](guide/7-1.png)
+![](https://cdn.jsdelivr.net/gh/ShinyGroup/SCTranslationData/guide/7-1.png)
 
 如果远程仓库没有更新，那么你就可以在左下角写上本次的提交信息，然后直接【Commit to msater】
 
@@ -96,7 +96,7 @@
 
 比如，在我提交之前，点了【Fetch Origin】后，状态变成了下图
 
-![image-20200330151214848](guide/7-2.png)
+![](https://cdn.jsdelivr.net/gh/ShinyGroup/SCTranslationData/guide/7-2.png)
 
 这就表示我们的本地仓库比远程仓库少了1次Commit，此时必须先把别人的Commit同步到本地
 
@@ -106,7 +106,7 @@
 
 ### 遇到冲突怎么办？
 
-![image-20200330152216866](guide/7-3.png)
+![](https://cdn.jsdelivr.net/gh/ShinyGroup/SCTranslationData/guide/7-3.png)
 
 当我们【Pull origin】后，可能会有上图显示。这就表示我们当前的修改和远程仓库有冲突。
 
@@ -128,7 +128,7 @@
 
 我们需要把本地仓库推送到远程仓库
 
-![image-20200330154024658](guide/8-1.png)
+![](https://cdn.jsdelivr.net/gh/ShinyGroup/SCTranslationData/guide/8-1.png)
 
 点击【Push origin】即可
 

@@ -8,13 +8,13 @@
 
 也可以在项目主页，进入data/story文件夹。
 
-![image-20200406210347886](guide/3-1-1.png)
+![](https://cdn.jsdelivr.net/gh/ShinyGroup/SCTranslationData/guide/3-1-1.png)
 
 图中的③部分就是各个角色和活动剧情的文件夹。
 
 ## 2. 进入角色剧情文件夹
 
-![image-20200406211015060](guide/3-2-1.png)
+![](https://cdn.jsdelivr.net/gh/ShinyGroup/SCTranslationData/guide/3-2-1.png)
 
 以杜野凛世为例，我们可以看到
 
@@ -26,11 +26,11 @@
 
 点击右上角的【Upload files】
 
-![image-20200406211822003](guide/3-3-1.png)
+![](https://cdn.jsdelivr.net/gh/ShinyGroup/SCTranslationData/guide/3-3-1.png)
 
 之后操作步骤如下图所示↓↓↓
 
-![image-20200406212316885](guide/3-3-2.png)
+![](https://cdn.jsdelivr.net/gh/ShinyGroup/SCTranslationData/guide/3-3-2.png)
 
 ①拖放文件的话，可以拖放单个csv文件（比如共通剧情、已有卡面/活动里面的单个剧情），也可以拖放一整个文件夹（比如一整个翻译好的“【卡名】角色名”文件夹，或一整个【活动名】文件夹）。
 
@@ -60,7 +60,7 @@
 
 如果你发现翻译文件有需要修改的地方，就点击你要修改的文件。
 
-![image-20200406214208268](guide/3-4-1.png)
+![](https://cdn.jsdelivr.net/gh/ShinyGroup/SCTranslationData/guide/3-4-1.png)
 
 点击红框的笔，进入编辑模式。
 
@@ -68,7 +68,7 @@
 
 如果你要进行大幅修改，那么先选中全部文本，复制粘贴到本地文件中，对这个文件进行修改后，再粘贴到网页里，提交修改。
 
-![image-20200406214359132](guide/3-4-2.png)
+![](https://cdn.jsdelivr.net/gh/ShinyGroup/SCTranslationData/guide/3-4-2.png)
 
 > 这里你可能要问，为什么修改要先复制网页上的到本地呢？
 >
@@ -84,6 +84,6 @@
 >
 > 否则，任何修改文件的操作，都必须先复制网页上的最新版本到本地，修改完再贴回网页！
 
-![image-20200406215946659](guide/3-4-3.png)
+![](https://cdn.jsdelivr.net/gh/ShinyGroup/SCTranslationData/guide/3-4-3.png)
 
 修改完后，同样是填写修改信息、点击提交，和上传是一样的。
