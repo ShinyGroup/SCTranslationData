@@ -8,14 +8,14 @@ beginnerMission.headerTitle,初心者ミッション,新手任务
 beginnerMission.staffComment,初心者ミッションを進めて報酬を受け取ってくださいね〜,
 beginnerMission.detailPopTitle,初心者ミッション詳細,新手任务详情
 beginnerMission.receivePopTitle,初心者ミッション達成,新手任务完成
-beginnerMission.selectIdolPopTitle,初心者ミッションを始めるプロデュースアイドルを選択します,
+beginnerMission.selectIdolPopTitle,初心者ミッションを始めるプロデュースアイドルを選択します,选择一个Produce偶像开始新手任务
 beginnerMission.groupLabel.step,STEP %{step},
-beginnerMission.groupLabel.label.1,好きなアイドルを育てよう,
-beginnerMission.groupLabel.label.2,1人目のサポートアイドルを育てよう,
-beginnerMission.groupLabel.label.3,2人目のサポートアイドルを育てよう,
-beginnerMission.groupLabel.label.4,3人目のサポートアイドルを育てよう,
-beginnerMission.groupLabel.label.5,4人目のサポートアイドルを育てよう,
-beginnerMission.groupLabel.label.6,5人目のサポートアイドルを育てよう,
+beginnerMission.groupLabel.label.1,好きなアイドルを育てよう,培育你喜欢的偶像吧
+beginnerMission.groupLabel.label.2,1人目のサポートアイドルを育てよう,培育第一个Support偶像吧
+beginnerMission.groupLabel.label.3,2人目のサポートアイドルを育てよう,培育第二个Support偶像吧
+beginnerMission.groupLabel.label.4,3人目のサポートアイドルを育てよう,培育第三个Support偶像吧
+beginnerMission.groupLabel.label.5,4人目のサポートアイドルを育てよう,培育第四个Support偶像吧
+beginnerMission.groupLabel.label.6,5人目のサポートアイドルを育てよう,培育第五个Support偶像吧
 beginnerMission.groupLabel.label.7,より強力な編成でプロデュースに挑戦しよう,
 beginnerMission.idolSelectNavigateText,まずは一緒に初心者ミッションを受けるアイドルを\n選んであげてくださいね〜\nおすすめのサポートアイドルをピックアップしますよ♪,
 beginnerMission.availableSupportIdolsDetailPop.title,プロデュースアイドル確認,
@@ -228,7 +228,7 @@ deck.title.orderSelectPop,並べ替え変更,排序变更
 deck.title.staminaRecoverPop,スタミナ回復,精力值恢复
 deck.title.startProducePop,使用確認,使用确认
 deck.title.useCoinPop,使用確認,使用确认
-deck.title.supportSkillListPop,サポートスキルボーナス一覧,Support偶像技能加成一览
+deck.title.supportSkillListPop,サポートスキルボーナス一覧,支援技能加成一览
 ending.headerTitle.endingCEOReport,社長からの評価,来自社长的评价
 ending.headerTitle.fesIdolBirth,フェスアイドル誕生,Fes偶像诞生
 ending.fesIdolCheckPop.title,フェスアイドル確認,Fes偶像确认
@@ -259,8 +259,8 @@ errorDialog.eventClosedTitle,イベント期間外,不在活动时段内
 errorDialog.shopClosedTitle,購入期間外,不在购入时段内
 errorDialog.campaignClosedTitle,キャンペーン期間外,
 errorDialog.confirmTitle,確認,确认
-errorDialog.updateNativeAppVersionTitle,最新バージョン確認,最新版本确认
-errorDialog.fesResumeTitle,フェス再開,Fes继续
+errorDialog.updateNativeAppVersionTitle,最新バージョン確認,确认最新版本
+errorDialog.fesResumeTitle,フェス再開,继续Fes
 errorDialog.updateVersion,バージョンが更新されました。,版本已更新
 errorDialog.updateNativeAppVersion,アプリのバージョンアップが必要です。\nストアから最新バージョンを\nダウンロードしてください。,应用需要升级。\n请前往商店下载\n最新版本。
 errorDialog.invalidSession,セッション更新の必要があります。\n\n何度も発生する場合は\nゲーム内の「お知らせ」→「お問い合わせ」より\nお問い合わせください。\n\nお問い合わせID: %{requestId}\nエラーコード: %{errorCode},ErrorCode:%{errorCode}
@@ -1112,7 +1112,7 @@ produceAction.auditionRule,特殊ルール,特殊规则
 produceAction.auditionConditions,出場条件,出场条件
 produceAction.eventDetailPop.title,発動中イベント,发动中的事件
 produceMain.supportSkillsDialog.title,発動中スキル,发动中的技能
-produceMain.supportSkillsDialog.noSkill,発動中のサポートスキルはありません,没有发动中的Support技能
+produceMain.supportSkillsDialog.noSkill,発動中のサポートスキルはありません,没有发动中的支援技能
 produceMain.supportSkillsDialog.helper,お手伝い中のアイドルです,正在帮忙的偶像
 produceMain.supportSkillsDialog.placeTitle.vocalLesson,ボーカルレッスン,声乐课
 produceMain.supportSkillsDialog.placeTitle.danceLesson,ダンスレッスン,舞蹈课
@@ -1347,7 +1347,7 @@ supportIdol.remaining,あと %{remaining},还需 %{remaining}
 training.levelLabel,Lv.,
 training.gainExpLabel,獲得Exp,获得Exp
 training.selectedNum,x%{num},
-training.skillListTitle,習得するサポートスキル,习得Support技能
+training.skillListTitle,習得するサポートスキル,习得的支援技能
 training.startConfirm,トレーニング確認,训练确认
 training.resultTitle,トレーニング成功,训练成功
 training.resultTitleGreat,トレーニング大成功,训练大成功
@@ -1357,13 +1357,13 @@ training.trainingTicketReturn.title,トレーニングキャンペーン,训练�
 training.trainingTicketReturn.message,%{type}ボーナスの余剰Exp分を\nブロンズトレーニングチケットに変換して\nプレゼントに送りました,%{type}加成奖励的剩余Exp\n已兑换成青铜训练券\n并送入礼物盒中
 training.successType.great,大成功,
 training.successType.super,超成功,
-training.invalidRarity2,Nのサポートアイドルには使用できません,
-training.invalidRarity3,R以下のサポートアイドルには使用できません,
-training.invalidRarity4,SR以下のサポートアイドルには使用できません,
-training.invalidLevel,Lv.%{lv}以上のため使用できません,
-training.normalInvalidBlockText,%{name}は\n他のトレーニングチケットと\n一緒に使用することはできません,
-training.featuredInvalidBlockText,他のトレーニングチケットと\n一緒に使用することはできません,
-training.confirm.comment,以下のチケットを使って、\nアイドルをトレーニングしますか？,
+training.invalidRarity2,Nのサポートアイドルには使用できません,N级别的Support偶像不能使用
+training.invalidRarity3,R以下のサポートアイドルには使用できません,R级别以下的Support偶像不能使用
+training.invalidRarity4,SR以下のサポートアイドルには使用できません,N级别以下的Support偶像不能使用
+training.invalidLevel,Lv.%{lv}以上のため使用できません,因为Lv.大于%{lv}所以不能使用
+training.normalInvalidBlockText,%{name}は\n他のトレーニングチケットと\n一緒に使用することはできません,%{name}\n不能和其他的训练券\n一起使用
+training.featuredInvalidBlockText,他のトレーニングチケットと\n一緒に使用することはできません,不能和其他的训练券\n一起使用
+training.confirm.comment,以下のチケットを使って、\nアイドルをトレーニングしますか？,要使用以下的券\n来训练偶像吗？
 training.confirm.lvNotice,Lv.2以上のサポートアイドルが選択されています\nアイドルをトレーニングした場合\n余剰分のExpは消失します,
 trueEndTeaching.objectivePopupTitle.season,シーズン%{seasonNum}目標,季度%{seasonNum}的目标
 trueEndTeaching.objectivePopupHadukiHint.season2,目標をすべて達成したら、次のシーズンを見据えて\nレッスンやお仕事を行いましょう♪,完成所有目标后，让我们展望下一个季度\n继续课程和工作吧♪
@@ -1454,7 +1454,7 @@ workActivityReady.startDialogTitle,営業開始確認,营业开始确认
 workActivityReady.motivationLevel,モチベーションボーナス %{motivationLevel},营业积极性加成 %{motivationLevel}
 workActivityReady.motivationBonusDetail,獲得経験値とファン数が%{bonusRate}倍,获得经验值与粉丝数%{bonusRate}倍
 workActivityReady.motivationBonusNone,モチベーションボーナスはありません,无营业积极性加成
-workActivityResult.skillListTitle,習得したサポートスキル,已习得的Support技能
+workActivityResult.skillListTitle,習得したサポートスキル,已习得的支援技能
 workActivityResult.totalFan.idolName,【%{name}】累計ファン人数,【%{name}】累计粉丝人数
 workActivityResult.totalFan.count,%{count}人,
 individualRanking.heldAt,%{time}まで,%{time}截止
