@@ -597,10 +597,10 @@ gameEvent.boxGasha.checkItemDialog.text.lastChange,最後のボックスです�
 gameEvent.boxGasha.checkItemDialog.text.confirm,チェック中のアイテムが残っています。ボックス移動しますか？,选定的道具还有剩余。要移动BOX吗？
 gameEvent.boxGasha.checkItemDialog.text.notAcquired,未獲得,未获得
 gameEvent.boxGasha.nextBoxDialog.title,ボックス移動確認,BOX移动确认
-gameEvent.boxGasha.nextBoxDialog.hasNoRemainingItemsText,次のボックスに移動します,移动至下一个BOX
+gameEvent.boxGasha.nextBoxDialog.hasNoRemainingItemsText,次のボックスに移動します,　　移动至下一个BOX　　
 gameEvent.boxGasha.nextBoxDialog.hasRemainingItemsText,チェックしたアイテムを獲得していません\n次のボックスに移動しますか？,选定的道具无法获得要移动到下一个BOX吗？
-gameEvent.boxGasha.nextBoxDialog.caution,移動した場合、ボックスの中身を\n戻すことはできません,移动后，将无法回到当前BOX
-gameEvent.boxGasha.nextBoxDialog.check,移動を有効にする,确认移动
+gameEvent.boxGasha.nextBoxDialog.caution,移動した場合、ボックスの中身を\n戻すことはできません,　　　　　  移动后  　　　　　\n 将无法回到当前BOX 
+gameEvent.boxGasha.nextBoxDialog.check,移動を有効にする,　　确认移动　　
 gameEvent.boxGasha.rewardDialogTitle,結果,结果
 gameEvent.boxGasha.tabBoxName,ボックス,BOX
 unitBonusBanner.schedule,%{closeAt}まで,%{closeAt}截止
