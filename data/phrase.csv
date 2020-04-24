@@ -619,7 +619,7 @@ gasha.resultMessage,既に加入済みのアイドルは控室に送られます
 gasha.tweetLayerMessage,ツイートしたいアイドルを選択してください,选择要发送推特展示的偶像
 gasha.gashaText,%{quantity}回引く,%{quantity}回抽卡
 gasha.popTicketDesc.ticketName,%{ticketName}を,将使用%{ticketName}
-gasha.popTicketDesc.quantity,消費してガシャを%{quantity}回引きます。\nよろしいですか？,进行%{quantity}回抽卡。\确认吗？
+gasha.popTicketDesc.quantity,消費してガシャを%{quantity}回引きます。\nよろしいですか？,进行%{quantity}回抽卡。\n确认吗？
 gasha.popJewelDesc,フェザージュエルを%{price}個消費して\nガシャを%{quantity}回引きます。\nよろしいですか？,将使用%{price}个羽石\n进行%{quantity}回抽卡。\n确认吗？
 gasha.popFreeDesc,無料で1回ガシャを引きますか？,要进行一次免费抽卡吗？
 gasha.popRedrawConfirm.title,ご注意,注意
