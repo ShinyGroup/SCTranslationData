@@ -17,7 +17,7 @@ beginnerMission.groupLabel.label.4,3人目のサポートアイドルを育て�
 beginnerMission.groupLabel.label.5,4人目のサポートアイドルを育てよう,培育第四个Support偶像吧
 beginnerMission.groupLabel.label.6,5人目のサポートアイドルを育てよう,培育第五个Support偶像吧
 beginnerMission.groupLabel.label.7,より強力な編成でプロデュースに挑戦しよう,以更强大的编成阵挑战Produce吧
-beginnerMission.idolSelectNavigateText,まずは一緒に初心者ミッションを受けるアイドルを\n選んであげてくださいね〜\nおすすめのサポートアイドルをピックアップしますよ♪,首先请选择新手任务中\要培育的Produce偶像吧〜\n将为你自动挑选推荐的Support偶像哦♪
+beginnerMission.idolSelectNavigateText,まずは一緒に初心者ミッションを受けるアイドルを\n選んであげてくださいね〜\nおすすめのサポートアイドルをピックアップしますよ♪,首先请选择新手任务中\n要培育的Produce偶像吧〜\n将为你自动挑选推荐的Support偶像哦♪
 beginnerMission.availableSupportIdolsDetailPop.title,プロデュースアイドル確認,Produce偶像确认
 beginnerMission.availableSupportIdolsDetailPop.tips,%{idolName}さんのサポートに適した,适合%{idolName}的Support偶像
 beginnerMission.availableSupportIdolsDetailPop.attribute,%{attribute}タイプ,%{attribute}类型
@@ -283,10 +283,10 @@ errorDialog.sdkLoginLoadFailedApp,認証に失敗しました。\n通信環境�
 errorDialog.staminaLimitOver,スタミナが500を超える為、\nアイテムを使用できませんでした。\n営業やプロデュースでスタミナを消費してください。,精力值已超过500，\n无法使用恢复道具。\n请通过营业或培育偶像消耗精力值。
 errorDialog.unsubscribedApp,退会済みのアカウントが検出されました。\nアプリケーションの再インストールをお試しください。,检测到已退会的账户。\n请尝试重装应用。
 errorDialog.unsubscribed,退会済みのアカウントが検出されました。\nタイトルへ戻ります。\n何度も発生する場合は\nクッキーの削除をお試しください。,检测到已退会的账户。\n将回到标题。\n多次发生的情况下\n请清除Cookie后再尝试。
-errorDialog.accountFreezeShort,調査の為、一時的にご利用を制限しております。\n対応が完了次第制限解除いたしますので\nしばらくお待ち下さい。\nお客様にはご迷惑をお掛けいたしますが\nご協力をお願いいたします。,为了调查，目前暂时限制使用。\n对应措施结束后将立即解除限制\n请您稍等一段时间。\n对您造成了不便\希望您能配合。
+errorDialog.accountFreezeShort,調査の為、一時的にご利用を制限しております。\n対応が完了次第制限解除いたしますので\nしばらくお待ち下さい。\nお客様にはご迷惑をお掛けいたしますが\nご協力をお願いいたします。,为了调查，目前暂时限制使用。\n对应措施结束后将立即解除限制\n请您稍等一段时间。\n对您造成了不便\n希望您能配合。
 errorDialog.earthPaymentFailure,プラットフォームの決済処理が\n正常に行われませんでした。\n再度時間をおいてお試しください。\n\n何度も発生する場合は\nゲーム内の「お知らせ」→「お問い合わせ」より\nお問い合わせください。\n\nお問い合わせID: %{requestId}\nエラーコード: %{errorCode},平台的结算处理\n没有正常进行。\n请一段时间后再尝试。\n\n多次发生的情况下\n请从游戏内「お知らせ」→「お問い合わせ」\n确认您的问题。\n\n问题ID：%{requestId}\n错误代码：%{errorCode}
 errorDialog.earthPaymentFailureFatal,プラットフォームの決済処理が\n正常に行われませんでした。ゲーム内の「お知らせ」→「お問い合わせ」より\nお問い合わせください。\n\nお問い合わせID: %{requestId}\nエラーコード: %{errorCode},平台的结算处理\n没有正常进行。请从游戏内「お知らせ」→「お問い合わせ」\n确认您的问题。\n\n问题ID：%{requestId}\n错误代码：%{errorCode}
-errorDialog.sceneMaintenance,本機能は、一時的にご利用を制限しております。\n対応が完了次第制限解除いたしますので\nしばらくお待ち下さい。\nお客様にはご迷惑をお掛けいたしますが\nご協力をお願いいたします。,本功能目前暂时限制使用。\n对应措施结束后将立即解除限制\n请您稍等一段时间。\n对您造成了不便\希望您能配合。
+errorDialog.sceneMaintenance,本機能は、一時的にご利用を制限しております。\n対応が完了次第制限解除いたしますので\nしばらくお待ち下さい。\nお客様にはご迷惑をお掛けいたしますが\nご協力をお願いいたします。,本功能目前暂时限制使用。\n对应措施结束后将立即解除限制\n请您稍等一段时间。\n对您造成了不便\n希望您能配合。
 errorDialog.playMovie,動画再生に失敗しました。,动画播放失败
 errorDialog.movieSkipNotice,スキップした場合、動画は閲覧済み状態となります,跳过的话，动画将变为已阅览状态
 errorDialog.businessIsNotFinished,営業が完了していません。\n少し時間を置いてから再度完了してください。,营业尚未完成。\n请等待一段时间后再确认完成
@@ -295,7 +295,7 @@ errorDialog.purchaseError,ご購入の処理中に\nエラーが発生したた�
 errorDialog.purchaseDeferredTitle,制限,限制
 errorDialog.purchaseDeferred,ご購入が制限されております。\n制限が解除されるまでご購入はできません。,购入被限制。\n在限制解除前将无法购入。
 errorDialog.purchaseRestoreTitle,購入エラー,购入错误
-errorDialog.purchaseRestore,購入処理を完了できませんでした。\nしばらくしてからもう一度お試しください。\n購入のリトライをしますか？,购入处理无法完成。\n请一段时间后再尝试。\要尝试再次购入吗？
+errorDialog.purchaseRestore,購入処理を完了できませんでした。\nしばらくしてからもう一度お試しください。\n購入のリトライをしますか？,购入处理无法完成。\n请一段时间后再尝试。\n要尝试再次购入吗？
 errorDialog.invalidProduct,該当の商品が存在しないため、\n購入することができません。,
 errorDialog.note.noSettlementProcess,※再読み込みしてもバナコイン、フェザージュエル\n決済処理が多重に行われることはありません。,
 errorDialog.contextLost.appText,画像の読み込みに失敗しました。\n再読み込みボタンを押して再読み込みしてください。\n改善されない場合には\nアプリの再起動をお試しください。,画面读取失败。\n请点击重新读取按钮进行再次读取。\n未有改善的情况下\n请尝试重新启动应用。
@@ -311,6 +311,8 @@ errorDialog.checkin.outOfRange,%{placeName}\nから離れすぎています\nチ
 errorDialog.checkin.alreadyCheckIn,このチェックインスポットには\nすでにチェックイン済みです,
 errorDialog.checkin.notice,以下のFAQをご確認のうえ\n再度チェックインをお試しください,
 errorDialog.checkin.invalid,有効期限外です,
+errorDialog.characterFanRankingBreakTimeChangeTitle,お休み時間設定,休息时间设定
+errorDialog.characterFanRankingBreakTimeChangeError,設定可能時間外です\n画面を更新します,不在可休息时间内\n画面将更新
 eventPoint.genericName,ポイント,点数
 eventPoint.game,イベントP,活动P
 eventPoint.scenario,シナリオP,剧情P
@@ -563,6 +565,11 @@ fes.fesGradeRewardPop.missionReward.title,初回昇格報酬について,关于�
 fes.fesGradeRewardPop.missionReward.description,初めてLv.2以上の各グレードに昇格した際、特別な報酬を入手できます。\n報酬は「ミッション」からお受け取りください。,初次Lv.2以上各等级升格时，能够获得特殊报酬。\n请从「任务」处领取报酬。
 fes.fesGradeRewardPop.missionReward.colTitle1,昇格グレード,升格等级
 fes.fesGradeRewardPop.missionReward.colTitle2,報酬内容,报酬内容
+fes.deckMemberBonusStatus.positionBonus,ポジションボーナス %{value}%,位置加成 %{value}%
+fes.deckMemberBonusStatus.unitBonus,ユニットボーナス %{value}%,组合加成 %{value}%
+fes.deckMemberBonusStatus.passiveSkillBonus,パッシブ発動率 %{value}%UP,被动发动率 %{value}%UP
+fes.deckMemberBonusEffect.positionBonus,ポジションボーナス,位置加成
+fes.deckMemberBonusEffect.unitBonus,ユニットボーナス,组合加成
 gameEvent.achievementRewardDialog.title,ミッション達成累積報酬,完成任务的累计奖励
 gameEvent.achievementRewardDialog.message,以下のアイテムがプレゼントBOXに送られました,以下道具已经送入礼物盒中
 gameEvent.achievementRewardDialog.rewardNameNum,%{name} x %{num},
@@ -695,7 +702,7 @@ gasha.gashaHistory.gashaName,「%{name}」\nで加入したアイドルです。
 gasha.gashaHistory.skinGashaName,「%{name}」で獲得した衣装です。,「%{name}」中获得的服装。
 gasha.gashaHistory.replacedWithTicket,すでに所持していたため「%{name}」と交換しました。,由于已持有而兑换为了「%{name}」
 gasha.skinReplacement.title,確認,确认
-gasha.skinReplacement.message,すでに取得済の衣装は\n「%{name}」に変換されました,已获得的服装\n已变换为「%{name}」
+gasha.skinReplacement.message,すでに取得済の衣装は\n「%{name}」\nに変換されました,已获得的服装\n已变换为\n「%{name}」
 gasha.skinReplacement.possessionLabel,所持数,所持数
 gasha.result.evolutionLabel,%{evolutionStage}回特訓済,已特训%{evolutionStage}次
 guestUser,ゲスト,Guest
@@ -752,9 +759,7 @@ header.gashaHistory,ガシャ履歴,抽卡历史
 header.help,ヘルプ,帮助
 header.homeDeck,ホームユニット,主界面队伍
 header.homeDeckAnimationBgChange,背景・その他設定,背景选择
-header.homeDeckAnimationCharacterChange.left,Leftアイドル選択,左侧偶像选择
-header.homeDeckAnimationCharacterChange.center,Centerアイドル選択,Center偶像选择
-header.homeDeckAnimationCharacterChange.right,Rightアイドル選択,右侧偶像选择
+header.homeDeckAnimationCharacterChange,%{horizontalPosition}アイドル選択,%{horizontalPosition}偶像选择
 header.homeDeckMemberSelect,ホームユニットメンバー編成,主界面队伍成员编成
 header.idolPortal,アイドル,偶像
 header.idolList,アイドル一覧,偶像一览
@@ -764,6 +769,7 @@ header.notice,お知らせ,通知
 header.fesMatchRanking,ランキング,排行榜
 header.fesDeckView,ユニット確認,队伍确认
 header.memorialShop,メモリアルピースショップ,回忆碎片商店
+header.produceTeachingHintSetting,目標表示設定,目标表示设定
 header.titleSetting,称号設定,称号设定
 header.ideaNote,アイデアノート,创想笔记
 header.workActivity,営業,营业
@@ -804,6 +810,23 @@ homeDeck.verticalPositionSelectButton,立ち位置,站立位置
 homeDeck.verticalPositionPopTitle,立ち位置設定,站立位置设置
 homeDeck.bgSelectButton,背景・その他,背景・其他
 homeDeck.emptyBackGroundEffectName,なし,无特效
+homeDeck.randomSetting.title,ホームユニットランダム表示設定,主界面队伍随机表示设定
+homeDeck.randomSetting.notice,ランダム設定がONの場合、アイドルは常にランダムで抽選されます,随机设定为ON的情况下，偶像将会随机选取
+homeDeck.randomSetting.zoomTypes.label,距離,距离
+homeDeck.randomSetting.zoomTypes.values.short,近距離,近距离
+homeDeck.randomSetting.zoomTypes.values.middle,通常,通常
+homeDeck.randomSetting.zoomTypes.values.long,遠距離,远距离
+homeDeck.randomSetting.zoomTypes.values.super_long,超遠距離,超远距离
+homeDeck.randomSetting.bgTypes.label,背景・その他,背景・其他
+homeDeck.randomSetting.bgTypes.values.image,背景,背景
+homeDeck.randomSetting.bgTypes.values.effect,エフェクト,特效
+homeDeck.randomSetting.bgTypes.values.music,BGM
+homeDeck.randomSetting.costumeTypes.label,衣装,服装
+homeDeck.randomSetting.costumeTypes.values.plain,私服衣装,私人服装
+homeDeck.randomSetting.costumeTypes.values.concert,ライブ衣装,Live服装
+homeDeck.loadAlertPop.title,確認,确认
+homeDeck.loadAlertPop.comment,５人表示を行う場合\n「ホームユニット」および「ホーム画面」での\n描画に負荷がかかります,显示5人的情况下\n「主界面队伍」以及「主界面」的渲染\n将会消耗更多时间
+homeDeck.loadAlertPop.checkComment,今後、この警告を表示しない,今后不再显示警告
 judgeTrend.bonusValue,★%{value}倍,
 landscapeDialog.title,画面の向きについて,关于画面的方向
 landscapeDialog.text,このゲームは画面を横向きにして\nお楽しみください。,本游戏适宜采用横向画面游玩
@@ -875,7 +898,6 @@ option.volumeTitle.bgm,BGM,
 option.volumeTitle.se,SE,
 option.volumeTitle.voice,ボイス,语音
 option.produceContentTitle.touch,アイドルへのタッチ判定,偶像的触摸判定
-option.produceContentTitle.hint,はづきさんのヒント表示,叶月的提示显示
 option.produceContentTitle.newEventSpeed,未読イベント開始時に早送り解除\n（アイドル・サポートイベント）,未读过的事件开始时取消快进\n（偶像・支援事件）
 option.produceContentTitle.restConfirm,休む選択時に確認画面を表示,选择休息时显示确认画面
 option.produceContentTitle.concertConfirm,ライブ選択時に確認画面を表示,选择Live时显示确认画面
@@ -1130,6 +1152,8 @@ produceCostume.changePopTitle,衣装変更確認,服装变更确认
 produceSeasonResult.ideaNote.season,シーズン%{seasonNum},季度%{seasonNum}
 produceSeasonResult.ideaNote.emptyNotice,獲得できるアイデアノートが\nありません,没有可获得的创想笔记
 produceAreaSelect.openTime,%{years}年%{months}月%{days}日%{hours}:%{minutes}以降に,%{years}年%{months}月%{days}日%{hours}:%{minutes}以后
+produceAreaSelect.produceTeachingHintSettingConfirmationPopupTitle,研修設定確認,研修设定确认
+produceAreaSelect.produceTeachingHintSettingPopupTitle,研修設定,研修设定
 fanMeeting.live.evaluation.fanMeeting.good_performance,MVP,
 fanMeeting.live.evaluation.fanMeeting.good_vocal,ベストボーカリスト,Best Vocalist
 fanMeeting.live.evaluation.fanMeeting.good_dance,ベストダンサー,Best Dancer
@@ -1324,7 +1348,7 @@ skillBord.header,振り返り,技能回顾
 skillBord.acquireConfirmationTitle,スキル習得確認,习得技能确认
 skillBord.acquireConfirmationMessage,SPを%{skillPoint}消費してスキルを習得しますか？,要使用SP%{skillPoint}学习技能吗？
 skillBord.deleteSkillConfirmationTitle,スキル入れ替え確認,技能替换确认
-skillBord.acquiredMessage,既に習得済みのスキルです。\n\nスキルポイントを消費せず、\nパネルの解放のみを行います。,已习得的技能。\n\n不消耗技能点，\n仅解锁技能盘。
+skillBord.acquiredMessage,既に習得済みのスキルです。\n\n\n\nスキルポイントを消費せず、\nパネルの解放のみを行います。,已习得的技能。\n\n\n\n不消耗技能点，\n仅解锁技能盘。
 skillBord.produceAreaSkillList.title,%{produceTitle} 限定スキル,%{produceTitle} 限定技能
 skin,衣装,服装
 skinDetail.plainOnlyNotice,衣装変更対象は私服衣装のみとなり、\nライブ衣装は変更されません。,服装变更对象仅能为私人服装，无法变更为Live服装
@@ -1387,16 +1411,16 @@ tutorial.openingMessage.mes6,そんなサバイバルな世界に,
 tutorial.openingMessage.mes7,今23人の女の子と,
 tutorial.openingMessage.mes8,１人のプロデューサーが,
 tutorial.openingMessage.mes9,足を踏み入れる！,
-tutorial.dialog.idolChoice.title,プロデュースアイドル確認,
-tutorial.dialog.idolChoice.message,%{name}で\nチュートリアルを開始しますか？,
-tutorial.dialog.deckEdit.title,確認,
-tutorial.dialog.deckEdit.message,編成のチュートリアルを見ますか？,
+tutorial.dialog.idolChoice.title,プロデュースアイドル確認,Produce偶像确认
+tutorial.dialog.idolChoice.message,%{name}で\nチュートリアルを開始しますか？,要选择%{name}\n开始教程吗？
+tutorial.dialog.deckEdit.title,確認,确认
+tutorial.dialog.deckEdit.message,編成のチュートリアルを見ますか？,要学习编成教程吗？
 tutorial.skipPop.message,次のチュートリアルまでスキップします\nよろしいですか？,将跳过下一个教程\n确认吗？
 tutorial.skipPop.title,確認,确认
 tutorial.skipPop.warning1,各機能の説明はチュートリアル終了後も,各功能在教程结束后在
 tutorial.skipPop.warning2,TIPS,
 tutorial.skipPop.warning3,から確認可能です。,之中可以确认
-tutorial.staffMessage,初めにプロデュースするアイドルを選んであげてください♪\nチュートリアル後には他のアイドルもプロデュースできますよ～,
+tutorial.staffMessage,初めにプロデュースするアイドルを選んであげてください♪\nチュートリアル後には他のアイドルもプロデュースできますよ～,请选择初次培育的偶像吧♪\n教程结束后也可培育其他偶像哦～
 tutorial.unitDescription.1,小さな光を宿す少女たちで結成された、新世代のアイドルユニット。\n今はまだかすかな輝きでも、時にぶつかり時に支え合いながら、\n一等星を目指して歩んでいく！,
 tutorial.unitDescription.2,胸に燻る焔を「ウタ」に、孤独な泪を「ネガイ」に変える、\n新世界の革命的アイドルユニット。\nゴシックなドレスを纏い、彼女たちは希望を謳い続ける―。,
 tutorial.unitDescription.3,"個性と個性がぶつかり合う全力系アイドルユニット。\n全身全霊でアイドル道を突き進む彼女達の姿こそ、""クライマックス""の証。\nファンもプロデューサーも世界も巻き込んでアイドル界のてっぺんを目指す！！",
@@ -1434,7 +1458,7 @@ twitter.postDialog.businessCardDescription,各種画像と上記の文章を含�
 twitter.postDialog.textLengthCount,%{count}/140,
 twitter.postDialog.staticComment.favoriteIdol,魅力たっぷりのアイドルをプロデュースしてみよう！担当はこのアイドル！,
 twitter.postDialog.staticComment.gashaResult,%{idolName}\nに出会ったよ！とっても素敵なアイドル！,
-twitter.postDialog.staticComment.gashaResultSkin,限定衣装%{idolName}を獲得したよ！とっても素敵な衣装！,限定服装%{idolName}已获得！非常漂亮的服装！
+twitter.postDialog.staticComment.gashaResultSkin,限定衣装%{idolName}を獲得したよ！とっても素敵な衣装！,
 twitter.postDialog.staticComment.businessCard,よろしくお願いします。\n#シャニマス名刺,
 twitter.postDialog.staticURL,https://go.enza.fun/IddpjY,
 twitter.postDialog.staticHashTag,#シャニマス #idolmaster,
@@ -1447,7 +1471,7 @@ twitter.tweetFailedLimitRateDialog.description,ゲーム全体でのツイート
 workActivityTop.motivationLevel,モチベーションボーナス %{motivationLevel},营业积极性加成 %{motivationLevel}
 workActivityTop.createItemTitle,お手製差し入れ作成,制作手工慰劳品
 workActivityTop.createItemResultTitle,作成結果,制作结果
-workActivityTop.purchaseSlotDescription,営業枠を１つ解放します\nよろしいですか？,解锁1个营业栏\n确认吗？
+workActivityTop.purchaseSlotDescription,営業枠を１つ解放します\nよろしいですか？,将解锁1个营业栏\n确认吗？
 workActivityTop.purchaseBilledOnlyNotice,有償フェザージュエルでのみ購入可能,仅能使用有偿羽石购买
 workActivityTop.possessedJewelShortMessage,所持フェザージュエルが不足しています,所持羽石不足
 workActivityReady.startDialogTitle,営業開始確認,营业开始确认
@@ -1473,4 +1497,9 @@ individualRanking.accumulatedPresentGetPopup.title,累計ファン数達成報�
 individualRanking.accumulatedPresentGetPopup.text,以下のアイテムがプレゼントBOXに送られました,以下道具已经送入礼物盒中
 individualRanking.characterRankingOutOfTermPop.title,集計期間外,统计时段外
 individualRanking.characterRankingOutOfTermPop.text,現在は\n「%{name}」\nのランキング集計期間外です\n\n集計期間外にプロデュースや営業を達成しても\nイベントランキングのファン数には加算されません,现在处于\n「%{name}」\n的排行榜统计时段外\n\n统计时段外即使达成Produce或营业\n活动排行榜的粉丝数也不会增加
+individualRanking.characterRankingOutOfTermPop.text,現在は\n「%{name}」\nのランキング集計期間外です\n\nお休み時間　%{openTime} 〜 %{closeTime}\n\n集計期間外にプロデュースや営業を達成しても\nイベントランキングのファン数には加算されません,现在处于\n「%{name}」\n的排行榜统计时段外\n\n休息时间　%{openTime} 〜 %{closeTime}\n\n统计时段外即使达成Produce或营业\n活动排行榜的粉丝数也不会增加
+individualRanking.breakTimePop.title,お休み時間設定,休息时间设定
+individualRanking.breakTimePop.period,%{openTime}　〜　%{closeTime}
+individualRanking.changeBreakTimePop.title,お休み時間変更,休息时间修改
+individualRanking.changeBreakTimePop.period,%{openTime}　〜　%{closeTime}
 pushNotification.title,シャニマス,偶像大师 闪耀色彩
