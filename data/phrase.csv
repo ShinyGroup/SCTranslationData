@@ -1055,7 +1055,7 @@ idolRoad.rewardDetail.unlockVoice.comment,%{voiceName}を追加,%{voiceName}追�
 idolRoad.rewardDetail.evolutionStage.name,特訓数＋1,特训数＋1
 idolRoad.rewardDetail.evolutionStage.comment,%{rarityText}プロデュースアイドルの特訓数を＋1,%{rarityText} Produce偶像的特训数＋1
 idolRoad.rewardDetail.trustUp.name,%{charName}の\n信頼度Lv.上限＋%{num},%{charName}的\n信赖度Lv.上限＋%{num}
-idolRoad.rewardDetail.trustUp.comment,%{charName} の信頼度Lv.の上限が%{num}上昇,%{charName} 的信赖度Lv.上限上升为%{num}
+idolRoad.rewardDetail.trustUp.comment,%{charName} の信頼度Lv.の上限が%{num}上昇,%{charName} 的信赖度Lv.上限上升%{num}
 idolRoad.rewardDetail.title.name,専用称号『%{titleName}』x１,专有称号『%{titleName}』x１
 idolRoad.rewardDetail.title.comment,%{charName} 専用称号『%{titleName}』を獲得,获得了%{charName} 的专有称号『%{titleName}』
 idolRoad.rewardDetail.supportIdol.comment,%{rarityText}サポートアイドルです,%{rarityText} Support偶像
