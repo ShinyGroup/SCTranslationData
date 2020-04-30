@@ -47,7 +47,7 @@ downLoad.completeMessage,ダウンロードが完了しました,下载完成
 characterBirthday.characterBirthdayListPop.title,誕生日確認,生日确认
 characterBirthday.characterBirthdayListPop.birthday,%{month}/%{day},
 characterBirthday.characterBirthdayListPop.month,月,
-characterBirthday.specialCommunicationDialog.txtNotice,「あとで再生」を選んだ場合、\n期間中誕生日特設ページで再度この確認が表示されます。,若选择「稍后再看」，\n该时段内在生日特设页面可再次确认播放
+characterBirthday.specialCommunicationDialog.txtNotice,「あとで再生」を選んだ場合、\n期間中誕生日特設ページで再度この確認が表示されます。,若选择「稍后播放」，\n该时段内在生日特设页面可再次确认播放
 characterBirthday.givePresentDialog.text,自然回復の上限を超えて回復でき、\n誕生日ミニコミュが解放されます,　　可超出自然恢复上限而恢复　　\n　　　并解锁生日迷你剧情　　　
 checkin.successDialog.title,チェックイン成功,
 checkin.successDialog.message,チェックインに成功しました\n\n報酬アイテムはプレゼントBOXに\n送られました,
@@ -256,7 +256,7 @@ error.invalidOperation,無効な操作です。,无效操作
 errorDialog.announceTitle,ご案内,指南
 errorDialog.errorTitle,エラー,错误
 errorDialog.eventClosedTitle,イベント期間外,不在活动时段内
-errorDialog.shopClosedTitle,購入期間外,不在购入时段内
+errorDialog.shopClosedTitle,購入期間外,不在购买时段内
 errorDialog.campaignClosedTitle,キャンペーン期間外,不在活动时段内
 errorDialog.confirmTitle,確認,确认
 errorDialog.updateNativeAppVersionTitle,最新バージョン確認,确认最新版本
@@ -290,12 +290,12 @@ errorDialog.sceneMaintenance,本機能は、一時的にご利用を制限して
 errorDialog.playMovie,動画再生に失敗しました。,动画播放失败
 errorDialog.movieSkipNotice,スキップした場合、動画は閲覧済み状態となります,跳过的话，动画将变为已阅览状态
 errorDialog.businessIsNotFinished,営業が完了していません。\n少し時間を置いてから再度完了してください。,营业尚未完成。\n请等待一段时间后再确认完成
-errorDialog.purchaseErrorTitle,購入エラー,购入错误
-errorDialog.purchaseError,ご購入の処理中に\nエラーが発生したため、ご購入が\n正しく終了されませんでした。,由于购入过程发生错误\n本次购入\n未能正确完成
+errorDialog.purchaseErrorTitle,購入エラー,购买错误
+errorDialog.purchaseError,ご購入の処理中に\nエラーが発生したため、ご購入が\n正しく終了されませんでした。,由于购买过程发生错误\n本次购买\n未能正确完成
 errorDialog.purchaseDeferredTitle,制限,限制
-errorDialog.purchaseDeferred,ご購入が制限されております。\n制限が解除されるまでご購入はできません。,购入被限制。\n在限制解除前将无法购入。
-errorDialog.purchaseRestoreTitle,購入エラー,购入错误
-errorDialog.purchaseRestore,購入処理を完了できませんでした。\nしばらくしてからもう一度お試しください。\n購入のリトライをしますか？,购入处理无法完成。\n请一段时间后再尝试。\n要尝试再次购入吗？
+errorDialog.purchaseDeferred,ご購入が制限されております。\n制限が解除されるまでご購入はできません。,购买被限制。\n在限制解除前将无法购买。
+errorDialog.purchaseRestoreTitle,購入エラー,购买错误
+errorDialog.purchaseRestore,購入処理を完了できませんでした。\nしばらくしてからもう一度お試しください。\n購入のリトライをしますか？,购买处理无法完成。\n请一段时间后再尝试。\n要尝试再次购买吗？
 errorDialog.invalidProduct,該当の商品が存在しないため、\n購入することができません。,
 errorDialog.note.noSettlementProcess,※再読み込みしてもバナコイン、フェザージュエル\n決済処理が多重に行われることはありません。,
 errorDialog.contextLost.appText,画像の読み込みに失敗しました。\n再読み込みボタンを押して再読み込みしてください。\n改善されない場合には\nアプリの再起動をお試しください。,画面读取失败。\n请点击重新读取按钮进行再次读取。\n未有改善的情况下\n请尝试重新启动应用。
@@ -707,23 +707,23 @@ gasha.skinReplacement.possessionLabel,所持数,所持数
 gasha.result.evolutionLabel,%{evolutionStage}回特訓済,已特训%{evolutionStage}次
 guestUser,ゲスト,Guest
 jewelPurchase.limitation.message,%{minAge}歳〜%{maxAge}歳：%{limitation}円,%{minAge}岁〜%{maxAge}岁：%{limitation}日元
-jewelPurchase.limitation.detailTitle,購入限度額確認,购入限制额度确认
-jewelPurchase.limitation.detailMessage,１ヶ月の購入限度額は下記となります,1个月的购入限制额度如下
-jewelPurchase.limitation.overTitle,購入限度額超過,超过购入限制额度
+jewelPurchase.limitation.detailTitle,購入限度額確認,购买限制额度确认
+jewelPurchase.limitation.detailMessage,１ヶ月の購入限度額は下記となります,1个月的购买限制额度如下
+jewelPurchase.limitation.overTitle,購入限度額超過,超过购买限制额度
 jewelPurchase.limitation.overMessage,購入限度額を超過しているため\nご購入いただくことができません\n\n※ないようがわからないときは\nおうちのひとにがめんをみせてください,由于超过限制额度\n现在无法购买\n\n※不清楚的情况下\n请让家里人过目
 jewelPurchase.limitation.parentPermissionTitle,法定代理人の同意確認,法定代理人的同意确认
 jewelPurchase.limitation.parentPermissionMessage,未成年の方がアプリ専用通貨等を\n購入される場合には、法定代理人(ご両親等)の\n同意を得てから購入してください\n\n※ないようがわからないときは\nおうちのひとにがめんをみせてください,未成年人购买应用专用货币时\n须取得法定代理人(父母等)\n同意后方可购买\n\n※不清楚的情况下\n请让家里人过目
-jewelPurchase.productsDialog.title,フェザージュエル購入,羽石购入
+jewelPurchase.productsDialog.title,フェザージュエル購入,羽石购买
 jewelPurchase.productsDialog.productNum,%{num}個,%{num}个
 jewelPurchase.productsDialog.priceLabel,必要バナコイン,需要万代币
 jewelPurchase.productsDialog.priceLabelNative,価格,价格
 jewelPurchase.productsDialog.purchaseLimitText,%{purchasedNum}/%{limitNum}回,
-jewelPurchase.confirmDialog.title,購入確認,购入确认
+jewelPurchase.confirmDialog.title,購入確認,购买确认
 jewelPurchase.confirmDialog.messageBeforeBC,バナコインでジュエル,使用万代币对羽石
-jewelPurchase.confirmDialog.messageAfter,を購入しますか?,购入吗？
+jewelPurchase.confirmDialog.messageAfter,を購入しますか?,购买吗？
 jewelPurchase.confirmDialog.purchaseNum,%{num}個,%{num}个
-jewelPurchase.purchasedDialog.title,購入完了,购入完成
-jewelPurchase.purchasedDialog.messageAfter,を購入しました,已购入
+jewelPurchase.purchasedDialog.title,購入完了,购买完成
+jewelPurchase.purchasedDialog.messageAfter,を購入しました,已购买
 jewelPurchase.purchasedDialog.possessionJewel,所持ジュエル,所持羽石
 jewelPurchase.purchasedDialog.possessionBC,所持バナコイン,所持万代币
 staffItemPointSimple,シール,贴纸
@@ -820,10 +820,10 @@ homeDeck.randomSetting.zoomTypes.values.super_long,超遠距離,超远距离
 homeDeck.randomSetting.bgTypes.label,背景・その他,背景・其他
 homeDeck.randomSetting.bgTypes.values.image,背景,背景
 homeDeck.randomSetting.bgTypes.values.effect,エフェクト,特效
-homeDeck.randomSetting.bgTypes.values.music,BGM
+homeDeck.randomSetting.bgTypes.values.music,BGM,
 homeDeck.randomSetting.costumeTypes.label,衣装,服装
 homeDeck.randomSetting.costumeTypes.values.plain,私服衣装,私人服装
-homeDeck.randomSetting.costumeTypes.values.concert,ライブ衣装,Live服装
+homeDeck.randomSetting.costumeTypes.values.concert,ライブ衣装,演出服装
 homeDeck.loadAlertPop.title,確認,确认
 homeDeck.loadAlertPop.comment,５人表示を行う場合\n「ホームユニット」および「ホーム画面」での\n描画に負荷がかかります,显示5人的情况下\n「主界面队伍」以及「主界面」的渲染\n将会消耗更多时间
 homeDeck.loadAlertPop.checkComment,今後、この警告を表示しない,今后不再显示警告
@@ -1016,7 +1016,7 @@ musicSelect.salesLinkConfirmDialog.message,外部サイトへ接続します。\
 platformMenu.title,インフォメーション,信息
 popJoinRecommend.textInvitation,招待機能を利用するには、enzaメンバー登録が必要です。,使用招待功能时，需要注册为enza成员
 popJoinRecommend.textTicketEntry,チケット応募にはenzaに登録する必要があります。,Ticket应募需要注册enza
-popPaymentLimitation.title,年齢別購入限度額,依年龄段购入额度限制
+popPaymentLimitation.title,年齢別購入限度額,依年龄段购买额度限制
 popPaymentLimitation.description,アプリ専用通貨等の購入には\n年齢別に限度額が設定されています。,应用专用货币购买时\n依据年龄段设定限制额度
 popPaymentLimitation.limitations,"16歳未満　：　1ヶ月5,400円まで\n16歳～19歳　：　1ヶ月21,600円まで\n20歳以上　：　限度なし","16岁未满　：　1个月5,400円至多16岁～19岁　：　1个月21,600円至多20岁以上　：　无限度"
 present.headerTitle,プレゼント,礼物
@@ -1043,6 +1043,17 @@ present.receiveAll.noPresentMessage,受け取れるプレゼントはありま�
 present.receiveAll.itemNameNum,%{type} ×%{num},
 present.valentine.title,バレンタインプレゼント受け取り,领取情人节礼物
 present.valentine.message,%{firstName}から\nバレンタインプレゼントを受け取りました,从%{firstName}处获得了\n情人节礼物
+producerBirthday.homeDialog.title,HAPPY BIRTHDAY,
+producerBirthday.homeDialog.description,アイドルからのメッセージがあります\n%{name} に会いに行きますか？,收到了偶像发来的信息\n要去见一见%{name} 吗？
+producerBirthday.homeDialog.notification,誕生日のメッセージコミュを再生します,播放生日短信剧情
+producerBirthday.homeDialog.notificationSecondLine,本日中はホーム画面のバナーから遷移することができます,今天内可以从主界面的横幅进行迁移
+producerBirthday.title,プロデューサー誕生日,制作人生日
+producerBirthday.staffComment,お誕生日おめでとうございます♪\nみなさんからお祝いがあるそうですよ～,生日快乐♪\n大家好像有很多祝福哦～
+producerBirthday.confirmDialog.title,確認,确认
+producerBirthday.confirmDialog.description,%{name} に会いに行きますか？,要去见一见%{name} 吗？{name} 
+producerBirthday.confirmDialog.notification,誕生日のメッセージコミュを再生します,播放生日短信剧情
+producerBirthday.notBirthdayDialog.title,エラー,错误
+producerBirthday.notBirthdayDialog.description,誕生日期間が過ぎているため\nコミュを再生することができません,由于生日时间已过\n无法播放剧情
 idolRoad.needsProduceEnd.title,アイドルロード進行不可,无法推进偶像之路
 idolRoad.needsProduceEnd.message1,%{idolName}は\n現在プロデュース中のため\nアイドルロードを進行する事ができません,由于%{idolName}\n处于Produce中\n无法推进偶像之路
 idolRoad.needsProduceEnd.message2,プロデュースを完了するか\nプロデュースを終了してください,请完成或中止Produce
@@ -1086,7 +1097,7 @@ filterPop.filterTitle,絞り込み,筛选
 filterPop.filter.friendship,絆,绊
 filterPop.filter.recoveryStamina,体力,体力
 filterPop.filter.recoveryTension,テンション,心情
-filterPop.filter.avoidTrouble,トラブル,挫折
+filterPop.filter.avoidTrouble,トラブル,事故
 filterPop.filter.changeTrend,流行,流行
 filterPop.filter.navigation,ナビゲート,指导
 filterPop.filter.supportIdolsLottery,サポート,Support
@@ -1146,7 +1157,7 @@ produceMain.supportSkillsDialog.placeTitle.audition,オーディション,试镜
 produceMain.supportSkillsDialog.placeTitle.none,その他,其他
 produceCostume.requirements,を\n最大まで特訓する,特训至最终阶段
 produceCostume.casualCloth,私服衣装,私人服装
-produceCostume.idolCloth,ライブ衣装,Live服装
+produceCostume.idolCloth,ライブ衣装,演出服装
 produceCostume.requirementsPopTitle,衣装解放条件,服装解锁条件
 produceCostume.changePopTitle,衣装変更確認,服装变更确认
 produceSeasonResult.ideaNote.season,シーズン%{seasonNum},季度%{seasonNum}
@@ -1203,6 +1214,26 @@ produceReady.idolRestrictionPop.text.produceIdol,上記アイドルは\nまだ�
 produceReady.idolRestrictionPop.text.supportIdol,上記アイドルは\nまだ「%{title}」で\nサポートアイドルに選択できません,以上偶像\n尚不能在「%{title}」中\n选择作为Support偶像
 profile.cardEditDialogTitle,名刺編集,名片编辑
 profile.pfRecommend,名前を変更するには、データ連携が必要です,要变更名字，需要进行数据连携
+profile.pfRecommendTwoLines,名前を変更するには\nデータ連携が必要です,要变更名字\n需要进行数据连携
+profile.birthdayNotSet,未設定,未设定
+profile.birthdayFormat,m月d日,
+profile.birthdayEditDialog.title,プロデューサー誕生日設定,制作人生日设定
+profile.birthdayEditDialog.description,誕生日を設定すると\nアイドルから誕生日を祝ってもらえます,设定生日后\n可以收到偶像的祝贺
+profile.birthdayEditDialog.birthday,誕生日,生日
+profile.birthdayEditDialog.dateFormat,d日,
+profile.birthdayEditDialog.monthFormat,m月,
+profile.birthdayEditDialog.notification,誕生日は月に1回まで変更できます,生日每月可以更改1次
+profile.birthdayEditLeapDayDialog.title,確認,确认
+profile.birthdayEditLeapDayDialog.description,うるう年が入力されました,输入了闰年
+profile.birthdayEditLeapDayDialog.notification,うるう年ではない年の場合、前日を誕生日とします,当年为非闰年时，生日变为前一天
+profile.birthdayEditReachedUpdateLimitDialog.title,エラー,错误
+profile.birthdayEditReachedUpdateLimitDialog.description,変更可能な回数が最大に達しています,修改次数已达到最大值
+profile.birthdayEditReachedUpdateLimitDialog.notification,誕生日は月に1回まで変更できます,生日每月可以更改1次
+profile.birthdayEditInvalidParamterDialog.description,日付の入力が不正です\n正しい日付を入力してください,日期输入错误\n请输入正确的日期
+profile.birthdayEditSuccessDialog.title,プロデューサー誕生日,制作人生日
+profile.birthdayEditSuccessDialog.birthdayFormat,m月d日,
+profile.birthdayEditSuccessDialog.textTop,プロデューサー誕生日を,制作人生日
+profile.birthdayEditSuccessDialog.textBottom,に設定しました,设定成功
 profile.error.ngWord,\n禁止ワードが含まれています,\n含有禁止字词
 profile.error.wordLength,\n入力文字数が不正です,\n输入字数不正确
 profile.commentEditDialog.title,自己紹介編集,自我介绍编辑
@@ -1237,9 +1268,9 @@ shop.salesItemText.2109,お一人様1つ限定！\n「10連ガシャチケット
 shop.salesItemText.2137,お一人様1つ限定！\n「初夏の晴れやか記念10連ガシャチケット×1」に「初夏の晴れやか記念P-SRアイドル確定ガシャチケット×1」がついたお得なパッケージです！,
 shop.salesItemDialog.remainingText1,あと,还有
 shop.salesItemDialog.remainingText2,で販売終了,贩卖结束
-shop.purchaseConfirmation.title,購入確認,购入确认
+shop.purchaseConfirmation.title,購入確認,购买确认
 shop.purchaseConfirmation.itemAfter,%{total}(+%{itemAfter}),
-shop.purchaseConfirmation.message,%{currencyName}を消費して\n以下のアイテムを購入しますか？,要使用%{currencyName}\n购入以下道具吗？
+shop.purchaseConfirmation.message,%{currencyName}を消費して\n以下のアイテムを購入しますか？,要使用%{currencyName}\n购买以下道具吗？
 shop.purchaseConfirmation.notice.convertMerchandise,解放済みのコミュはアルバムの鍵に変換されます,已解锁的剧情将变换为相册钥匙
 shop.purchaseConfirmation.notice.jewelMerchandise,無償フェザージュエルから先に消費されます,将优先使用无偿羽石
 shop.packageDialog.itemNameAndNum,%{name} × %{num},
@@ -1247,27 +1278,27 @@ shop.packageDialog.noticeLimitText,【有効期限】%{expireDate},【有效期�
 shop.exchangeConfirmation.title,交換確認,兑换确认
 shop.exchangeConfirmation.itemAfter,%{total}(+%{itemAfter}),
 shop.exchangeConfirmation.message,%{exchangeItemName}を消費して\n以下のアイテムと交換しますか？,要使用%{exchangeItemName}\n兑换以下道具吗？
-shop.applyCampaignConfirmation.title,購入確認,购入确认
-shop.applyCampaignConfirmation.notices.1,購入前に必ず応募規約をお読みください,购入前请务必阅读应募规则
-shop.applyCampaignConfirmation.notices.2,購入時に応募規約に同意したものとみなします,购入时将视作您已经同意应募规则
+shop.applyCampaignConfirmation.title,購入確認,购买确认
+shop.applyCampaignConfirmation.notices.1,購入前に必ず応募規約をお読みください,购买前请务必阅读应募规则
+shop.applyCampaignConfirmation.notices.2,購入時に応募規約に同意したものとみなします,购买时将视作您已经同意应募规则
 shop.banaCoinShopNotice,バナコイン決済とクレジットカードかんたん決済が使用できます,可使用万代币结算与信用卡简单结算
-shop.purchaseError.purchaseCountOver,購入上限を超えています,超出购入上限
+shop.purchaseError.purchaseCountOver,購入上限を超えています,超出购买上限
 shop.purchaseError.possessionCountOver,所持上限を超えています,超出所持上限
 shop.purchaseError.moneyShortage,マニーが足りません,金币不足
 shop.dayLimit,%{limit}/日,
 shop.monthLimit,%{limit}/月,
 shop.exchangeCount,交換数,兑换数
-shop.purchaseCount,購入数,购入数
+shop.purchaseCount,購入数,购买数
 shop.exchangeLimit,交換上限,兑换上限
-shop.purchaseLimit,購入上限,购入上限
+shop.purchaseLimit,購入上限,购买上限
 shop.purchasedCountLabelText.skin,所持数,
 shop.purchasedCountLabelText.gameEvent.scenario_event_point,シナリオP,剧情P
 shop.purchasedCountLabelText.gameEvent.fes_event_point,フェスP,FesP
 shop.purchasedCountLabelText.gameEvent.box_event_point,ボックスP,BoxP
 shop.purchasedCountLabelText.gameEvent.ranking_event_point,ランキングP,排名P
-shop.purchaseResult.title,購入結果,购入结果
-shop.purchaseResult.message,%{title}を購入しました,%{title}已购入
-shop.purchaseResult.twoLinesMessage,%{title}を\n購入しました,%{title}已购入
+shop.purchaseResult.title,購入結果,购买结果
+shop.purchaseResult.message,%{title}を購入しました,%{title}已购买
+shop.purchaseResult.twoLinesMessage,%{title}を\n購入しました,%{title}已购买
 shop.purchasableText.limited,%{purchasedNum}/%{limitNum},
 shop.purchasableText.limitedShort,/  %{num},
 shop.purchasableText.noLimit,%{purchasedNum}/  ー,
@@ -1343,18 +1374,18 @@ recycleShop.tradeConfirmation.title,交換確認,兑换确认
 recycleShop.tradeConfirmation.message,以下のアイテムを交換しますか？,要兑换以下道具吗？
 recycleShop.purchaseResult.title,交換結果,兑换结果
 recycleShop.purchaseResult.message,%{title}を交換しました,%{title}已兑换
-recycleShop.purchaseResult.twoLinesMessage,%{title}を\n交換しました,%{title}已兑换
-skillBord.header,振り返り,技能回顾
+recycleShop.purchaseResult.twoLinesMessage,%{title}を\n交換しました,%{title}\n已兑换
+skillBord.header,振り返り,回顾
 skillBord.acquireConfirmationTitle,スキル習得確認,习得技能确认
 skillBord.acquireConfirmationMessage,SPを%{skillPoint}消費してスキルを習得しますか？,要使用SP%{skillPoint}学习技能吗？
 skillBord.deleteSkillConfirmationTitle,スキル入れ替え確認,技能替换确认
 skillBord.acquiredMessage,既に習得済みのスキルです。\n\n\n\nスキルポイントを消費せず、\nパネルの解放のみを行います。,已习得的技能。\n\n\n\n不消耗技能点，\n仅解锁技能盘。
 skillBord.produceAreaSkillList.title,%{produceTitle} 限定スキル,%{produceTitle} 限定技能
 skin,衣装,服装
-skinDetail.plainOnlyNotice,衣装変更対象は私服衣装のみとなり、\nライブ衣装は変更されません。,服装变更对象仅能为私人服装，无法变更为Live服装
-skinDetail.concertOnlyNotice,衣装変更対象はライブ衣装のみとなり、\n私服衣装は変更されません。,服装变更对象仅能为Live服装，无法变更为私人服装
+skinDetail.plainOnlyNotice,衣装変更対象は私服衣装のみとなり、\nライブ衣装は変更されません。,服装变更对象仅能为私人服装，无法变更为演出服装
+skinDetail.concertOnlyNotice,衣装変更対象はライブ衣装のみとなり、\n私服衣装は変更されません。,服装变更对象仅能为演出服装，无法变更为私人服装
 skinKind.plain,私服衣装,私人服装
-skinKind.concert,ライブ衣装,Live服装
+skinKind.concert,ライブ衣装,演出服装
 specialCommunication.confirmationTitle,スペシャルコミュ再生確認,特殊剧情播放确认
 specialCommunication.confirmationComment,%{title}\nが再生できます。\n\n再生しますか？,%{title}\n可播放。\n\n确认播放吗？
 specialCommunication.achievementRewardDialogTitle,スペシャルコミュ再生報酬,特殊剧情播放报酬
@@ -1449,7 +1480,7 @@ twitter.authenticateFailedDialog.description,PINコードの認証に失敗し�
 twitter.illustrationSelectDialog.title,イラスト選択,插画选择
 twitter.illustrationSelectDialog.description,どちらのイラストを使用しますか？,要选哪一幅插画呢？
 twitter.illustrationSelectDialog.illustrationType.card,私服衣装,私人服装
-twitter.illustrationSelectDialog.illustrationType.fesCard,ライブ衣装,Live服装
+twitter.illustrationSelectDialog.illustrationType.fesCard,ライブ衣装,演出服装
 twitter.postDialog.title,Twitter投稿,Twitter投稿
 twitter.postDialog.authenticatingAccount,%{screenName} で認証中,
 twitter.postDialog.textBoxDefaultComment,テキスト入力,
@@ -1499,7 +1530,7 @@ individualRanking.characterRankingOutOfTermPop.title,集計期間外,统计时�
 individualRanking.characterRankingOutOfTermPop.text,現在は\n「%{name}」\nのランキング集計期間外です\n\n集計期間外にプロデュースや営業を達成しても\nイベントランキングのファン数には加算されません,现在处于\n「%{name}」\n的排行榜统计时段外\n\n统计时段外即使达成Produce或营业\n活动排行榜的粉丝数也不会增加
 individualRanking.characterRankingOutOfTermPop.text,現在は\n「%{name}」\nのランキング集計期間外です\n\nお休み時間　%{openTime} 〜 %{closeTime}\n\n集計期間外にプロデュースや営業を達成しても\nイベントランキングのファン数には加算されません,现在处于\n「%{name}」\n的排行榜统计时段外\n\n休息时间　%{openTime} 〜 %{closeTime}\n\n统计时段外即使达成Produce或营业\n活动排行榜的粉丝数也不会增加
 individualRanking.breakTimePop.title,お休み時間設定,休息时间设定
-individualRanking.breakTimePop.period,%{openTime}　〜　%{closeTime}
+individualRanking.breakTimePop.period,%{openTime}　〜　%{closeTime},
 individualRanking.changeBreakTimePop.title,お休み時間変更,休息时间修改
-individualRanking.changeBreakTimePop.period,%{openTime}　〜　%{closeTime}
+individualRanking.changeBreakTimePop.period,%{openTime}　〜　%{closeTime},
 pushNotification.title,シャニマス,偶像大师 闪耀色彩
