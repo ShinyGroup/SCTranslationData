@@ -1046,11 +1046,11 @@ present.valentine.message,%{firstName}から\nバレンタインプレゼント�
 producerBirthday.homeDialog.title,HAPPY BIRTHDAY,
 producerBirthday.homeDialog.description,アイドルからのメッセージがあります\n%{name} に会いに行きますか？,收到了偶像发来的信息\n要去见一见%{name} 吗？
 producerBirthday.homeDialog.notification,誕生日のメッセージコミュを再生します,播放生日短信剧情
-producerBirthday.homeDialog.notificationSecondLine,本日中はホーム画面のバナーから遷移することができます,今天内可以从主界面的横幅进行迁移
+producerBirthday.homeDialog.notificationSecondLine,本日中はホーム画面のバナーから遷移することができます,今天内可以从主界面的横幅进入
 producerBirthday.title,プロデューサー誕生日,制作人生日
 producerBirthday.staffComment,お誕生日おめでとうございます♪\nみなさんからお祝いがあるそうですよ～,生日快乐♪\n大家好像有很多祝福哦～
 producerBirthday.confirmDialog.title,確認,确认
-producerBirthday.confirmDialog.description,%{name} に会いに行きますか？,要去见一见%{name} 吗？{name} 
+producerBirthday.confirmDialog.description,%{name} に会いに行きますか？,要去见一见%{name} 吗？
 producerBirthday.confirmDialog.notification,誕生日のメッセージコミュを再生します,播放生日短信剧情
 producerBirthday.notBirthdayDialog.title,エラー,错误
 producerBirthday.notBirthdayDialog.description,誕生日期間が過ぎているため\nコミュを再生することができません,由于生日时间已过\n无法播放剧情
