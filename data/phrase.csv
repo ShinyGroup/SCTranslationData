@@ -1418,7 +1418,7 @@ training.invalidRarity4,SR以下のサポートアイドルには使用できま
 training.invalidLevel,Lv.%{lv}以上のため使用できません,因为Lv.大于%{lv}所以不能使用
 training.normalInvalidBlockText,%{name}は\n他のトレーニングチケットと\n一緒に使用することはできません,%{name}\n不能和其他的训练券\n一起使用
 training.featuredInvalidBlockText,他のトレーニングチケットと\n一緒に使用することはできません,不能和其他的训练券\n一起使用
-training.confirm.comment,以下のチケットを使って、\nアイドルをトレーニングしますか？,要使用以下的券\n来训练偶像吗？
+training.confirm.comment,以下のチケットを使って、\nアイドルをトレーニングしますか？,　　 要使用以下的券 　　\n　　　　 来训练偶像吗？ 　　　　
 training.confirm.lvNotice,Lv.2以上のサポートアイドルが選択されています\nアイドルをトレーニングした場合\n余剰分のExpは消失します,
 trueEndTeaching.objectivePopupTitle.season,シーズン%{seasonNum}目標,季度%{seasonNum}的目标
 trueEndTeaching.objectivePopupHadukiHint.season2,目標をすべて達成したら、次のシーズンを見据えて\nレッスンやお仕事を行いましょう♪,完成所有目标后，让我们展望下一个季度\n继续课程和工作吧♪
