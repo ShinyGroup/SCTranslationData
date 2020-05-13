@@ -2,7 +2,7 @@ name,ja,zh
 ability.locked,未解放,未解锁
 ability.shortageOfInspirations,不足,
 ability.acquired,習得済み,已习得
-ability.acquireCondition,%{name}×%{num}，
+ability.acquireCondition,%{name}×%{num},
 ability.noSkillMessage,習得しているアビリティはありません,没有已学习的能力
 ability.emptyNotice,習得可能なアビリティはありません,没有可以学习的能力
 ability.confirmPop.title,アビリティ習得,能力学习
@@ -616,7 +616,7 @@ gameEvent.boxGasha.checkItemDialog.text.notAcquired,未獲得,未获得
 gameEvent.boxGasha.nextBoxDialog.title,ボックス移動確認,BOX移动确认
 gameEvent.boxGasha.nextBoxDialog.hasNoRemainingItemsText,次のボックスに移動します,　　移动至下一个BOX　　
 gameEvent.boxGasha.nextBoxDialog.hasRemainingItemsText,チェックしたアイテムを獲得していません\n次のボックスに移動しますか？,选定的道具无法获得\n要移动到下一个BOX吗？
-gameEvent.boxGasha.nextBoxDialog.caution,移動した場合、ボックスの中身を\n戻すことはできません,　　　　　  移动后  　　　　　\n 将无法回到当前BOX 
+gameEvent.boxGasha.nextBoxDialog.caution,移動した場合、ボックスの中身を\n戻すことはできません,"　　　　　  移动后  　　　　　\n 将无法回到当前BOX "
 gameEvent.boxGasha.nextBoxDialog.check,移動を有効にする,　　确认移动　　
 gameEvent.boxGasha.rewardDialogTitle,結果,结果
 gameEvent.boxGasha.tabBoxName,ボックス,BOX
@@ -1405,7 +1405,7 @@ skillBord.header,振り返り,回顾
 skillBord.acquireConfirmationTitle,スキル習得確認,习得技能确认
 skillBord.acquireConfirmationMessage,SPを%{skillPoint}消費してスキルを習得しますか？,要使用SP%{skillPoint}学习技能吗？
 skillBord.deleteSkillConfirmationTitle,スキル入れ替え確認,技能替换确认
-skillBord.acquiredMessage,既に習得済みのスキルです。\n\n\n\nスキルポイントを消費せず、\nパネルの解放のみを行います。,已习得的技能。\n\n\n\n不消耗技能点，\n仅解锁技能盘。
+skillBord.acquiredMessage,既に習得済みのスキルです。\n\nスキルポイントを消費せず、\nパネルの解放のみを行います。,已习得的技能。\n\n不消耗技能点，\n仅解锁技能盘。
 skillBord.produceAreaSkillList.title,%{produceTitle} 限定スキル,%{produceTitle} 限定技能
 skin,衣装,服装
 skinDetail.plainOnlyNotice,衣装変更対象は私服衣装のみとなり、\nライブ衣装は変更されません。,服装变更对象仅能为私人服装，无法变更为演出服装
@@ -1553,7 +1553,6 @@ individualRanking.accumulatedPresentListPop.needFan,%{fan} 人,%{fan} 人
 individualRanking.accumulatedPresentGetPopup.title,累計ファン数達成報酬,累计粉丝数达成报酬
 individualRanking.accumulatedPresentGetPopup.text,以下のアイテムがプレゼントBOXに送られました,以下道具已经送入礼物盒中
 individualRanking.characterRankingOutOfTermPop.title,集計期間外,统计时段外
-individualRanking.characterRankingOutOfTermPop.text,現在は\n「%{name}」\nのランキング集計期間外です\n\n集計期間外にプロデュースや営業を達成しても\nイベントランキングのファン数には加算されません,现在处于\n「%{name}」\n的排行榜统计时段外\n\n统计时段外即使达成Produce或营业\n活动排行榜的粉丝数也不会增加
 individualRanking.characterRankingOutOfTermPop.text,現在は\n「%{name}」\nのランキング集計期間外です\n\nお休み時間　%{openTime} 〜 %{closeTime}\n\n集計期間外にプロデュースや営業を達成しても\nイベントランキングのファン数には加算されません,现在处于\n「%{name}」\n的排行榜统计时段外\n\n休息时间　%{openTime} 〜 %{closeTime}\n\n统计时段外即使达成Produce或营业\n活动排行榜的粉丝数也不会增加
 individualRanking.breakTimePop.title,お休み時間設定,休息时间设定
 individualRanking.breakTimePop.period,%{openTime}　〜　%{closeTime},
