@@ -1,4 +1,13 @@
 name,ja,zh
+ability.locked,未解放,未解锁
+ability.shortageOfInspirations,不足,
+ability.acquired,習得済み,已习得
+ability.acquireCondition,%{name}×%{num}，
+ability.noSkillMessage,習得しているアビリティはありません,没有已学习的能力
+ability.emptyNotice,習得可能なアビリティはありません,没有可以学习的能力
+ability.confirmPop.title,アビリティ習得,能力学习
+ability.confirmPop.comment,以下の「ひらめき」を消費して\nアビリティを習得しますか？,要消耗以下「灵感」\n并学习能力吗？
+ability.releaseCommentText,%{comment}で解放,以%{comment}解锁
 availableInform.title,アイテム有効期限のお知らせ,道具有效日期通知
 availableInform.description,アイテムの有効期限が                 となっております\n有効期限が過ぎますと\n%{contentName}の\n使用ができなくなります,道具的有效日期为                 \n超过有效日期之后\n%{contentName}の\n将不可使用
 availableInform.remainTime,あと%{remainTime},还有%{remainTime}
@@ -167,8 +176,9 @@ commonMenu.produceResume.trueEndTeachingTitle,True End研修再開,True End研�
 commonMenu.menuPop.title,メニュー,菜单
 commonMenu.backToTitleConfirm.title,タイトルへ戻る,回到标题
 commonMenu.backToTitleConfirm.text,タイトルへ戻ります。\nよろしいですか？,将回到标题。\n确认吗？
-commonMenu.dataLinkPop.title,機種変更・データ連携,机种变更・数据连携
-commonMenu.dataLinkConfirmPop.title,データ連携確認,数据连携确认
+commonMenu.dataLinkPop.title,機種変更・データ連携,机种变更・数据绑定
+commonMenu.dataLinkPop.titleForAppleLinked,enza連携,enza绑定
+commonMenu.dataLinkConfirmPop.title,データ連携確認,数据绑定确认
 commonMenu.loginPop.title,ログイン,登录
 commonMenu.loginConfirm.title,ログイン確認,登录确认
 concert.judgeDetailDialog.titles.judge.vocal,Vocal審査員,Vocal审查员
@@ -620,6 +630,9 @@ idolList.leaveEditModeDialog.title,確認,确认
 idolList.leaveEditModeDialog.text,まだ%{editType}は確定していません\n選択状態を解除して移動しますか？,%{editType}还未确定\n要解除选择状态并移动吗？
 idolList.leaveEditModeDialog.tradeMoney,移籍,移籍
 idolList.leaveEditModeDialog.tradeMemorialPiece,変換,兑换
+idolList.infoSwitch.wing,デフォルト(W.I.N.G.用),默认(W.I.N.G.用)
+idolList.infoSwitch.fan_meeting,アイデア(ファン感謝祭用),创想(粉丝感谢祭用)
+idolList.infoSwitch.3rd_produce_area,ひらめき(G.R.A.D.用),灵感(G.R.A.D.用)
 gasha.closeAt,%{closeAt}まで,%{closeAt}截止
 gasha.redrawGashaNotice,確定するまで何度でも\n引き直すことができます,在确定之前可无限次\n重新抽取
 gasha.resultMessage,既に加入済みのアイドルは控室に送られます。,已加入的偶像将移至等候室。
@@ -781,6 +794,9 @@ header.recycleShop,リサイクルショップ,回收商店
 header.presentEvent,2019クリスマス特設ページ,
 header.trueEndReport,研修レポート,研修报告
 header.raidDeck,コラボフェスユニット編成,COLLABO FES队伍编成
+header.ability,アビリティ習得,能力学习
+header.abilityViewMode,アビリティ一覧,能力一览
+header.produceBlock,ブロック選択,区域选择
 album.campaignOpenDateMsg,%{openDateTime}よりコミュ解放,%{openDateTime}以后解锁剧情
 ideaNote.confirmReplacementPop.title,使用確認,使用确认
 ideaNote.confirmReplacementPop.description,「%{current}」を使用中です。\n「%{selected}」を使用しますか？,正在使用「%{current}」，\n要用「%{selected}」替换吗？
@@ -1117,6 +1133,9 @@ produce.produceItemPop.titleConfirm,使用確認,使用确认
 produce.produceItemPop.titleResult,プロデュースアイテム使用,使用Produce道具
 produce.produceItemPop.messageConfirm,以下のアイテムを使用しますか？,要使用以下道具吗？
 produce.produceItemPop.messageResult,以下のアイテムを使用しました,已使用以下道具
+produceBlock.confirmPop.title,確認,确认
+produceBlock.confirmPop.description,シーズン%{seasonNum}のプロデュース先に\n%{blockName}を選択しますか？,第%{seasonNum}季度的培育目标\n要选择%{blockName}吗？
+produceBlock.confirmPop.notice,選択したブロックはシーズン終了まで変更できません,已选择的区域在季度结束前无法变更
 produceHeader.produceSeason,シーズン %{seasonNum},季度 %{seasonNum}
 produceHeader.concertSeason,W.I.N.G.,
 produceItemPreparation.filterTitle,絞り込み,筛选
@@ -1144,6 +1163,11 @@ produceAction.auditionParameterUp,+???,
 produceAction.auditionRule,特殊ルール,特殊规则
 produceAction.auditionConditions,出場条件,出场条件
 produceAction.eventDetailPop.title,発動中イベント,发动中的事件
+produceAction.surplusInspirationDialog.title,ひらめき獲得,灵感获得
+produceAction.surplusInspirationDialog.descriptions.first,獲得できるひらめきが上限枠を超えました,可获得的灵感已超过上限
+produceAction.surplusInspirationDialog.descriptions.second.left,獲得するひらめきを,请选择
+produceAction.surplusInspirationDialog.descriptions.second.center,%{acquirableNum}つ,%{acquirableNum}个
+produceAction.surplusInspirationDialog.descriptions.second.right,選択してください,获得的灵感
 produceMain.supportSkillsDialog.title,発動中スキル,发动中的技能
 produceMain.supportSkillsDialog.noSkill,発動中のサポートスキルはありません,没有发动中的支援技能
 produceMain.supportSkillsDialog.helper,お手伝い中のアイドルです,正在帮忙的偶像
@@ -1160,8 +1184,8 @@ produceCostume.casualCloth,私服衣装,私人服装
 produceCostume.idolCloth,ライブ衣装,演出服装
 produceCostume.requirementsPopTitle,衣装解放条件,服装解锁条件
 produceCostume.changePopTitle,衣装変更確認,服装变更确认
-produceSeasonResult.ideaNote.season,シーズン%{seasonNum},季度%{seasonNum}
 produceSeasonResult.ideaNote.emptyNotice,獲得できるアイデアノートが\nありません,没有可获得的创想笔记
+produceSeasonResult.season,シーズン%{seasonNum},季度%{seasonNum}
 produceAreaSelect.openTime,%{years}年%{months}月%{days}日%{hours}:%{minutes}以降に,%{years}年%{months}月%{days}日%{hours}:%{minutes}以后
 produceAreaSelect.produceTeachingHintSettingConfirmationPopupTitle,研修設定確認,研修设定确认
 produceAreaSelect.produceTeachingHintSettingPopupTitle,研修設定,研修设定
@@ -1213,8 +1237,10 @@ produceReady.idolRestrictionPop.title,編成アイドル制限,编成偶像限�
 produceReady.idolRestrictionPop.text.produceIdol,上記アイドルは\nまだ「%{title}」で\nプロデュースアイドルに選択できません,以上偶像\n尚不能在「%{title}」中\n选择作为Produce偶像
 produceReady.idolRestrictionPop.text.supportIdol,上記アイドルは\nまだ「%{title}」で\nサポートアイドルに選択できません,以上偶像\n尚不能在「%{title}」中\n选择作为Support偶像
 profile.cardEditDialogTitle,名刺編集,名片编辑
-profile.pfRecommend,名前を変更するには、データ連携が必要です,要变更名字，需要进行数据连携
-profile.pfRecommendTwoLines,名前を変更するには\nデータ連携が必要です,要变更名字\n需要进行数据连携
+profile.pfRecommend,名前を変更するには、データ連携が必要です,更改名字，需要进行数据绑定
+profile.pfRecommendTwoLines,名前を変更するには\nデータ連携が必要です,更改名字\n需要进行数据绑定
+profile.pfAccountRecommend,名前を変更するには、enza連携が必要です,更改名字需要进行enza绑定
+profile.pfAccountRecommendTwoLines,名前を変更するには\nenza連携が必要です,更改名字\n需要进行enza绑定
 profile.birthdayNotSet,未設定,未设定
 profile.birthdayFormat,m月d日,
 profile.birthdayEditDialog.title,プロデューサー誕生日設定,制作人生日设定
