@@ -1,8 +1,6 @@
 name: Font
 
 on:
-  schedule:
-    - cron:  '0 20 * * *'
   push
   
 jobs:
