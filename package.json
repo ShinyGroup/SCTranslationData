@@ -1,0 +1,22 @@
+{
+  "name": "SCTranslationData",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ShinyGroup/SCTranslationData.git",
+  "author": "umisuna <10892119+biuuu@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "font": "node script/fontmin.js"
+  },
+  "devDependencies": {
+    "b3b": "^0.0.1",
+    "fontmin": "^0.9.8",
+    "glob": "^7.1.6",
+    "is-ttf": "^0.2.2",
+    "lodash": "^4.17.15",
+    "pako": "^1.0.11",
+    "replace-ext": "^2.0.0",
+    "through2": "^3.0.1",
+    "ttf2woff2": "^3.0.0"
+  }
+}
