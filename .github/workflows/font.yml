@@ -1,6 +1,7 @@
 name: Font
 
 on:
+  push: master
   schedule:	
     - cron:  '40 19 * * *'
   
@@ -35,8 +36,8 @@ jobs:
       run: |
         cd repoMaster
         git add --a
-        git config --local user.email "10892119+biuuu@users.noreply.github.com"
-        git config --local user.name "tenka"
+        git config --local user.email "${{github.event.head_commit.author.email}}"
+        git config --local user.name "${{github.event.head_commit.author.name}}"
         echo "::set-env name=commit_state::$(git commit -m 'Update font' | tr '\n' ' ')"
     - name: Push changes
       uses: ad-m/github-push-action@master
