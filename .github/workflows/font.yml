@@ -1,7 +1,8 @@
 name: Font
 
 on:
-  push: master
+  push: 
+    branches: [master]
   schedule:	
     - cron:  '40 19 * * *'
   
