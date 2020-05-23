@@ -35,8 +35,8 @@ jobs:
       run: |
         cd repoMaster
         git add --a
-        git config --local user.email "${{github.event.head_commit.author.email}}"
-        git config --local user.name "${{github.event.head_commit.author.name}}"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "tenka"
         echo "::set-env name=commit_state::$(git commit -m 'Update font' | tr '\n' ' ')"
     - name: Push changes
       uses: ad-m/github-push-action@master
