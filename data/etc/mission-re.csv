@@ -232,6 +232,10 @@ $nameの思い出レベルを$num以上にしよう,$1的回忆等级达到$2以
 【$note】G.R.A.D.$uk優勝しよう,【$1】在G.R.A.D.中取得优胜,exp
 【$note】G.R.A.D.をクリアしよう,【$1】通过G.R.A.D.,exp
 【$note】予選オーディションに合格しよう,【$1】预选试镜取得合格,exp
+【$note】G.R.A.D.で優勝しよう,【$1】在G.R.A.D.中取得优胜,exp
+【$note】G.R.A.D.を優勝しよう,【$1】在G.R.A.D.中取得优胜,exp
+【$note】ブロックの満足度を総合$percent以上にしよう,【$1】区域满足度总和达到$2以上,exp
+【$note】アビリティを$num個獲得しよう,【$1】获得$2个能力,exp
 $nameの$ukサポートアイドルです,$1的$2 Support偶像,exp
 $nameの$ukアイドルです,$1的$2偶像,exp
 $note $name,$1 $2,exp
