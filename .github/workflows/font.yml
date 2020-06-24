@@ -1,0 +1,46 @@
+name: Font
+
+on:
+  schedule:	
+    - cron:  '40 19 * * *'
+  
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: master
+        path: repoMaster
+    - name: Checkout branch font
+      uses: actions/checkout@v2
+      with:
+        ref: font
+        path: repoFont
+    - name: Move files
+      run: |
+        cp -r repoMaster/data/ repoFont/
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - name: Build font
+      run: |
+        cd repoFont
+        yarn --frozen-lockfile
+        yarn font
+        cp -r ./dist/font/ ../repoMaster/data/
+    - name: Commit changes
+      run: |
+        cd repoMaster
+        git add --a
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "tenka"
+        echo "::set-env name=commit_state::$(git commit -m 'Update font' | tr '\n' ' ')"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        branch: master
+        directory: repoMaster
+        github_token: ${{ secrets.GITHUB_TOKEN }}
