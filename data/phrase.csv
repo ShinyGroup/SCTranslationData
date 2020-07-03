@@ -7,7 +7,7 @@ ability.noSkillMessage,習得しているアビリティはありません,没�
 ability.emptyNotice,習得可能なアビリティはありません,没有可以学习的能力
 ability.confirmPop.title,アビリティ習得,能力学习
 ability.confirmPop.comment,以下の「ひらめき」を消費して\nアビリティを習得しますか？,要消耗以下「灵感」\n并学习能力吗？
-ability.releaseCommentText,%{comment}で解放,以%{comment}解锁
+ability.releaseCommentText,%{comment}で解放,%{comment}后解锁
 availableInform.title,アイテム有効期限のお知らせ,道具有效日期通知
 availableInform.description,アイテムの有効期限が                 となっております\n有効期限が過ぎますと\n%{contentName}の\n使用ができなくなります,道具的有效日期为                 \n超过有效日期之后\n%{contentName}の\n将不可使用
 availableInform.remainTime,あと%{remainTime},还有%{remainTime}
