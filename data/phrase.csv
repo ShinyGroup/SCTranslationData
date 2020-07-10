@@ -1,4 +1,48 @@
 id,text,trans
+filter.title,絞り込み,筛选
+filter.subTitle.supportSkill,絞り込みサポートスキル選択,筛选支援技能选择
+filter.categories.idol,アイドル,偶像
+filter.categories.fesIdolMark,フェスアイドルマーク,Fes偶像标记
+filter.categories.trueEnd,True End ミッション,True End 任务
+filter.categories.commu,コミュ,剧情
+filter.categories.commuIgnoreTrueEnd,コミュ（True End 除く）,剧情（True End 除外）
+filter.categories.ideaMark,アイデアマーク,创想标记
+filter.categories.inspiration,ひらめき,灵感
+filter.categories.comicType,種類,种类
+filter.categories.comicOther,その他,其他
+filter.categories.supportSkill,サポートスキル,支援技能
+filter.categories.idolArrivalType,登場種類,登场种类
+filter.categories.liveSkill,ライブスキル,演出技能
+filter.cautions.idol,,
+filter.cautions.fesIdolMark,アイドル詳細から好きなアイドルマークを設定できます,可在偶像详情中设定偏好的偶像标记
+filter.cautions.trueEnd,,
+filter.cautions.commu,,
+filter.cautions.commuIgnoreTrueEnd,,
+filter.cautions.ideaMark,ファン感謝祭編の専用パラメータです,粉丝感谢祭篇专用属性值
+filter.cautions.inspiration,G.R.A.D.編の専用パラメータです,G.R.A.D.篇专用属性值
+filter.cautions.comicType,,
+filter.cautions.comicOther,,
+filter.cautions.supportSkill,条件をひとつでも満たしているサポートスキルが絞り込まれます,满足任一条件的支援技能将被选中
+filter.cautions.idolArrivalType,,
+filter.cautions.liveSkill,チェックした条件をすべて満たすライブスキルが絞り込まれます,满足全部条件的演出技能将被选中
+filter.texts.achieved,達成済み,已达成
+filter.texts.notAchieved,未達成,未达成
+filter.texts.unread,未読あり,未读
+filter.texts.ideas.vocal,ボーカル,Vocal
+filter.texts.ideas.visual,ビジュアル,Visual
+filter.texts.ideas.dance,ダンス,Dance
+filter.texts.ideas.mental,トーク,Talk
+filter.texts.ideas.skillPoint,アピール,Appeal
+filter.texts.inspirations.vocal,Vo.,
+filter.texts.inspirations.visual,Vi.,
+filter.texts.inspirations.dance,Da.,
+filter.texts.inspirations.mental,Me.,
+filter.texts.supportSkill.includesUnacquired,未習得のサポートスキルも含む,包含未习得的支援技能
+filter.texts.supportSkill.skill,スキル%{num},技能%{num}
+filter.texts.supportSkill.notSet,未設定,未设定
+filter.texts.supportSkill.all,すべて,全部
+filter.texts.liveSkill.includesUnacquired,未解放のライブスキルも含む,包含未解锁的演出技能
+filter.emptyMessage,該当するアイドルがいません。,没有符合条件的偶像。
 ability.locked,未解放,未解锁
 ability.shortageOfInspirations,不足,
 ability.acquired,習得済み,已习得
@@ -201,6 +245,7 @@ concert.passiveSkillDetailListDialog.title,発動中のパッシブスキル,发
 concert.passiveSkillDetailListDialog.emptyMessage,効果情報はありません,无被动效果信息
 concert.statusEffect.leftTurn,残り%{leftTurn}ターン,剩余%{leftTurn}回合
 concert.statusEffect.remainTimes,残り%{remainTimes}回,剩余%{remainTimes}回
+concert.statusEffect.timesAndTurn,残り%{leftTurn}ターン\n残り%{remainTimes}回,剩余%{leftTurn}回合\n剩余%{remainTimes}回
 concert.statusEffect.noStatusEffectMessage,効果情報はありません,无状态效果信息
 concertResult.entryNumber,エントリーNo.%{number},排名No.%{number}
 concertResult.statusUp.message,+%{upPoint},
@@ -584,6 +629,8 @@ gameEvent.achievementRewardDialog.message,以下のアイテムがプレゼン�
 gameEvent.achievementRewardDialog.rewardNameNum,%{name} x %{num},
 gameEvent.achievementRewardDetailDialog.title,ミッション達成累積報酬詳細,完成任务可获得的累计奖励
 gameEvent.achievementRewardDetailDialog.missionDetailTitle,ミッション%{progressMax}個達成報酬,达成%{progressMax}个任务的报酬
+gameEvent.playPrologueDialog.title,シナリオ再生確認,剧情播放确认
+gameEvent.playPrologueDialog.text,%{name}\n%{title}\nを再生しますか？,%{name}\n%{title}\n确认播放吗？
 gameEvent.schedule,開催期限 %{closeAt}まで,举办期限 %{closeAt}截止
 gameEvent.presentEventSchedule.label.open,開催期間,举办期限
 gameEvent.presentEventSchedule.label.receive,受取期間,领取期限
@@ -594,6 +641,7 @@ gameEvent.gashaSchedule,ガシャ期限 %{closeAt}まで,抽卡期限 %{closeAt}
 gameEvent.communicationsDialog.title,イベントコミュ,活动剧情
 gameEvent.communicationsDialog.noticeMessage,コミュはイベントショップから解放可能です,剧情可在活动商店处解锁
 gameEvent.specialCommunicationsDialog.title,スペシャルコミュ,特殊剧情
+gameEvent.specialCommunicationsRemainingPlayCount,本日のプレイ回数：残り%{count},本日游玩次数：剩余%{count}
 gameEvent.resumeSpecialCommunicationsDialog.title,シナリオ再生確認,剧本播放确认
 gameEvent.resumeSpecialCommunicationsDialog.message,進行中のシナリオがあります\n再開しますか？,要继续正在进行的剧本吗？
 gameEvent.presentEvent.lastPrefix,】,
@@ -632,6 +680,12 @@ idolList.leaveEditModeDialog.tradeMemorialPiece,変換,兑换
 idolList.infoSwitch.wing,デフォルト(W.I.N.G.用),默认(W.I.N.G.用)
 idolList.infoSwitch.fan_meeting,アイデア(ファン感謝祭用),创想(粉丝感谢祭用)
 idolList.infoSwitch.3rd_produce_area,ひらめき(G.R.A.D.用),灵感(G.R.A.D.用)
+idolList.emptyMessages.fesIdolEdit,所持しているアイドルがいません。,没有所持的偶像。
+idolList.emptyMessages.produceReady,所持しているアイドルがいません。,没有所持的偶像。
+idolList.emptyMessages.idolList,所持しているアイドルがいません。,没有所持的偶像。
+idolList.emptyMessages.training,所持しているアイドルがいません。,没有所持的偶像。
+idolList.emptyMessages.evolution,特訓可能なアイドルがいません。,没有所持的偶像。
+idolList.emptyMessages.workActivity,所持しているアイドルがいません。,没有所持的偶像。
 gasha.closeAt,%{closeAt}まで,%{closeAt}截止
 gasha.redrawGashaNotice,確定するまで何度でも\n引き直すことができます,在确定之前可无限次\n重新抽取
 gasha.resultMessage,既に加入済みのアイドルは控室に送られます。,已加入的偶像将移至等候室。
@@ -914,9 +968,11 @@ option.volumeTitle.se,SE,
 option.volumeTitle.voice,ボイス,语音
 option.produceContentTitle.touch,アイドルへのタッチ判定,偶像的触摸判定
 option.produceContentTitle.newEventSpeed,未読イベント開始時に早送り解除\n（アイドル・サポートイベント）,未读过的事件开始时取消快进\n（偶像・支援事件）
+option.produceContentTitle.cutInEventSpeed,サポートアイドルスキルカットイン\n発生時に早送り解除,Support偶像技能切入动画\n出现时取消快进
 option.produceContentTitle.restConfirm,休む選択時に確認画面を表示,选择休息时显示确认画面
 option.produceContentTitle.concertConfirm,ライブ選択時に確認画面を表示,选择Live时显示确认画面
 option.homeContent.title.touch,コミュニケーションタッチ判定,对话触摸判定
+option.homeContent.title.conversation,アイドル同士の会話,偶像间的对话
 option.homeContent.title.idolPrank,アイドルからのイタズラ,偶像的恶作剧
 option.homeContent.prank.on,%{name} ON,
 option.homeContent.prank.off,%{name} OFF,
@@ -939,6 +995,9 @@ idolDetail.headerTitle.fes,フェスアイドル詳細,Fes偶像详情
 idolDetail.holdTapHint,※アイコンを長押しでアイドルの詳細が確認できます,※长按图标可确认偶像详情
 idolDetail.skill.lockPanel,特訓%{evolutionStage}段階目,特训第%{evolutionStage}阶段
 idolDetail.skill.level,Lv.%{level},
+idolDetail.skill.maxLevel,(MAX %{level}),
+idolDetail.skill.max,(MAX),
+idolDetail.skill.acquisitionLevel,Lv.%{level}で習得,Lv.%{level}可习得
 idolDetail.supportParameter.maxLevel,/%{level},
 idolDetail.supportParameter.remainingExp,あと%{exp},还需%{exp}
 idolDetail.profile.height,%{height}cm,
@@ -1136,7 +1195,9 @@ produceBlock.confirmPop.title,確認,确认
 produceBlock.confirmPop.description,シーズン%{seasonNum}のプロデュース先に\n%{blockName}を選択しますか？,第%{seasonNum}季度的培育目标\n要选择%{blockName}吗？
 produceBlock.confirmPop.notice,選択したブロックはシーズン終了まで変更できません,已选择的区域在季度结束前无法变更
 produceHeader.produceSeason,シーズン %{seasonNum},季度 %{seasonNum}
-produceHeader.concertSeason,W.I.N.G.,
+produceHeader.concertSeason.wing,W.I.N.G.,
+produceHeader.concertSeason.fanMeeting,感謝祭,感谢祭
+produceHeader.concertSeason.grad,G.R.A.D.,
 produceItemPreparation.filterTitle,絞り込み,筛选
 produceItemPreparation.sortTitle,並び替え,排序
 produceItemPreparation.description.unselected,アイテムを選択していません,未选择道具
@@ -1167,6 +1228,11 @@ produceAction.surplusInspirationDialog.descriptions.first,獲得できるひら�
 produceAction.surplusInspirationDialog.descriptions.second.left,獲得するひらめきを,请选择
 produceAction.surplusInspirationDialog.descriptions.second.center,%{acquirableNum}つ,%{acquirableNum}个
 produceAction.surplusInspirationDialog.descriptions.second.right,選択してください,获得的灵感
+produceAction.maxInspirationDialog.title,ひらめき獲得,获得灵感
+produceAction.maxInspirationDialog.description1,ひらめきが最大獲得数に達しているため,由于达到灵感最大获得数
+produceAction.maxInspirationDialog.description2,ひらめきが獲得できません,无法再获得灵感
+produceAction.maxInspirationDialog.descriptionActions.lesson,「レッスン」を行いますか？,要前往「课程」吗？
+produceAction.maxInspirationDialog.descriptionActions.work,「お仕事」を行いますか？,要前往「工作」吗？
 produceMain.supportSkillsDialog.title,発動中スキル,发动中的技能
 produceMain.supportSkillsDialog.noSkill,発動中のサポートスキルはありません,没有发动中的支援技能
 produceMain.supportSkillsDialog.helper,お手伝い中のアイドルです,正在帮忙的偶像
@@ -1227,7 +1293,7 @@ staffAssistEvent.eventDetailTitle,はづきさんアシスト中,叶月支援中
 staffAssistEvent.greet,プロデューサーさん、どうかしましたか～？,制作人先生，怎么了～？
 staffAssistEvent.receivePresent,えっ、私に差し入れですか～？,诶，给我的慰劳品吗～？
 staffAssistEvent.openPresent,ありがとうございます♪\n中身を見てもいいですか～？,谢谢♪\n我可以看看里面的东西吗～？
-staffAssistEvent.present.daifuku,いちご大福ですか～、とっても美味しそうです♪\nお茶を淹れるので、ご一緒しませんか～？,是草莓大福啊、看起来很好吃呢♪\n我来泡茶，你也要一起吗～？
+staffAssistEvent.present.daifuku,いちご大福ですか～、とっても美味しそうです♪\nお茶を淹れるので、ご一緒しませんか～？,是草莓大福啊，看起来很好吃呢♪\n我来泡茶，你也要一起吗～？
 staffAssistEvent.present.pudding,プリンですか～、とっても楽しみです♪\n冷蔵庫で冷やしてからいただきますね～,是布丁呀，我很喜欢♪\n把它放到冰箱冷藏一下再吃吧～
 staffAssistEvent.present.chocolate,チョコレートですか～、疲れに良いって言いますもんね♪\n早速いただいちゃいますね～,是巧克力吗～说是对抗疲劳很有效呢♪\n赶紧尝一下吧～
 staffAssistEvent.workHard,頑張っちゃいますよ～♪,已经很努力了哦～♪
@@ -1542,7 +1608,7 @@ individualRanking.heldAt,%{time}まで,%{time}截止
 individualRanking.tallyAt,%{time}まで,%{time}截止
 individualRanking.rewardAt,%{time}から,%{time}开始
 individualRanking.aggregateAt,%{openTime} 〜 %{closeTime},
-individualRanking.outOfRanking,圏外,圈外
+individualRanking.outOfRanking,圏外,榜外
 individualRanking.popup.title,ランキング報酬,排行榜报酬
 individualRanking.popup.headingBorder,順位,排名
 individualRanking.popup.rewardBorder,%{start}位,
