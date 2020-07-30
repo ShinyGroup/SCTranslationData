@@ -1538,9 +1538,9 @@ tutorial.dialog.idolChoice.title,プロデュースアイドル確認,Produce偶
 tutorial.dialog.idolChoice.message,%{name}で\nチュートリアルを開始しますか？,要选择%{name}\n开始教程吗？
 tutorial.dialog.deckEdit.title,確認,确认
 tutorial.dialog.deckEdit.message,編成のチュートリアルを見ますか？,要学习编成教程吗？
-tutorial.skipPop.message,次のチュートリアルまでスキップします\nよろしいですか？,将跳过下一个教程\n确认吗？
+tutorial.skipPop.message,次のチュートリアルまでスキップします\nよろしいですか？,　　　　　将跳过下一个教程　　　　　\n　　确认吗？　　
 tutorial.skipPop.title,確認,确认
-tutorial.skipPop.warning1,各機能の説明はチュートリアル終了後も,各功能在教程结束后在
+tutorial.skipPop.warning1,各機能の説明はチュートリアル終了後も,　　　　各功能在教程结束后在　　　　
 tutorial.skipPop.warning2,TIPS,
 tutorial.skipPop.warning3,から確認可能です。,之中可以确认
 tutorial.staffMessage,初めにプロデュースするアイドルを選んであげてください♪\nチュートリアル後には他のアイドルもプロデュースできますよ～,请选择初次培育的偶像吧♪\n教程结束后也可培育其他偶像哦～
