@@ -13,17 +13,10 @@ filter.categories.comicOther,その他,其他
 filter.categories.supportSkill,サポートスキル,支援技能
 filter.categories.idolArrivalType,登場種類,登场种类
 filter.categories.liveSkill,ライブスキル,演出技能
-filter.cautions.idol,,
 filter.cautions.fesIdolMark,アイドル詳細から好きなアイドルマークを設定できます,可在偶像详情中设定偏好的偶像标记
-filter.cautions.trueEnd,,
-filter.cautions.commu,,
-filter.cautions.commuIgnoreTrueEnd,,
 filter.cautions.ideaMark,ファン感謝祭編の専用パラメータです,粉丝感谢祭篇专用属性值
 filter.cautions.inspiration,G.R.A.D.編の専用パラメータです,G.R.A.D.篇专用属性值
-filter.cautions.comicType,,
-filter.cautions.comicOther,,
 filter.cautions.supportSkill,条件をひとつでも満たしているサポートスキルが絞り込まれます,满足任一条件的支援技能将被选中
-filter.cautions.idolArrivalType,,
 filter.cautions.liveSkill,チェックした条件をすべて満たすライブスキルが絞り込まれます,满足全部条件的演出技能将被选中
 filter.texts.achieved,達成済み,已达成
 filter.texts.notAchieved,未達成,未达成
@@ -629,6 +622,7 @@ gameEvent.achievementRewardDialog.message,以下のアイテムがプレゼン�
 gameEvent.achievementRewardDialog.rewardNameNum,%{name} x %{num},
 gameEvent.achievementRewardDetailDialog.title,ミッション達成累積報酬詳細,完成任务可获得的累计奖励
 gameEvent.achievementRewardDetailDialog.missionDetailTitle,ミッション%{progressMax}個達成報酬,达成%{progressMax}个任务的报酬
+gameEvent.eventRewardIdolInfoPopupTitle,イベント限定報酬アイドル,活动限定奖励偶像
 gameEvent.playPrologueDialog.title,シナリオ再生確認,剧情播放确认
 gameEvent.playPrologueDialog.text,%{name}\n%{title}\nを再生しますか？,%{name}\n%{title}\n确认播放吗？
 gameEvent.schedule,開催期限 %{closeAt}まで,举办期限 %{closeAt}截止
@@ -759,6 +753,9 @@ gasha.scoutGasha.idolList.title,対象アイドル一覧,对象偶像一览
 gasha.scoutGasha.idolList.expireAt,【有効期限】%{expireAt}まで,【有效期限】%{expireAt}截止
 gasha.scoutGasha.useConfirmation.title,使用確認,使用确认
 gasha.scoutGasha.useConfirmation.description,セレクションチケットを消費して\n%{name}\nを獲得します\nよろしいですか？,确认使用选择券获得\n%{name}吗？
+gasha.scoutGasha.possessedIdol,所持済,已获得
+gasha.scoutGasha.notPossessedIdol,未所持,未获得
+gasha.scoutGasha.reserveNum,控室%{reserveNum},
 gasha.scoutGasha.ticketCount,x%{count},
 gasha.scoutGasha.noExpire,期限なし,无期限
 gasha.scoutGasha.expireAt,%{expireAt}まで,%{expireAt}截止
