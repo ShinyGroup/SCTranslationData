@@ -144,7 +144,7 @@ $nounに参加して、$nounを$num回達成しよう,参加$1并达成$3次$2,e
 「$noun」：$num人の$nounから$nounと$nounを獲得する,「$1」：从$2名$3处同时获得$4与$5,exp
 $noun以上の$nounに参加して、$nounを$num回達成しよう,参加$1以上的$2并达成$4次$3,exp
 $nounに参加して、$num位になろう,参加$1并取得第$2位,exp
-$noun以上の$noun$uk$num位になろう,参加$1以上的$2并取得第$3位,exp
+$noun以上の$noun$sep$num位になろう,参加$1以上的$2并取得第$3位,exp
 $nounの$nounに参加して、$num位になろう,参加$1的$2并取得第$3位,exp
 【$note】$nounの$nounに参加して、$num位に$num回なろう,【$1】参加$2的$3并取得$5次第$4位,exp
 $nounの$nounに参加して、$num位以上になろう,参加$1的$2并取得第$3位及以上,exp
