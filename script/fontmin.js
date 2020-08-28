@@ -59,7 +59,7 @@ glob('data/**/*.csv', function (err, files) {
   Promise.all(prims).then(txts => {
     txts.forEach(appendText)
     console.log(text.length + '个字符')
-    start(srcPath[0], text, true)
+    start(srcPath[0], text)
     start(srcPath[1], text)
   })
 })
