@@ -62,7 +62,7 @@ beginnerMission.groupLabel.label.3,2人目のサポートアイドルを育て�
 beginnerMission.groupLabel.label.4,3人目のサポートアイドルを育てよう,培育第三个Support偶像吧
 beginnerMission.groupLabel.label.5,4人目のサポートアイドルを育てよう,培育第四个Support偶像吧
 beginnerMission.groupLabel.label.6,5人目のサポートアイドルを育てよう,培育第五个Support偶像吧
-beginnerMission.groupLabel.label.7,より強力な編成でプロデュースに挑戦しよう,以更强大的编成阵挑战Produce吧
+beginnerMission.groupLabel.label.7,より強力な編成でプロデュースに挑戦しよう,以更强大的编成阵容挑战Produce吧
 beginnerMission.idolSelectNavigateText,まずは一緒に初心者ミッションを受けるアイドルを\n選んであげてくださいね〜\nおすすめのサポートアイドルをピックアップしますよ♪,首先请选择新手任务中\n要培育的Produce偶像吧〜\n将为你自动挑选推荐的Support偶像哦♪
 beginnerMission.availableSupportIdolsDetailPop.title,プロデュースアイドル確認,Produce偶像确认
 beginnerMission.availableSupportIdolsDetailPop.tips,%{idolName}さんのサポートに適した,适合%{idolName}的Support偶像
@@ -597,9 +597,9 @@ fes.fesGradeEvaluationReward.title,報酬内容,报酬内容
 fes.fesGradeEvaluationReward.message,以下のアイテムがプレゼントに送られました,以下道具已经送入礼物盒中
 fes.fesGradeEvaluationReward.itemNameNum,%{type} ×%{num},
 fes.fesGradeEvaluationReward.comment.newRecord,初めてのグレードLv%{gradeId}到達、おめでとうございます\nミッション報酬も忘れずに受け取ってくださいね♪,恭喜您，首次到达等级Lv%{gradeId}。请不要忘了拿取任务奖励
-fes.fesGradeEvaluationReward.comment.gradeUp,グレードアップです\nプロデューサーさん、良い調子ですね♪,等级升格成功\n制作人先生，状态很不错呢♪
+fes.fesGradeEvaluationReward.comment.gradeUp,グレードアップです\nプロデューサーさん、良い調子ですね♪,等级晋升成功\n制作人先生，状态很不错呢♪
 fes.fesGradeEvaluationReward.comment.gradeKeep,グレードキープです、今回も頑張りましょう\n私も応援していますね♪,等级维持，这次也请加油吧\n我也会为你应援的♪
-fes.fesGradeEvaluationReward.comment.gradeDown,今回はLv%{gradeId}のグレードになります\n引き続き、グレードアップを目指していきましょうね,本次的等级为Lv%{gradeId}\n接下来，请以等级升格为目标努力吧
+fes.fesGradeEvaluationReward.comment.gradeDown,今回はLv%{gradeId}のグレードになります\n引き続き、グレードアップを目指していきましょうね,本次的等级为Lv%{gradeId}\n接下来，请以等级晋升为目标努力吧
 fes.ranking.score,%{score}pt,%{score}pt
 fes.ranking.emptyNotice,現在ランキング集計中です,排行榜正在统计中
 fes.ranking.updateIntervalWarning,※最新のランキング反映までに時間がかかる場合があります,※排行榜的更新需要等待一定时间
@@ -608,9 +608,9 @@ fes.fesGradeRewardPop.gradeReward.title,所属グレード報酬について,关
 fes.fesGradeRewardPop.gradeReward.description,所属グレードは基本的に「フェス流行の更新」と同じタイミングで更新されます。\nグレード更新後、フェス画面にて所属グレード報酬がプレゼントに送られます。\n最新の所属グレード以外の報酬は受け取ることができませんので、ご注意ください。,所属等级基本上与「Fes流行」同时更新。\n等级更新后，在Fes界面依所属等级将报酬送入礼物盒。\n请注意，最新所属等级以外的报酬无法获得。
 fes.fesGradeRewardPop.gradeReward.colTitle1,所属グレード,所属等级
 fes.fesGradeRewardPop.gradeReward.colTitle2,報酬内容,报酬内容
-fes.fesGradeRewardPop.missionReward.title,初回昇格報酬について,关于首次升格的报酬
-fes.fesGradeRewardPop.missionReward.description,初めてLv.2以上の各グレードに昇格した際、特別な報酬を入手できます。\n報酬は「ミッション」からお受け取りください。,初次Lv.2以上各等级升格时，能够获得特殊报酬。\n请从「任务」处领取报酬。
-fes.fesGradeRewardPop.missionReward.colTitle1,昇格グレード,升格等级
+fes.fesGradeRewardPop.missionReward.title,初回昇格報酬について,关于首次晋升的报酬
+fes.fesGradeRewardPop.missionReward.description,初めてLv.2以上の各グレードに昇格した際、特別な報酬を入手できます。\n報酬は「ミッション」からお受け取りください。,初次Lv.2以上各等级晋升时，能够获得特殊报酬。\n请从「任务」处领取报酬。
+fes.fesGradeRewardPop.missionReward.colTitle1,昇格グレード,晋升等级
 fes.fesGradeRewardPop.missionReward.colTitle2,報酬内容,报酬内容
 fes.deckMemberBonusStatus.positionBonus,ポジションボーナス %{value}%,位置加成 %{value}%
 fes.deckMemberBonusStatus.unitBonus,ユニットボーナス %{value}%,组合加成 %{value}%
