@@ -50,19 +50,10 @@ availableInform.description,アイテムの有効期限が                 と�
 availableInform.remainTime,あと%{remainTime},还有%{remainTime}
 achievementRewardDialog.message,以下のアイテムがプレゼントBOXに送られました,以下道具已经送入礼物盒中
 achievementRewardDialog.rewardNameNum,%{name} x %{num},
-beginnerMission.headerTitle,初心者ミッション,新手任务
-beginnerMission.staffComment,初心者ミッションを進めて報酬を受け取ってくださいね〜,达成新手任务目标来获得奖励吧～
-beginnerMission.detailPopTitle,初心者ミッション詳細,新手任务详情
-beginnerMission.receivePopTitle,初心者ミッション達成,新手任务完成
+beginnerMission.detailPopTitle,%{title}詳細,%{title}详情
+beginnerMission.receivePopTitle,%{title}達成,%{title}完成
 beginnerMission.selectIdolPopTitle,初心者ミッションを始めるプロデュースアイドルを選択します,选择一个Produce偶像开始新手任务
 beginnerMission.groupLabel.step,STEP %{step},
-beginnerMission.groupLabel.label.1,好きなアイドルを育てよう,培育你喜欢的偶像吧
-beginnerMission.groupLabel.label.2,1人目のサポートアイドルを育てよう,培育第一个Support偶像吧
-beginnerMission.groupLabel.label.3,2人目のサポートアイドルを育てよう,培育第二个Support偶像吧
-beginnerMission.groupLabel.label.4,3人目のサポートアイドルを育てよう,培育第三个Support偶像吧
-beginnerMission.groupLabel.label.5,4人目のサポートアイドルを育てよう,培育第四个Support偶像吧
-beginnerMission.groupLabel.label.6,5人目のサポートアイドルを育てよう,培育第五个Support偶像吧
-beginnerMission.groupLabel.label.7,より強力な編成でプロデュースに挑戦しよう,以更强大的编成阵容挑战Produce吧
 beginnerMission.idolSelectNavigateText,まずは一緒に初心者ミッションを受けるアイドルを\n選んであげてくださいね〜\nおすすめのサポートアイドルをピックアップしますよ♪,首先请选择新手任务中\n要培育的Produce偶像吧〜\n将为你自动挑选推荐的Support偶像哦♪
 beginnerMission.availableSupportIdolsDetailPop.title,プロデュースアイドル確認,Produce偶像确认
 beginnerMission.availableSupportIdolsDetailPop.tips,%{idolName}さんのサポートに適した,适合%{idolName}的Support偶像
@@ -71,9 +62,11 @@ beginnerMission.availableSupportIdolsDetailPop.tips2,のアイドル5人に来�
 beginnerMission.idolSelectConfirmPop.title,初心者ミッション開始確認,新手任务开始确认
 beginnerMission.idolSelectConfirmPop.text,選択したプロデュースアイドルでは\n以下のサポートアイドルが手に入ります\n初心者ミッションを開始しますか？,根据已选择的Produce偶像\n将会获得以下Support偶像\n确认开始新手任务吗？
 beginnerMission.idolSelectConfirmPop.txtNotice," 初心者ミッション開始後に選びなおすことはできません"," 新手任务开始后不可重新选择"
-beginnerMission.clearedAlert.title,初心者ミッション達成,新手任务完成
-beginnerMission.clearedAlert.text,以下のミッションを達成しました\n初心者ミッションページで報酬を受け取りましょう,以下任务已完成\n前往新手任务页面领取奖励
+beginnerMission.clearedAlert.title,%{title}達成,%{title}完成
+beginnerMission.clearedAlert.text,以下のミッションを達成しました\n%{title}ページで報酬を受け取りましょう,以下任务已完成\n前往%{title}页面领取奖励
 beginnerMission.clearedAlert.reward,%{rewardName} ×%{num},
+beginnerMission.completeRewardPop.title,%{title}コンプリート,%{title}完成
+beginnerMission.completeRewardPop.description,%{title}をすべて達成した報酬として\n以下の報酬を獲得しました,作为完成全部%{title}的奖励\n获得了以下报酬
 countUpCampaign.unit.fes_raid_laps,周,
 countUpCampaign.countUpText,%{unit}で%{title}達成,
 countUpCampaign.clearedFooterText.fes_raid_laps,コラボフェスの到達周数でボーナスをGET!,
@@ -150,6 +143,8 @@ characterAlbum.voiceDetailPop.notice,%{itemName}での解放は%{date}より可�
 characterAlbum.commuDetailPop.title,コミュ詳細,剧情详情
 characterAlbum.commuDetailPop.useItem.title,%{itemName}を使ってコミュを解放できます,使用%{itemName}后可解锁剧情
 characterAlbum.commuDetailPop.notice,%{itemName}での解放は%{date}より可能です,使用%{itemName}解锁需要%{date}之后方可进行
+characterAlbum.idolEffectPop.title,演出再生,播放动画
+characterAlbum.idolEffectPop.message,再生する演出を選んでください,请选择要播放的动画
 common.remainingText,あと,还有
 common.day,%{day}日,%{day}日
 common.hour,%{hour}時間,%{hour}小时
@@ -171,6 +166,7 @@ common.quantityMessageWithName,%{name} x%{quantity},
 common.remainingTimeMessage,あと %{min}:%{sec},还需 %{min}:%{sec}
 common.remainingMinutes,あと%{minutes}分,还需%{minutes}分钟
 common.remainingHours,あと%{hours}時間%{minutes}分,还需%{hours}小时%{minutes}分钟
+common.reserveNum,控室%{reserveNum},
 common.lv,Lv.%{level},
 common.levelMax,Lv.MAX,
 common.staff,はづき,叶月
@@ -266,6 +262,16 @@ deck.autoSelectSuccessDialog.advice2.beforeType,プロデュース中は,Produce
 deck.autoSelectSuccessDialog.advice2.afterType,を重点的に,为重点
 deck.autoSelectSuccessDialog.advice2.nextLine,レッスンするといいですよ♪,进行课程安排更为合适哦♪
 deck.autoSelectSuccessDialog.description,サポートアイドルを%{type}編成で設定しました,Support偶像由%{type}编成设定完毕
+deck.deckNameEdit.defaultName,ユニット%{deckNumber},队伍%{deckNumber}
+deck.deckNameEdit.dialog.title,ユニット名変更,修改队名
+deck.deckNameEdit.dialog.description,ユニット%{deckNumber}の名前を変更できます,可以修改队伍%{deckNumber}的名称
+deck.deckNameEdit.complete.title,ユニット名変更完了,队名修改完成
+deck.deckNameEdit.complete.message,ユニット名を変更しました,队伍名称已修改
+deck.deckNameEdit.error.ngWord,禁止ワードが含まれています,含有禁止使用的词语
+deck.deckNameEdit.error.wordLength,入力文字数が不正です,输入的字数不对
+deck.deckCopy.confirm.title,ユニットコピー確認,队伍复制确认
+deck.deckCopy.complete.title,ユニットコピー完了,队伍复制完成
+deck.deckCopy.complete.message,ユニット情報をコピーしました,队伍信息复制完成
 deck.deckNumber,ユニット%{deckNumber},队伍%{deckNumber}
 deck.memberShortageNotice,アイドルがセットされていないので\nスタートできません,由于偶像未配置完成无法开始Produce
 deck.swapCharacterWarning,ユニット内の同一のアイドルが外れてしまいますが\n本当によろしいですか？,确认要将队伍内同一偶像排除到队伍之外吗？
@@ -276,6 +282,8 @@ deck.title.staminaRecoverPop,スタミナ回復,精力值恢复
 deck.title.startProducePop,使用確認,使用确认
 deck.title.useCoinPop,使用確認,使用确认
 deck.title.supportSkillListPop,サポートスキルボーナス一覧,支援技能加成一览
+deck.title.deckCopy,ユニットコピー,队伍复制
+deck.title.deckMove,ユニット切り替え,队伍替换
 ending.headerTitle.endingCEOReport,社長からの評価,来自社长的评价
 ending.headerTitle.fesIdolBirth,フェスアイドル誕生,Fes偶像诞生
 ending.fesIdolCheckPop.title,フェスアイドル確認,Fes偶像确认
@@ -316,7 +324,7 @@ errorDialog.trueEndTeachingDuplicate,進行中のTrue End研修があるので\n
 errorDialog.fesSeason,フェスのシーズンが切り替わりました。,Fes赛季已变更。
 errorDialog.fesMatchRivalsError,進行していたフェスはすでに終了しました。\n再開することができませんでした。,正在进行的Fes已经结束。\n无法恢复进度。
 errorDialog.forbidden,アクセスは許可されていません。,访问未得到许可。
-errorDialog.fullDownloadErrorForNative,リソースの読み込みに失敗しました。\nネットワーク環境をご確認ください。,资源读取失败。\n请确认网络环境。
+errorDialog.fullDownloadErrorForNative,リソースの読み込みに失敗しました。\nネットワーク環境、または端末の空き容量を\nご確認ください。,资源读取失败。\n请确认网络环境。
 errorDialog.simpleOther,エラーが発生しました。\n\n何度も発生する場合は\nゲーム内の「お知らせ」→「お問い合わせ」より\nお問い合わせください。,发生错误。\n\n多次发生的情况下\n请从游戏内「お知らせ」→「お問い合わせ」\n确认您的问题。
 errorDialog.other,エラーが発生しました。\n\n何度も発生する場合は\nゲーム内の「お知らせ」→「お問い合わせ」より\nお問い合わせください。\n\nお問い合わせID: %{requestId}\nエラーコード: %{errorCode},发生错误。\n\n多次发生的情况下\n请从游戏内「お知らせ」→「お問い合わせ」\n确认您的问题。\n\n问题ID：%{requestId}\n错误代码：%{errorCode}
 errorDialog.timeout,通信中にエラーが発生しました。\n時間をおいてもう一度お試しください。,通信时发生故障。\n请一段时间后再尝试。
@@ -755,7 +763,6 @@ gasha.scoutGasha.useConfirmation.title,使用確認,使用确认
 gasha.scoutGasha.useConfirmation.description,セレクションチケットを消費して\n%{name}\nを獲得します\nよろしいですか？,确认使用选择券获得\n%{name}吗？
 gasha.scoutGasha.possessedIdol,所持済,已获得
 gasha.scoutGasha.notPossessedIdol,未所持,未获得
-gasha.scoutGasha.reserveNum,控室%{reserveNum},
 gasha.scoutGasha.ticketCount,x%{count},
 gasha.scoutGasha.noExpire,期限なし,无期限
 gasha.scoutGasha.expireAt,%{expireAt}まで,%{expireAt}截止
@@ -869,6 +876,8 @@ ideaNote.idolConfirmationDialog.title,プロデュースアイドル確認,Produ
 ideaNote.idolConfirmationDialog.statusNum,%{num} / %{limitNum},
 ideaNote.idolConfirmationDialog.progress,シーズン %{seasonNum} / 残り %{remainSeasonWeek}週,季度 %{seasonNum} / 剩余 %{remainSeasonWeek}周
 homeDeckBackgroundImage,ホームユニット背景,主界面队伍背景
+homeDeckBGM,ホームユニットBGM,主页BGM
+homeDeckBackgroundEffect,ホームユニットエフェクト,主页特效
 homeDeck.displayType.illustration,イラストモード,插画模式
 homeDeck.displayType.animation,アニメモード,动画模式
 homeDeck.selectedBg,選択中の背景,选择中的背景
@@ -961,6 +970,7 @@ mission.notJoined,未参加です,未参加
 mission.eventEnded,イベント終了,活动结束
 option.saveMessage," \n \n設定を保存しました。"," \n \n您的设置已保存。"
 option.volumeTitle.bgm,BGM,
+option.volumeTitle.concertBgm,楽曲,乐曲
 option.volumeTitle.se,SE,
 option.volumeTitle.voice,ボイス,语音
 option.produceContentTitle.touch,アイドルへのタッチ判定,偶像的触摸判定
@@ -1078,6 +1088,7 @@ item.evolutionNoticeLevel,すでにLv.2以上トレーニングしているア�
 item.commuReleaseItem.imageCharacterSelectTitle,対象アイドル選択,对象偶像选择
 item.commuReleaseItem.giveItemToCharacterConfirmation,%{characterName}に\n以下のアイテムを使用しますか？,要对%{characterName}\n使用以下道具吗？
 item.commuReleaseItem.commuReleasedTitle,コミュ解放,剧情解锁
+item.expireAt,使用期限：%{expireAt},
 jewel,フェザージュエル,羽石
 billedJewel,有償フェザージュエル,有偿羽石
 musicSelect.recommendTitle,おまかせ,自动
@@ -1344,6 +1355,8 @@ shop.headerTitles.staffItemPoint,はづきさん,叶月
 shop.headerTitles.memorialPiece,メモリアルピース,回忆碎片
 shop.headerTitles.exchangeItem,衣装,服装
 shop.headerTitles.trade,リサイクル,回收
+shop.gameEventShopEvolutionNumText,%{possession}(%{evolutionStage}回特訓済),
+shop.labelGameEventShopIdolPossessionText,所持状況,
 shop.possessionLabel,所持%{currencyName},所持%{currencyName}
 shop.shopItem.jewel,ジュエル,羽石
 shop.shopItem.billedJewel,有償ジュエル,有偿羽石
@@ -1464,6 +1477,7 @@ recycleShop.purchaseResult.title,交換結果,兑换结果
 recycleShop.purchaseResult.message,%{title}を交換しました,%{title}已兑换
 recycleShop.purchaseResult.twoLinesMessage,%{title}を\n交換しました,%{title}\n已兑换
 skillBord.header,振り返り,回顾
+skillBord.fromDeckHeader,スキルパネル,技能面板
 skillBord.acquireConfirmationTitle,スキル習得確認,习得技能确认
 skillBord.acquireConfirmationMessage,SPを%{skillPoint}消費してスキルを習得しますか？,要使用SP%{skillPoint}学习技能吗？
 skillBord.deleteSkillConfirmationTitle,スキル入れ替え確認,技能替换确认
@@ -1487,6 +1501,12 @@ spine.stand,等身キャラ,等身主角
 spine.standSub,等身サブキャラ,等身配角
 titleSelect.result.message,称号を設定しました,称号已设定
 supportIdol.remaining,あと %{remaining},还需 %{remaining}
+topicPath.produce.areaSelect,プロデュース選択,Produce选择
+topicPath.produce.deckEdit,ユニット編成,队伍编成
+topicPath.produce.itemSelect,アイテム選択,偶像选择
+topicPath.trueEndTeaching.areaSelect,プロデュース選択,Produce选择
+topicPath.trueEndTeaching.idolSelect,アイドル選択,偶像选择
+topicPath.trueEndTeaching.deckEdit,ユニット編成,队伍编成
 training.levelLabel,Lv.,
 training.gainExpLabel,獲得Exp,获得Exp
 training.selectedNum,x%{num},
@@ -1515,9 +1535,10 @@ trueEndTeaching.skillGetRecommendTipsTitle,振り返りでスキルを習得し�
 trueEndTeaching.allObjectiveClearedText,目標全てクリア,已完成所有目标
 trueEndTeaching.auditionTipsTitle,おすすめオーディション,推荐试镜
 trueEndTeaching.auditionTipsHadukiHintText,流行にも注目です〜♪　今週がチャンスですよ〜,关注好流行〜♪　本周是绝佳机会哦～
-trueEndTeaching.openDialogTitle,初心者ミッションクリア,新手任务完成
-trueEndTeaching.openDialogDescription,True End研修はホーム画面からスタートすることができます,True End研修可从主界面进入
-trueEndTeaching.tipsText,おめでとうございます♪　すべての初心者ミッションをクリア\nしましたよ～　次はアイドルのTrue Endミッション達成を\n目標にしてみましょう,恭喜你♪　已经完成了全部的\n新手任务～　接下来请将达成True End\n作为下一个目标吧
+trueEndTeaching.openPopup.title,W.I.N.G.攻略ミッションコンプリート,W.I.N.G.攻略任务完成
+trueEndTeaching.openPopup.description,True End研修はホーム画面からスタートすることができます,True End研修可以从主页打开
+trueEndTeaching.openPopup.tipsText,おめでとうございます♪すべてのW.I.N.G.攻略ミッションを\nクリアしましたよ〜\n次はTrue End研修達成に挑戦してみましょう,恭喜♪所有的W.I.N.G.攻略任务\n都已经完成了\n接下来挑战True End研修吧
+trueEndTeaching.openPopup.teachingText,True End研修へ,前往True End研修
 trend.historyText,先週%{rank}位,上周%{rank}位
 trend.txtFan,%{count}人,
 trend.txtNextFan,あと  %{count}人,还需  %{count}人
