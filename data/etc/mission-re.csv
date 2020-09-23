@@ -35,8 +35,8 @@ W.I.N.G.を優勝しよう,在W.I.N.G.中取得优胜,text
 ファン感謝祭をクリアしよう,通过粉丝感谢祭,text
 ファン感謝祭でMVPを1回取ろう,在粉丝感谢祭中取得1次MVP,text
 プロデュースを開始しよう,开始Produce,exp
-トラブルを発生させずにシーズンをクリアしよう,在没有发生事故的情况下通过这个季度,text
-フェスリハーサルに参加しよう,参加Fes彩排,text
+$nounxt,参加$1以上的$2并取得第$3位,exp
+$nounに参加しよう,参加Fes彩排,text
 プロフィールで誕生日を設定しよう！,在个人简介里设定生日！,text
 メンタル上限アップのスキルを1つ習得をしよう,学习一个Mental上限提升技能,text
 櫻木真乃,樱木真乃,name
@@ -85,8 +85,8 @@ W.I.N.G.を優勝しよう,在W.I.N.G.中取得优胜,text
 樋口 円香,樋口 圆香,name
 福丸 小糸,福丸 小糸,name
 市川 雛菜,市川 雏菜,name
-フェス,Fes,noun
-フェスリハーサル,Fes彩排,noun
+$nounun,参加$1以上的$2并取得第$3位,exp
+$noun,Fes彩排,noun
 グレードフェス,排位Fes,noun
 リンクアピール,Link Appeal,noun
 パーフェクト,Perfect,noun
@@ -143,7 +143,7 @@ $nounに参加して、$nounを$num回達成しよう,参加$1并达成$3次$2,e
 「$noun」：$num人の$nounから$nounと$nounを獲得する,「$1」：从$2名$3处同时获得$4与$5,exp
 $noun以上の$nounに参加して、$nounを$num回達成しよう,参加$1以上的$2并达成$4次$3,exp
 $nounに参加して、$num位になろう,参加$1并取得第$2位,exp
-$noun以上の$noun$sep$num位になろう,参加$1以上的$2并取得第$3位,exp
+$noun以上の$noun$uk$num位になろう,参加$1以上的$2并取得第$4位,exp
 $nounの$nounに参加して、$num位になろう,参加$1的$2并取得第$3位,exp
 $nounの$nounに参加して、$num位に$num回なろう,参加$1的$2并取得$4次第$3位,exp
 $nounの$nounに参加して、$num位以上になろう,参加$1的$2并取得第$3位及以上,exp
