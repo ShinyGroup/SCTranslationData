@@ -216,7 +216,7 @@ $ukを$num以上にしよう,$1达到$2以上,exp
 イベントミッションを$num個達成しよう,完成$1个活动任务,exp
 営業を$num回完了しよう,完成$1次营业,exp
 【$uk】$name,【$1】$2,exp
-W.I.N.G.$sepのプロデュースで$noun$sep以上のフェスアイドルを$num$sep誕生させよう,参加W.I.N.G.并培育出$2名$1以上的Fes偶像,exp
+W.I.N.G.$sepのプロデュースで$noun$sep$num以上のフェスアイドルを$num$sep誕生させよう,参加W.I.N.G.并培育出$3名$1$2以上的Fes偶像,exp
 サポートアイドル$num人をLv.$num以上にしよう,将$1个Support偶像提升至Lv.$2以上,exp
 サポートアイドルのトレーニングに必要なチケットです\n【Exp:$num】,Support偶像提升等级所需的训练券\n【Exp:$1】,exp
 Lv.$numチケット,Lv.$1训练券,exp
