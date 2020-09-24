@@ -1355,7 +1355,7 @@ shop.headerTitles.staffItemPoint,はづきさん,叶月
 shop.headerTitles.memorialPiece,メモリアルピース,回忆碎片
 shop.headerTitles.exchangeItem,衣装,服装
 shop.headerTitles.trade,リサイクル,回收
-shop.gameEventShopEvolutionNumText,%{possession}(%{evolutionStage}回特訓済),
+shop.gameEventShopEvolutionNumText,%{possession}(%{evolutionStage}回特訓済),%{possession}(已特训%{evolutionStage}次)
 shop.labelGameEventShopIdolPossessionText,所持状況,
 shop.possessionLabel,所持%{currencyName},所持%{currencyName}
 shop.shopItem.jewel,ジュエル,羽石
