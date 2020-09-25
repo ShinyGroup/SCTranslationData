@@ -108,6 +108,9 @@ VERYHARD,VERYHARD,noun
 フェスマスター,Fes Master,noun
 パーフェクトライブ,Perfect Live,noun
 伝説の一瞬,传说的一瞬,noun
+Vocal,Vocal,noun
+Dance,Dance,noun
+Visual,Visual,noun
 ランクF,Rank F,noun
 ランクE,Rank E,noun
 ランクD,Rank D,noun
@@ -247,7 +250,7 @@ $nameアイドルロードを最大まで進行した証,$1偶像之路抵达终
 【第$num弾】,【第$1弹】,exp
 リサイクルショップで交換しよう,在回收商店进行兑换,exp
 Lv.$num以上のサポートアイドル$num人を編成しよう,队伍中编入$2个Lv.$1以上的Support偶像,exp
-思い出レベルを$num以上にしてW.I.N.G.に出場しよう,以$1以上的回忆等级参加W.I.N.G.,exp
+思い出レベルを$num以上にしてW.I.N.G.に出場しよう,回忆等级达到2以上参加W.I.N.G.,exp
 $nounが流行$num位のときにW.I.N.G.準決勝に勝利しよう,当$1为流行$2位时取得W.I.N.G.准决赛胜利,exp
 $nounが流行$num位のときにW.I.N.G.決勝に勝利しよう,当$1为流行$2位时取得W.I.N.G.决赛胜利,exp
 振り返りでスキルを習得してみよう,在技能面板中学习技能,text
