@@ -94,9 +94,11 @@ W.I.N.G.を優勝しよう,在W.I.N.G.中取得优胜,text
 トップアピール,Top Appeal,noun
 ラストアピール,Last Appeal,noun
 プロ根性,Pro根性,noun
+Easy,Easy,noun
 NORMAL,NORMAL,noun
 HARD,HARD,noun
 VERYHARD,VERYHARD,noun
+Extreme,Extreme,noun
 審査員,审查员,noun
 イルミネーションスターズ,illuminationSTARS,noun
 放課後クライマックスガールズ,放课后ClimaxGirls,noun
@@ -125,6 +127,7 @@ Cランク,C Rank,noun
 Bランク,B Rank,noun
 Aランク,A Rank,noun
 Sランク,S Rank,noun
+グレード,段位,noun
 W.I.N.G.編,W.I.N.G.篇,note
 ファン感謝祭編,粉丝感谢祭篇,note
 G.R.A.D.編,G.R.A.D.篇,note
@@ -150,6 +153,11 @@ $noun以上の$noun$uk$num位になろう,参加$1以上的$2并取得第$4位,e
 $nounの$nounに参加して、$num位になろう,参加$1的$2并取得第$3位,exp
 $nounの$nounに参加して、$num位に$num回なろう,参加$1的$2并取得$4次第$3位,exp
 $nounの$nounに参加して、$num位以上になろう,参加$1的$2并取得第$3位及以上,exp
+$nounの$nounで$num位になろう,在$1的$2中取得第$3位,exp
+$nounの$nounに参加して、$nounを達成しよう,参加$1的$2并达成$3,exp
+$noun以上の$nounに参加しよう,参加$1以上的$2,exp
+$noun以上の$nounで$num位になろう,参加$1以上的$2并取得第$3位,exp
+$noun$num以上の$nounに$num回参加しよう,参加$4次$1$2以上的$3,exp
 $noun全員を編成して、$noun以上の$nounに参加しよう,$1全员编成，参加$2以上的$3,exp
 $noun全員を編成して、$noun以上の$nounに$num回参加しよう,$1全员编成，参加$4次$2以上的$3,exp
 $noun全員を編成して、$nounで$num位になろう,$1全员编成，在$2中取得第$3位,exp
@@ -254,7 +262,8 @@ Lv.$num以上のサポートアイドル$num人を編成しよう,队伍中编�
 $nounが流行$num位のときにW.I.N.G.準決勝に勝利しよう,当$1为流行$2位时取得W.I.N.G.准决赛胜利,exp
 $nounが流行$num位のときにW.I.N.G.決勝に勝利しよう,当$1为流行$2位时取得W.I.N.G.决赛胜利,exp
 振り返りでスキルを習得してみよう,在技能面板中学习技能,text
-天井社長の夏の宿題を全てクリアしよう,完成天井社长的全部夏日课题,text
+天井社長の夏の宿題を全てクリアしよう,完成天井社长全部的夏日课题,text
+天井社長の秋の宿題を全てクリアしよう,完成天井社长全部的秋日课题,text
 初心者ミッションを進めるプロデュースアイドルを選択しよう,请选择进行新手任务的Produce偶像,text
 初心者ミッションでプロデュースのコツを掴んでいってくださいね～,请在新手任务中掌握培育偶像的诀窍吧～,text
 アイドルは特訓をすることで、強力なスキルを覚えられるようになります～,偶像通过特训，可以学到强力的技能～,text
