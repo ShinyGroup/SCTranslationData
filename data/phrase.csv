@@ -945,6 +945,11 @@ exSkill.exSkillChangeResultPop.text,Exスキルを変更しました,Ex技能已
 exSkill.exSkillSetResultPop.title,Exスキル設定結果,Ex技能设定结果
 exSkill.exSkillSetResultPop.text,Exスキルを設定しました,Ex技能已设定
 money,マニー,金币
+monthlyPassport.expireAlertPop.title,283パス有効期限のお知らせ,
+monthlyPassport.expireAlertPop.runningDays,%{runningDays}日,
+monthlyPassport.expireAlertPop.remainDays,あと%{remainDays}日,
+monthlyPassport.expireAlertPop.remainHours,あと%{remainHours}時間,
+monthlyPassport.expireAlertPop.remainMinutes,あと%{remainMinutes}分,
 mission.headerTitle,ミッション,任务
 mission.popSort,達成状況絞り込み,达成状况筛选
 mission.popMissionDetail,ミッション詳細,任务详情
@@ -1352,9 +1357,10 @@ shop.headerTitles.jewel,ジュエル,羽石
 shop.headerTitles.gameEvent,イベント,活动
 shop.headerTitles.premium,プレミアム,高级
 shop.headerTitles.staffItemPoint,はづきさん,叶月
-shop.headerTitles.memorialPiece,メモリアルピース,回忆碎片
+shop.headerTitles.memorialPiece,メモリアル\nピース,回忆碎片
 shop.headerTitles.exchangeItem,衣装,服装
 shop.headerTitles.trade,リサイクル,回收
+shop.headerTitles.monthlyPassport,283パス,283Pass
 shop.gameEventShopEvolutionNumText,%{possession}(%{evolutionStage}回特訓済),%{possession}(已特训%{evolutionStage}次)
 shop.labelGameEventShopIdolPossessionText,所持状況,
 shop.possessionLabel,所持%{currencyName},所持%{currencyName}
@@ -1430,6 +1436,10 @@ shop.emptyNotice.exchange,交換できる商品がありません,　　没有�
 shop.trade.tradeConfirmation.title,交換確認,兑换确认
 shop.trade.tradeConfirmation.message,以下のアイテムと\n「%{title}」を交換しますか？,要使用以下道具\n兑换「%{title}」吗？
 shop.trade.tradeConfirmation.shortageMessage,「%{title}」の\n交換に必要なアイテムが不足しています,兑换「%{title}」\n所需的道具不足
+shop.monthlyPassport.limitAt,%{limitAt}まで,%{limitAt}截止
+shop.monthlyPassport.price,%{price}円,
+shop.monthlyPassport.unpurchasableBadge.native,ブラウザ版のみ,仅限浏览器版
+shop.monthlyPassport.unpurchasableBadge.outOfTerm,%{nextOpenDate}から購入可,%{nextOpenDate}起可以购买
 raidConcert.sharedPassiveSkillDialog.title,発動中のパッシブスキル,发动中的被动技能
 raidConcert.chain.appealCommentRegExp,(?:[a-zA-Z＆]+[0-9.～〜最大]+倍|思い出)アピール,
 raidConcert.chain.unsupportedSkill,チェイン対象外,非连锁对象
