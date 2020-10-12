@@ -1,9 +1,9 @@
 name: Font
 
 on:
-  schedule:	
+  schedule:
     - cron:  '40 19 * * *'
-  
+
 jobs:
   main:
     runs-on: ubuntu-latest
@@ -37,7 +37,7 @@ jobs:
         git add --a
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "tenka"
-        echo "::set-env name=commit_state::$(git commit -m 'Update font' | tr '\n' ' ')"
+        echo "$(git commit -m 'Update font' | tr '\n' ' ')"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
