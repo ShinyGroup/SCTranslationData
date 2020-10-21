@@ -945,11 +945,11 @@ exSkill.exSkillChangeResultPop.text,Exスキルを変更しました,Ex技能已
 exSkill.exSkillSetResultPop.title,Exスキル設定結果,Ex技能设定结果
 exSkill.exSkillSetResultPop.text,Exスキルを設定しました,Ex技能已设定
 money,マニー,金币
-monthlyPassport.expireAlertPop.title,283パス有効期限のお知らせ,
+monthlyPassport.expireAlertPop.title,283パス有効期限のお知らせ,283Pass有效期提示
 monthlyPassport.expireAlertPop.runningDays,%{runningDays}日,
-monthlyPassport.expireAlertPop.remainDays,あと%{remainDays}日,
-monthlyPassport.expireAlertPop.remainHours,あと%{remainHours}時間,
-monthlyPassport.expireAlertPop.remainMinutes,あと%{remainMinutes}分,
+monthlyPassport.expireAlertPop.remainDays,あと%{remainDays}日,还剩%{remainDays}日
+monthlyPassport.expireAlertPop.remainHours,あと%{remainHours}時間,还剩%{remainHours}小时
+monthlyPassport.expireAlertPop.remainMinutes,あと%{remainMinutes}分,还剩%{remainMinutes}分钟
 mission.headerTitle,ミッション,任务
 mission.popSort,達成状況絞り込み,达成状况筛选
 mission.popMissionDetail,ミッション詳細,任务详情
@@ -1619,16 +1619,22 @@ twitter.tweetFailedDialog.title,エラー,
 twitter.tweetFailedDialog.description,投稿に失敗しました\nもう一度投稿するか再度認証を行ってください,
 twitter.tweetFailedLimitRateDialog.title,エラー,
 twitter.tweetFailedLimitRateDialog.description,ゲーム全体でのツイート数が\nTwitterの制限に達しているため\nツイートすることができません\n\nしばらく時間を置いてお試しください,
+userOnlyMessagePopup.title,専用メッセージ,专属消息
 workActivityTop.motivationLevel,モチベーションボーナス %{motivationLevel},营业积极性加成 %{motivationLevel}
 workActivityTop.createItemTitle,お手製差し入れ作成,制作手工慰劳品
 workActivityTop.createItemResultTitle,作成結果,制作结果
 workActivityTop.purchaseSlotDescription,営業枠を１つ解放します\nよろしいですか？,将解锁1个营业栏\n确认吗？
 workActivityTop.purchaseBilledOnlyNotice,有償フェザージュエルでのみ購入可能,仅能使用有偿羽石购买
 workActivityTop.possessedJewelShortMessage,所持フェザージュエルが不足しています,所持羽石不足
+workActivityTop.checkUnitDialogTitle,営業編成確認,营业编成确认
 workActivityReady.startDialogTitle,営業開始確認,营业开始确认
 workActivityReady.motivationLevel,モチベーションボーナス %{motivationLevel},营业积极性加成 %{motivationLevel}
 workActivityReady.motivationBonusDetail,獲得経験値とファン数が%{bonusRate}倍,获得经验值与粉丝数%{bonusRate}倍
 workActivityReady.motivationBonusNone,モチベーションボーナスはありません,无营业积极性加成
+workActivityReady.selectedBusinessNone,未選択,未选择
+workActivityReady.autoSelectedDialog.title,おまかせ編成,自动编成
+workActivityReady.autoSelectedDialog.text,おまかせ編成が完了しました,自动编成完成
+workActivityReady.startErrorDialog.confirmationText,営業を行うには\n「アイドルの編成」「営業先の選択」が必要です,进行营业前\n需要先进行「偶像编成」和「营业点选择」
 workActivityResult.skillListTitle,習得したサポートスキル,已习得的支援技能
 workActivityResult.totalFan.idolName,【%{name}】累計ファン人数,【%{name}】累计粉丝人数
 workActivityResult.totalFan.count,%{count}人,
