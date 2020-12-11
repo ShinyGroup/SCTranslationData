@@ -35,7 +35,7 @@ filter.texts.supportSkill.skill,スキル%{num},技能%{num}
 filter.texts.supportSkill.notSet,未設定,未设定
 filter.texts.supportSkill.all,すべて,全部
 filter.texts.liveSkill.includesUnacquired,未解放のライブスキルも含む,包含未解锁的演出技能
-filter.emptyMessage,該当するアイドルがいません。,没有符合条件的偶像。
+filter.emptyMessage,該当するアイドルがいません,没有符合条件的偶像。
 ability.locked,未解放,未解锁
 ability.shortageOfInspirations,不足,
 ability.acquired,習得済み,已习得
@@ -296,10 +296,6 @@ ending.fesIdolRewardPop.itemNameNum,%{type} ×%{num},
 ending.presidentComment,ご苦労だったな\n次回も頑張ってもらうぞ！\n期待しているからな,辛苦了，下回也请加油！\n毕竟我可是很看好你的啊
 ending.totalFan.idolName,【%{name}】累計ファン人数,【%{name}】累计粉丝人数
 ending.reward.multipleNum,×%{num},
-ending.possessionCountOverExSkillRewardPop.title,所持上限に達しています,达到所持上限
-ending.possessionCountOverExSkillRewardPop.exSkillName,%{idolType}【%{idolName}専用】\n%{skillName},%{idolType}【%{idolName}专用】\n%{skillName}
-ending.possessionCountOverExSkillRewardPop.idolType.produce,プロデュース,Produce
-ending.possessionCountOverExSkillRewardPop.idolType.support,サポート,Support
 ending.popReceiveProduceIdol.title,報酬受け取り,领取报酬
 ending.popReceiveProduceIdol.comment,以下の報酬を受け取りました,领取了以下报酬
 trueEndTeachingEnding.receivePop.popTitle,True End研修達成,True End研修达成
@@ -515,6 +511,7 @@ extraCampaign.result.idConfirmationDialog.title,イベント参加用シリア�
 extraCampaign.result.idConfirmationDialog.description,個人情報の入力には上記のコードが必須となります,
 extraCampaign.result.idConfirmationDialog.notices.1,このコードは当選者を識別するためのコードなので\n第三者に知られないようにしてください,
 extraCampaign.result.idConfirmationDialog.notices.2,以下のフォームで住所情報入力まで完了してください\n入力されない場合、参加権が無効となりますのでご注意ください,
+groupedExpireAlert.title,アイテム有効期限確認,道具有效期限确认
 idolPortal.staffComment1,あ、プロデューサーさん、アイドル達に会いに来てくれたんですね,呀，制作人先生，是来看望偶像们的吧
 idolPortal.staffComment2,みんながプロデューサーさんを待っていますよ～,大家都在等制作人先生哦～
 idolPortal.staffComment3,アイドルの育成はプロデューサーさんの大切なお仕事ですからね～,培育偶像是制作人先生最重要的工作
@@ -689,7 +686,8 @@ idolList.emptyMessages.training,所持しているアイドルがいません。
 idolList.emptyMessages.evolution,特訓可能なアイドルがいません。,没有所持的偶像。
 idolList.emptyMessages.workActivity,所持しているアイドルがいません。,没有所持的偶像。
 gasha.closeAt,%{closeAt}まで,%{closeAt}截止
-gasha.redrawGashaNotice,確定するまで何度でも\n引き直すことができます,在确定之前可无限次\n重新抽取
+gasha.redrawGashaNotice,確定するまで何度でも\nこの画面に戻ることができます,在确定之前可无限次\n重新抽取
+gasha.redrawGashaBackNotice,確定せずに戻る,
 gasha.resultMessage,既に加入済みのアイドルは控室に送られます。,已加入的偶像将移至等候室。
 gasha.tweetLayerMessage,ツイートしたいアイドルを選択してください,选择要发送推特展示的偶像
 gasha.gashaText,%{quantity}回引く,%{quantity}回抽卡
@@ -698,8 +696,11 @@ gasha.popTicketDesc.quantity,消費してガシャを%{quantity}回引きます�
 gasha.popJewelDesc,フェザージュエルを%{price}個消費して\nガシャを%{quantity}回引きます。\nよろしいですか？,将使用%{price}个羽石\n进行%{quantity}回抽卡。\n确认吗？
 gasha.popFreeDesc,無料で1回ガシャを引きますか？,要进行一次免费抽卡吗？
 gasha.popRedrawConfirm.title,ご注意,注意
-gasha.popRedrawConfirm.comment,「初回限定！運命の出会いガシャ」は、\nお気に入りのアイドルが出るまで\n何度でもガシャをやり直すことが可能です。,「初回限定！命运的相遇」\n可在喜爱的偶像出现之前\n无限次抽卡
-gasha.popRedrawConfirm.notice,「初回限定！運命の出会いガシャ」の\nアイドルを確定してもよろしいですか？,「初回限定！命运的相遇」\n确认选定偶像吗？
+gasha.popRedrawConfirm.comment,「初回限定！運命の出会いガシャ」は、\nお気に入りのアイドルが出るまで\n何度でもガシャをやり直すことが可能です,「初回限定！命运的相遇」\n可在喜爱的偶像出现之前\n无限次抽卡
+gasha.popRedrawConfirm.notice,「初回限定！運命の出会いガシャ」の\n結果を確定してもよろしいですか？,「初回限定！命运的相遇」\n确认选定偶像吗？
+gasha.popRedrawQuit.title,ご注意,
+gasha.popRedrawQuit.comment,「初回限定！運命の出会いガシャ」の結果を\n確定せずにガシャTOPに戻りますか？\n\nガシャTOPからは再度\n「初回限定！運命の出会いガシャ」を\n引き直すことが可能です,
+gasha.popRedrawQuit.notice,現在のガシャ結果は破棄されます,
 gasha.confirmDialog.title,使用確認,使用确认
 gasha.confirmDialog.message,フェザージュエルを%{price}個消費して\nガシャを%{count}回引きます\nよろしいですか？,将使用%{price}个羽石\n进行%{count}回抽卡\n确认吗？
 gasha.confirmDialog.messageBilledOnly,ガシャを%{count}回引きます\nよろしいですか？,将进行%{count}回抽卡\n确认吗？
@@ -805,7 +806,7 @@ header.album,アルバム,相册
 header.characterBirthday,誕生日特設ページ,生日特设页面
 header.comic,４コマ漫画,4格漫画
 header.eventShop,イベントショップ,活动商店
-header.exSkill,Exスキル変更,Ex技能更换
+header.exSkill,Exスキル,Ex技能
 header.extraCampaign,イベント特設ページ,活动特设页面
 header.training,トレーニング,训练
 header.trainingIdolList,トレーニングアイドル選択,训练偶像选择
@@ -848,7 +849,7 @@ header.workActivitySelectItem,お手製差し入れ持ち込み,携带手工慰�
 header.idolRanking,%{name}のランキング,%{name}的排行榜
 header.characterAlbum,%{firstName}のアルバム,%{firstName}的相册
 header.recycleShop,リサイクルショップ,回收商店
-header.presentEvent,2019クリスマス特設ページ,
+header.presentEvent,%{year}クリスマス特設ページ,%{year}圣诞节特设页面
 header.trueEndReport,研修レポート,研修报告
 header.raidDeck,コラボフェスユニット編成,COLLABO FES队伍编成
 header.ability,アビリティ習得,能力学习
@@ -927,23 +928,26 @@ mypageCommunication.producerComment,さて、仕事も一段落したし、\n少
 mypageCommunication.idolComment,だ〜れだ？,我～是谁？
 mypageCommunication.unknownCharacterName,？？？,
 exSkill.none,未設定,未设定
-exSkill.possessionLabel,所持数 %{num},
-exSkill.notConditionPop.title,Exスキル確認,Ex技能确认
-exSkill.notConditionPop.text,Exスキル枠が解放されていないため\nExスキルを設定できません,Ex技能栏尚未解锁\n无法设定Ex技能
-exSkill.exSkillConfirmation.changeTitle,Exスキル変更確認,Ex技能变更确认
-exSkill.exSkillConfirmation.setTitle,Exスキル設定確認,Ex技能设定确认
-exSkill.exSkillRemoverResultPop.title,アイテム使用結果,道具使用结果
-exSkill.exSkillRemoverResultPop.text,Exスキルスポイトを使って\n%{skillName}\nをストック化しました,使用Ex技能针筒\n%{skillName}\n已解除并送入库存中
-exSkill.exSkillRemoverConfirmationPop.title,使用確認,使用确认
-exSkill.produceExSkillCondition.supportIdol.releaseCondition.text1,[解放条件]Lv.%{level}達成,[解锁条件]Lv.%{level}达成
-exSkill.produceExSkillCondition.supportIdol.releaseCondition.text2,[解放条件1]特訓%{evolution}回達成,[解锁条件1]特训%{evolution}回达成
-exSkill.produceExSkillCondition.supportIdol.releaseCondition.text3,[解放条件2]Lv.%{level}達成,[解锁条件2]Lv.%{level}达成
-exSkill.produceExSkillCondition.idol.releaseCondition.text1,[解放条件1]%{name}True End達成,[解锁条件1]%{name}True End达成
-exSkill.produceExSkillCondition.idol.releaseCondition.text2,[解放条件2]ファン人数%{fan}達成,[解锁条件2]粉丝人数%{fan}达成
-exSkill.exSkillChangeResultPop.title,Exスキル変更結果,Ex技能变更结果
-exSkill.exSkillChangeResultPop.text,Exスキルを変更しました,Ex技能已变更
-exSkill.exSkillSetResultPop.title,Exスキル設定結果,Ex技能设定结果
-exSkill.exSkillSetResultPop.text,Exスキルを設定しました,Ex技能已设定
+exSkill.unreleased,未解放,
+exSkill.produceExSkillCondition.title,[条件%{number}],
+exSkill.produceExSkillCondition.supportIdol.level,Lv.%{requiredLevel}達成,Lv.%{requiredLevel}达成
+exSkill.produceExSkillCondition.supportIdol.evolution,特訓%{requiredEvolutionStage}回達成,特训%{requiredEvolutionStage}次达成
+exSkill.produceExSkillCondition.idol.trueEnd,%{firstName}のTrue End達成,达成%{firstName}的True End
+exSkill.produceExSkillCondition.idol.tenThousandFans,%{firstName}のファン数%{requiredFan}万達成,%{firstName}的粉丝数达到%{requiredFan}万
+exSkill.produceExSkillCondition.idol.oneHundredMillionFans,%{firstName}のファン数%{requiredFan}億突破,%{firstName}的粉丝数突破%{requiredFan}亿
+exSkill.produceExSkillCondition.common.trueEnd,誰か1人のTrue End達成,达成任意一人的True End
+exSkill.produceExSkillCondition.common.fesMatchGrade,グレード%{requiredFesMatchGradeId}に到達,到达Grade %{requiredFesMatchGradeId}
+exSkill.produceExSkillCondition.balloon.oneCondition,条件を達成すると解放,达成条件后解放
+exSkill.produceExSkillCondition.balloon.multiCondition,どちらかの条件を達成すると解放,达成任意条件后解放
+exSkill.notSelectedSlot,Exスキル枠を\n選択してください,请选择Ex技能框
+exSkill.noExSkill,Exスキルを\n所持していません,没有Ex技能
+exSkill.exSkillListLabel.title,%{name}のExスキル,%{name}的Ex技能
+exSkill.exSkillListLabel.kindNum,%{possessedKindNum}種/%{totalKindNum}種,%{possessedKindNum}种/%{totalKindNum}种
+exSkill.upgradeConfirmPop.title,グレードアップ確認,升级技能确认
+exSkill.upgradeConfirmPop.notice.lackTotalNum,現在のExスキルの所持数が不足しています,现有的Ex技能数量不足
+exSkill.upgradeConfirmPop.notice.lackUnsetNum,現在のExスキルが不足しています。アイドルに設定中のExスキルを外してください,现有的Ex技能不足。请取下偶像已设定的Ex技能
+exSkill.upgradeConfirmPop.notice.limitOver,グレードアップ後のExスキルが所持上限に達しています,技能升级后超出了Ex技能数上限
+exSkill.upgradeResultPopTitle,グレードアップ,技能升级
 money,マニー,金币
 monthlyPassport.expireAlertPop.title,283パス有効期限のお知らせ,283Pass有效期提示
 monthlyPassport.expireAlertPop.runningDays,%{runningDays}日,
@@ -985,11 +989,14 @@ option.produceContentTitle.restConfirm,休む選択時に確認画面を表示,�
 option.produceContentTitle.concertConfirm,ライブ選択時に確認画面を表示,选择Live时显示确认画面
 option.homeContent.title.touch,コミュニケーションタッチ判定,对话触摸判定
 option.homeContent.title.conversation,アイドル同士の会話,偶像间的对话
-option.homeContent.title.idolPrank,アイドルからのイタズラ,偶像的恶作剧
+option.homeContent.title.idolPrank,アイドルからのイタズラ【目隠し】,偶像的恶作剧【蒙眼睛】
+option.homeContent.title.idolPrank2020,アイドルからのイタズラ【ささやき】,偶像的恶作剧【悄悄话】
 option.homeContent.prank.on,%{name} ON,
 option.homeContent.prank.off,%{name} OFF,
 option.homeContent.prank.unreleased,未解放,未解锁
-option.homeContent.prank.sealed,設定可能なアイドルがいません\n「2019ハロウィンのおかし」を使用すると\nイタズラ機能が解放されます,没有可设定的偶像\n使用「2019万圣节的点心」道具\n来解锁恶作剧功能吧
+option.homeContent.prank.sealed,設定可能なアイドルがいません\n「%{itemName}」を使用すると\nイタズラ機能が解放されます,没有可设定的偶像\n使用「%{itemName}」道具\n来解锁恶作剧功能吧
+option.homeContent.itemName.joke,2019ハロウィンのおかし,2019万圣节玩笑
+option.homeContent.itemName.joke2020,2020ハロウィンのおかし,2019万圣节玩笑
 option.pushNotificationContentTitle.businessFinish,営業完了通知,营业结束通知
 option.pushNotificationContentTitle.recoveredFesTicket,フェス参加権回復通知,Fes参加权恢复通知
 option.pushNotificationContentTitle.recoveredStamina,スタミナ回復通知,精力值恢复通知
@@ -1094,6 +1101,8 @@ item.commuReleaseItem.imageCharacterSelectTitle,対象アイドル選択,对象�
 item.commuReleaseItem.giveItemToCharacterConfirmation,%{characterName}に\n以下のアイテムを使用しますか？,要对%{characterName}\n使用以下道具吗？
 item.commuReleaseItem.commuReleasedTitle,コミュ解放,剧情解锁
 item.expireAt,使用期限：%{expireAt},
+item.releaseMypageCommunicationPop.title,イタズラ解放,恶作剧解放
+item.releaseMypageCommunicationPop.text,トリック・オア・トリート！\nホーム画面でじっとしていると…？,不给糖果就捣蛋\n在主页画面可能会被偶像恶作剧…？
 jewel,フェザージュエル,羽石
 billedJewel,有償フェザージュエル,有偿羽石
 musicSelect.recommendTitle,おまかせ,自动
