@@ -756,7 +756,7 @@ gasha.instantLottery.popReward.instantLotteryReward.title,スピードくじ報�
 gasha.instantLottery.popReward.text,上記のアイテムがプレゼントBOXに送られました,以上道具已经送入礼物盒中
 gasha.loadingWarning,読み込みに時間が掛かることがありますので、\nリロードはお控えください。,　　　　　 加载数据需要一些时间 　　　　　\n　　　请勿刷新页面　　　
 gasha.noExpire,期限なし,无期限
-gasha.expireAt,使用期限：%{datetimeText},
+gasha.expireAt,使用期限：%{datetimeText},使用期限：%{datetimeText}
 gasha.stamp.nextPickUp,あと%{stampNumForNextPickUp}回で%{pickUpName}獲得！,还有%{stampNumForNextPickUp}回可获得%{pickUpName}！
 gasha.stamp.complete,スタンプ報酬すべて獲得済み,印章报酬已全部获得
 gasha.stamp.popReward.title,スタンプカード報酬,集章卡报酬
@@ -1116,7 +1116,7 @@ item.evolutionNoticeLevel,すでにLv.2以上トレーニングしているア�
 item.commuReleaseItem.imageCharacterSelectTitle,対象アイドル選択,对象偶像选择
 item.commuReleaseItem.giveItemToCharacterConfirmation,%{characterName}に\n以下のアイテムを使用しますか？,要对%{characterName}\n使用以下道具吗？
 item.commuReleaseItem.commuReleasedTitle,コミュ解放,剧情解锁
-item.expireAt,使用期限：%{expireAt},
+item.expireAt,使用期限：%{expireAt},使用期限：%{expireAt}
 item.releaseMypageCommunicationPop.title,イタズラ解放,恶作剧解放
 item.releaseMypageCommunicationPop.text,トリック・オア・トリート！\nホーム画面でじっとしていると…？,不给糖果就捣蛋\n在主页画面可能会被偶像恶作剧…？
 item.characterTrustLevelUp.text,アイドルとの信頼関係が更に深まった,
