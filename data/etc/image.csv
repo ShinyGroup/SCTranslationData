@@ -1,4 +1,5 @@
 name,url,version
+images/ui/album/parts.json_image,album_parts.png,15
 images/ui/common/parts_buttons.json_image,common_parts_buttons.png,46
 images/ui/common/parts_filter.json_image,common_parts_filter.png,4
 images/ui/idol_list/parts.json_image,idol_list_parts.png,13
