@@ -1,6 +1,5 @@
 text,trans,type
-親愛度中アップ,亲密度中幅上升,
-親愛度特大アップ,亲密度特大上升,
+親愛度$other,亲密度$1,
 アビリティ「$uk」,技能「$1」,
 $uk習得,$1习得,
 FesTours専用,FesTours专用,
@@ -8,13 +7,14 @@ FesTours専用,FesTours专用,
 ユニット編成時に$noun$percent,编入队伍时$1$2,
 FesToursのアイテム獲得数を確率で増加,一定概率增加FesTours的道具获取数量,
 体力が$uk回復,体力$1幅回复,
-テンションが小アップ,心情小幅上升,
+テンションが$other,心情$1,
 ライブ参加時の自身の体力消費量を軽減,减少Live时的体力消耗,
 すべてのアピール値を$percent,所有的Appeal值$1,
-全アイドルとの絆が$ukアップ,与所有偶像的绊值$1幅上升,
+全アイドルとの絆が$other,与所有偶像的绊值$1,
 メンタル$num,Mental$1,
 $nounの上限値$num,$1的上限值$2,
 メンタルダメージを$percentCUT,Mental伤害$1CUT,
+メンタルダメージ$percentCUT,Mental伤害$1CUT,
 アピール値最大$percent,Appeal值最大$1,
 [$nounが少ないほど効果UP],[$1越少效果越好],
 幸運（$uk）,幸运（$1）,
@@ -33,6 +33,10 @@ $nounのすべての熟練度獲得量が$num倍,$1中获取的所有熟练度�
 パーフェクトコミュニケーションを$num回行う,在晨间对话中选择$1次Percent选项,
 約束を$num回守る,遵守$1次约定,
 サポートアイドル$num人の絆を赤ゲージにする,$1名Support偶像的绊值达到红色,
+ユニット全員の$uk$percent,队伍全员的$1$2,
+観客へのアピールボーナスで上昇する会場ボルテージが$other,在表演中获得Appeal Bonus后会场气氛$1,
+$noun観客へのラストアピールで上昇する会場ボルテージが$other,对$1观众完成Last Appeal后会场气氛$2,
+[$numターン],[$1回合],
 $num週,$1周,
 Dance,Dance,noun
 Vocal,Vocal,noun
@@ -52,3 +56,7 @@ Visual,Visual,noun
 団結力,团结力,noun
 レッスン,课程,noun
 お仕事,工作,noun
+小アップ,小幅上升,other
+中アップ,中幅上升,other
+大アップ,大幅上升,other
+特大アップ,特大上升,other

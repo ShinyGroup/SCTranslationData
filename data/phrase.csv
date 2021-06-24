@@ -1260,7 +1260,7 @@ produceMusicSelect.selectedSupporterInfo.empty,サポートアイドルを\n選�
 produceMusicSelect.selectedSupporterInfo.proficiency.value,＋%{value},
 produceMusicSelect.selectedSupportersProficiency.baseValue,＋%{value},
 produceMusicOrder.musicListItem.order,%{order}曲目,第%{order}首
-produceMusicOrder.musicDetail.judgeStarBonus.none,ライブ効果なし,
+produceMusicOrder.musicDetail.judgeStarBonus.none,ライブ効果なし,无Live效果
 produceMusicOrder.dragGuide.comment,つかんで\n入れ替え,
 produceMusicOrder.liveDetail.title,%{order}曲目 ライブ詳細,第%{order}首 Live详情
 produceTop.deadline.season,シーズン%{seasonNum},季度%{seasonNum}
@@ -1290,11 +1290,11 @@ produceAction.maxInspirationDialog.descriptionActions.lesson,「レッスン」�
 produceAction.maxInspirationDialog.descriptionActions.work,「お仕事」を行いますか？,要前往「工作」吗？
 produceAction.satisfactionUpEffect.pointUp,上昇量UP！,上升量UP！
 produceAction.musicAssignmentPopup.staff.comment,ライブに向けて\n楽曲課題を\nこなしていきましょ～,
-produceAction.musicAssignmentPopup.bonusInfo.empty,発動中ボーナスは\nありません,
+produceAction.musicAssignmentPopup.bonusInfo.empty,発動中ボーナスは\nありません,没有发动中的效果
 produceAction.musicAssignmentChangeConfirmDialog.title,楽曲課題変更,
 produceAction.musicAssignmentChangeConfirmDialog.description,楽曲課題を抽選して、別の課題に変更できます\n課題%{number}を別の課題に変更しますか？,
-produceAction.musicAssignmentChangeConfirmDialog.notice1,課題は週に1つだけ変更できます,
-produceAction.musicAssignmentChangeConfirmDialog.notice2,変更される課題の達成度はリセットされます,
+produceAction.musicAssignmentChangeConfirmDialog.notice1,課題は週に1つだけ変更できます,每周可以更改1次课题
+produceAction.musicAssignmentChangeConfirmDialog.notice2,変更される課題の達成度はリセットされます,更改课题后，完成度将会重置
 produceMain.supportSkillsDialog.title,発動中スキル,发动中的技能
 produceMain.supportSkillsDialog.noSkill,発動中のサポートスキルはありません,没有发动中的支援技能
 produceMain.supportSkillsDialog.helper,お手伝い中のアイドルです,正在帮忙的偶像
