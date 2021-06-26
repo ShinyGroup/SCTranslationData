@@ -1578,7 +1578,7 @@ topicPath.produce.areaSelect,プロデュース選択,Produce选择
 topicPath.produce.deckEdit,ユニット編成,队伍编成
 topicPath.produce.itemSelect,アイテム選択,偶像选择
 topicPath.trueEndTeaching.areaSelect,プロデュース選択,Produce选择
-topicPath.trueEndTeaching.idolSelect,アイドル選択,偶像选择
+topicPath.trueEndTeaching.idolSelect,アイドル選択,选择道具
 topicPath.trueEndTeaching.deckEdit,ユニット編成,队伍编成
 training.levelLabel,Lv.,
 training.gainExpLabel,獲得Exp,获得Exp
