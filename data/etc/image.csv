@@ -21,6 +21,7 @@ images/ui/produce_action/parts.json_image,produce_action_parts.png,16
 images/ui/produce_block/parts.json_image,produce_block_parts.png,1
 images/ui/produce_common/parts_header.json_image,produce_common_parts_header.png,14
 images/ui/produce_common/parts_pyramid.json_image,produce_common_parts_pyramid.png,7
+images/ui/produce_deck/parts_deck_edit.json_image,produce_deck_parts_deck_edit.png,12
 images/ui/produce_event/parts_event.json_image,produce_event_parts_event.png,14
 images/ui/produce_top/parts.json_image,produce_top_parts.png,20
 images/ui/produce_trend/parts.json_image,produce_trend_parts.png,9
