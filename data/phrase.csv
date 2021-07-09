@@ -1143,7 +1143,7 @@ present.present.expireTime,%{expire}まで,%{expire}截止
 present.main.count.title.received,受取済プレゼント,已领取的礼物
 present.main.count.title.unReceive,未受取プレゼント,未领取的礼物
 present.main.count.unit,件,件
-present.main.notice,期限が切れたプレゼントは自動的に削除されます。\nまた、一度に受け取れるプレゼントは100件までです。,到期的礼物将被自动删除。\n此外，一次最多可领取100件礼物
+present.main.notice,期限が切れたプレゼントは自動的に削除されます。\nまた、一度に受け取れるプレゼントは100件までです。,到期的礼物将被自动删除。\n此外，一次最多可领取100件礼物。
 present.receive.title,プレゼント受け取り,领取礼物
 present.receive.message,以下のプレゼントを受け取りました,已领取以下礼物
 present.receive.itemNameNum,%{Name} ×%{Num},
