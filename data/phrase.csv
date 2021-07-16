@@ -967,9 +967,9 @@ exSkill.upgradeResultPopTitle,グレードアップ,技能升级
 money,マニー,金币
 monthlyPassport.expireAlertPop.title,283パス有効期限のお知らせ,283Pass有效期提示
 monthlyPassport.expireAlertPop.runningDays,%{runningDays}日,
-monthlyPassport.expireAlertPop.remainDays,あと%{remainDays}日,还剩%{remainDays}日
-monthlyPassport.expireAlertPop.remainHours,あと%{remainHours}時間,还剩%{remainHours}小时
-monthlyPassport.expireAlertPop.remainMinutes,あと%{remainMinutes}分,还剩%{remainMinutes}分钟
+monthlyPassport.expireAlertPop.remainDays,あと%{remainDays}日,还有%{remainDays}天
+monthlyPassport.expireAlertPop.remainHours,あと%{remainHours}時間,还有%{remainHours}小时
+monthlyPassport.expireAlertPop.remainMinutes,あと%{remainMinutes}分,还有%{remainMinutes}分钟
 mission.headerTitle,ミッション,任务
 mission.popSort,達成状況絞り込み,达成状况筛选
 mission.popMissionDetail,ミッション詳細,任务详情
