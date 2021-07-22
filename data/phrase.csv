@@ -198,6 +198,8 @@ common.dailyLotteryTicket,まいにちくじ,每日奖券
 common.produceItem,プロデュースアイテム,Produce道具
 common.staffItemPoint,はづきさんシール,叶月贴纸
 common.ticketNum,%{num}枚,
+common.fesMatchCoin.original,グレフェスコイン,排位Fes币
+common.fesMatchCoin.simple,コイン,货币
 common.hiddenText,？？？？,
 common.ssrText,SSR,
 common.srText,SR,
@@ -574,6 +576,7 @@ fes.fesDeckView.title,確認,确认
 fes.fesDeckView.message,このアイドルは既に移籍済みのため\n詳細を確認できませんでした,由于该偶像已移籍\n无法确认详细情况
 fes.fesIdolSelect.title,%{positionName}選択,%{positionName}选择
 fes.fesIdolSelect.confirmationTitle,%{positionName}入替,%{positionName}替换
+fes.fesIdolSelect.popularityBonus,+%{bonus}pt,
 fes.skillChange.description,ライブスキルを\n2つ選択してください,请选择2个\nLive技能
 fes.fesPositionName.vocal,ボーカル,Vocal
 fes.fesPositionName.dance,ダンス,Dance
@@ -588,7 +591,6 @@ fes.pauseSkillTitle.center,センター,Center
 fes.orderText,%{order}位,%{order}位
 fes.result.changedSeasonMessage,グレードフェスのシーズンが切り替わったため、\n今回のスコアはグレードに反映されません。,由于排位Fes的赛季已变更\n本次的分数将不会反映在等级中
 fes.result.match.title,LV%{level} グレードフェス,LV%{level} 排位Fes
-fes.result.match.bonusTitle,ボーナス,加成
 fes.result.rehearsal.title,フェスリハーサル,Fes彩排
 fes.result.rehearsal.bonusTitle,難易度,难易度
 fes.result.score,%{value}pt,
@@ -604,6 +606,8 @@ fes.result.scoreDetail.appeal,%{appeal}×%{num},
 fes.result.scoreDetail.totalScore,ポイント合計,点数合计
 fes.result.scoreDetail.bonus,ボーナス倍率,加成倍率
 fes.result.scoreDetail.bonusValue,×%{value},×%{value}
+fes.result.scoreDetail.additionalBonus,追加ボーナス,追加奖励
+fes.result.scoreDetail.popularIdolBonus,使用率ボーナス,使用率奖励
 fes.result.scoreDetail.totalBonus,ボーナス合計,加成合计
 fes.result.scoreDetail.finalScore,総合スコア,综合分数
 fes.fesGradeEvaluationReward.title,報酬内容,报酬内容
@@ -616,6 +620,10 @@ fes.fesGradeEvaluationReward.comment.gradeDown,今回はLv%{gradeId}のグレー
 fes.ranking.score,%{score}pt,%{score}pt
 fes.ranking.emptyNotice,現在ランキング集計中です,排行榜正在统计中
 fes.ranking.updateIntervalWarning,※最新のランキング反映までに時間がかかる場合があります,※排行榜的更新需要等待一定时间
+fes.popularityRanking.rankingTextLabel,位,
+fes.popularityRanking.bonus,＋%{bonus}pt,
+fes.popularityRanking.emptyNotice,現在ランキング集計中です,排行榜正在统计中
+fes.popularityRanking.warning,※SRアイドル、アイドルロードは反映されません,
 fes.fesGradeRewardPop.title,グレードフェス報酬,排位Fes报酬
 fes.fesGradeRewardPop.gradeReward.title,所属グレード報酬について,关于所属等级的报酬
 fes.fesGradeRewardPop.gradeReward.description,所属グレードは基本的に「フェス流行の更新」と同じタイミングで更新されます。\nグレード更新後、フェス画面にて所属グレード報酬がプレゼントに送られます。\n最新の所属グレード以外の報酬は受け取ることができませんので、ご注意ください。,所属等级基本上与「Fes流行」同时更新。\n等级更新后，在Fes界面依所属等级将报酬送入礼物盒。\n请注意，最新所属等级以外的报酬无法获得。
@@ -630,6 +638,10 @@ fes.deckMemberBonusStatus.unitBonus,ユニットボーナス %{value}%,组合加
 fes.deckMemberBonusStatus.passiveSkillBonus,パッシブ発動率 %{value}%UP,被动发动率 %{value}%UP
 fes.deckMemberBonusEffect.positionBonus,ポジションボーナス,位置加成
 fes.deckMemberBonusEffect.unitBonus,ユニットボーナス,组合加成
+fes.deckMemberPopularity.rankingTextLabel,位,
+fes.deckMemberPopularity.unrankedTextLabel,反映外,
+fes.deckMemberPopularity.bonus,＋%{bonus},
+fes.deckMemberPopularity.bonusTextLabel,pt,
 gameEvent.achievementRewardDialog.title,ミッション達成累積報酬,完成任务的累计奖励
 gameEvent.achievementRewardDialog.message,以下のアイテムがプレゼントBOXに送られました,以下道具已经送入礼物盒中
 gameEvent.achievementRewardDialog.rewardNameNum,%{name} x %{num},
@@ -848,6 +860,7 @@ header.idolRoad,アイドルロード,偶像之路
 header.musicSelect,楽曲選択,歌曲选择
 header.notice,お知らせ,通知
 header.fesMatchRanking,ランキング,排行榜
+header.fesMatchPopularityRanking,使用率,使用率
 header.fesDeckView,ユニット確認,队伍确认
 header.memorialShop,メモリアルピースショップ,回忆碎片商店
 header.produceTeachingHintSetting,目標表示設定,目标表示设定
@@ -1481,7 +1494,8 @@ shop.smallTabTitles.money.recoveryItem,回復アイテム,恢复道具
 shop.smallTabTitles.money.others,その他,其他
 shop.smallTabTitles.skin.shops,衣装交換所,服装兑换处
 shop.smallTabTitles.skin.skins,所持衣装,所持服装
-shop.smallTabTitles.gameEvent.point,ポイント交換,点数兑换
+shop.smallTabTitles.gameEvent.coin,グレフェスコイン,排位Fes币
+shop.smallTabTitles.gameEvent.point,イベントポイント,活动点数
 shop.smallTabTitles.gameEvent.ticket,チケット交換,券兑换
 shop.smallTabTitles.idolPiece.rainbow,虹,虹
 shop.smallTabTitles.idolPiece.gold,金,金
@@ -1548,6 +1562,12 @@ skillBord.acquireConfirmationMessage,SPを%{skillPoint}消費してスキルを�
 skillBord.deleteSkillConfirmationTitle,スキル入れ替え確認,技能替换确认
 skillBord.acquiredMessage,既に習得済みのスキルです。\n\nスキルポイントを消費せず、\nパネルの解放のみを行います。,已习得的技能。\n\n不消耗技能点，\n仅解锁技能盘。
 skillBord.produceAreaSkillList.title,%{produceTitle} 限定スキル,%{produceTitle} 限定技能
+skillBord.enablePassiveSkillDeletionNotice.title,確認,确认
+skillBord.enablePassiveSkillDeletionNotice.notice,習得したパッシブスキルの削除が有効になりました,已启用删除已掌握的被动技能
+skillBord.enablePassiveSkillDeletionNotice.warning,削除したパッシブスキルは、再習得することが出来ません\nまた、習得で消費したSPは返還されません,删除的被动技能不能重新学习\n此外，在学习过程中消耗的SP不会返还
+skillBord.deletePassiveSkillConfirmation.title,スキル削除確認,确定删除技能
+skillBord.deletePassiveSkillConfirmation.message,選択したパッシブスキルを削除しますか？,删除选中的被动技能？
+skillBord.deletePassiveSkillConfirmation.warning,削除したパッシブスキルは、再習得することが出来ません\nまた、習得で消費したSPは返還されません,删除的被动技能不能重新学习\n此外，在学习过程中消耗的SP不会返还
 skin,衣装,服装
 skinDetail.plainOnlyNotice,衣装変更対象は私服衣装のみとなり、\nライブ衣装は変更されません。,服装变更对象仅能为私人服装，无法变更为演出服装
 skinDetail.concertOnlyNotice,衣装変更対象はライブ衣装のみとなり、\n私服衣装は変更されません。,服装变更对象仅能为演出服装，无法变更为私人服装
