@@ -533,7 +533,7 @@ evolution.skillListTitle,解放されるスキル,解锁的技能
 evolution.confirm.title,特訓確認,特训确认
 evolution.confirm.comment,選択した対象を消費して、特訓をします\nよろしいですか？,确认消耗选择的对象进行特训吗？
 evolution.confirm.maxStaffComment,最大特訓はづきさんを消費して、特訓をします\nよろしいですか？,确认消耗最大特训叶月进行特训吗？
-evolution.confirm.notice,特訓はづきさんが含まれています\n本当によろしいですか？,包含了特训叶月\n确认要使用吗？
+evolution.confirm.notice,特訓はづきさんが含まれています\n本当によろしいですか？,　　　　包含了特训叶月　　　　\n　　确认要使用吗？　　
 evolution.confirm.checkDescription,特訓を有効にする,使特训有效
 evolution.confirm.maxStaffNotice,1回以上特訓しているアイドルが選択されています\n特訓を開始した場合、余剰分の特訓回数は消失します,由于选择了特训过1次以上的偶像\n特训开始之后，多余的特训次数将会被舍弃
 evolution.confirm.maxStaffNoticeLevel,Lv.2以上のサポートアイドルが選択されています\n特訓を開始した場合、余剰分のExpは消失します,由于选择了Lv.2以上的偶像\n训练开始之后，多余的Exp将会被舍弃
