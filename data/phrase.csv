@@ -204,6 +204,7 @@ common.hiddenText,？？？？,
 common.ssrText,SSR,
 common.srText,SR,
 common.rText,R,
+common.idolEvolutionPiece,アイドルピース,偶像碎片
 commonMenu.bannerListTitle,キャンペーン一覧,活动一览
 commonMenu.fesIdolLimit.title,フェスアイドル所属上限,Fes偶像所属上限
 commonMenu.fesIdolLimit.text,これ以上フェスアイドルを所属させられません\nフェスアイドル詳細画面から移籍を行ってください,无法拥有更多的Fes偶像\n请在Fes偶像详情中进行移籍
@@ -382,12 +383,14 @@ eventPoint.box,ボックスP,BoxP
 eventPoint.ranking,ランキングP,排名P
 evolutionItem,特訓はづきさん,特训叶月
 exchangeItem.costumeTicket.original,衣装交換チケット,服装兑换券
-exchangeItem.costumeTicket.simple,チケット,券
+exchangeItem.costumeTicket.simple,チケット,兑换券
 exchangeItem.communicationRelease.original,アルバムの鍵,相册钥匙
 exchangeItem.businessMotivationItem.original,差し入れアイテム,慰劳品
 exchangeItem.businessMotivationItem.simple,差し入れアイテム,慰劳品
 exchangeItem.petitSelectionTicket.original,プチセレクションチケット,小型选择券
-exchangeItem.petitSelectionTicket.simple,チケット,券
+exchangeItem.petitSelectionTicket.simple,チケット,选择券
+exchangeItem.idolEvolutionPieceTicket.original,アイドルピース交換チケット,偶像碎片兑换券
+exchangeItem.idolEvolutionPieceTicket.simple,チケット,兑换券
 extraCampaign.application.receivedNotice,受け取り済,已领取
 extraCampaign.application.receivTimeOverNotice,受け取り期間終了,领取时段结束
 extraCampaign.application.receiveTimeLimit,yyyy/mm/dd HH:MMまで,yyyy/mm/dd HH:MM截止
@@ -546,8 +549,8 @@ evolution.reward.header,%{name}を\n%{times}回特訓したため,由于%{name}\
 evolution.reward.getTitle,・特訓称号,・特训称号
 evolution.reward.getVoiceHeader,・特訓ホームボイス,・特训主页语音
 evolution.reward.footer,が解放されました。,已被解锁
-evolution.normalInvalidBlockText,%{name}は\n他のアイドルや特訓はづきさんと\n一緒に使用することはできません,%{name}\n其他偶像与特训叶月\n无法一同使用
-evolution.featuredInvalidBlockText,アイドルまたは他の特訓はづきさんと\n一緒に使用することはできません,偶像或其他特训叶月\n无法一同使用
+evolution.normalInvalidBlockText,%{name}は\nアイドルやアイドルピース、\nまたは他の特訓はづきさんと\n一緒に使用することはできません,%{name}\n其他偶像与特训叶月\n无法一同使用
+evolution.featuredInvalidBlockText,アイドルやアイドルピース、\nまたは他の特訓はづきさんと\n一緒に使用することはできません,偶像或其他特训叶月\n无法一同使用
 evolution.featuredTrainingResultComment,%{name}の\n使用により、レベルが最大になりました,%{name}\n使用后，已升至最大等级
 fes.top.title,フェス,Fes
 fes.top.scoreTitle,現在のスコア,当前分数
@@ -611,9 +614,12 @@ fes.result.scoreDetail.popularIdolBonus,使用率ボーナス,使用率奖励
 fes.result.scoreDetail.totalBonus,ボーナス合計,加成合计
 fes.result.scoreDetail.finalScore,総合スコア,综合分数
 fes.fesGradeEvaluationReward.title,報酬内容,报酬内容
-fes.fesGradeEvaluationReward.message,以下のアイテムがプレゼントに送られました,以下道具已经送入礼物盒中
+fes.fesGradeEvaluationReward.message,グレフェスコインを獲得しました,获得了排位Fes币
+fes.fesGradeEvaluationReward.gradeRewardTitle,・グレード報酬,・等级奖励
+fes.fesGradeEvaluationReward.rankingBonusTitle,・順位ボーナス,・顺位奖励
+fes.fesGradeEvaluationReward.coinNum,%{num}枚,
 fes.fesGradeEvaluationReward.itemNameNum,%{type} ×%{num},
-fes.fesGradeEvaluationReward.comment.newRecord,初めてのグレードLv%{gradeId}到達、おめでとうございます\nミッション報酬も忘れずに受け取ってくださいね♪,恭喜您，首次到达等级Lv%{gradeId}。请不要忘了拿取任务奖励
+fes.fesGradeEvaluationReward.comment.newRecord,初めてのグレードLv%{gradeId}到達、おめでとうございます\nミッション報酬を忘れずに受け取ってくださいね♪,恭喜您，首次到达等级Lv%{gradeId}。请不要忘了拿取任务奖励
 fes.fesGradeEvaluationReward.comment.gradeUp,グレードアップです\nプロデューサーさん、良い調子ですね♪,等级晋升成功\n制作人先生，状态很不错呢♪
 fes.fesGradeEvaluationReward.comment.gradeKeep,グレードキープです、今回も頑張りましょう\n私も応援していますね♪,等级维持，这次也请加油吧\n我也会为你应援的♪
 fes.fesGradeEvaluationReward.comment.gradeDown,今回はLv%{gradeId}のグレードになります\n引き続き、グレードアップを目指していきましょうね,本次的等级为Lv%{gradeId}\n接下来，请以等级晋升为目标努力吧
@@ -1123,7 +1129,7 @@ item.maxFesTicket,参加権がMAXのため、これ以上回復できません�
 item.expiredItem,期限を過ぎたため、使用できません。,期限已过，无法使用
 item.recoveryItem.type.produce.valueName,スタミナ,精力值
 item.recoveryItem.type.fes.valueName,参加権,参加权
-item.evolutionNotice,アイドルや他の特訓はづきさんと一緒に使うことはできません,偶像与其他特训叶月无法一同使用
+item.evolutionNotice,アイドルやアイドルピース、他の特訓はづきさんと\n一緒に使うことはできません,偶像与其他特训叶月无法一同使用
 item.evolutionNotice2,すでに1回以上特訓しているアイドルに使用した場合\n余剰分の特訓回数は消失します,对特训过1次以上的偶像使用的情况下\n多余的特训次数将会被舍弃
 item.evolutionNoticeLevel,すでにLv.2以上トレーニングしているアイドルに使用した場合\n余剰分のExpは消失します,对训练至Lv.2以上的偶像使用的情况下\n多余的Exp将会被舍弃
 item.commuReleaseItem.imageCharacterSelectTitle,対象アイドル選択,对象偶像选择
@@ -1424,7 +1430,7 @@ shop.headerTitles.jewel,ジュエル,羽石
 shop.headerTitles.gameEvent,イベント,活动
 shop.headerTitles.premium,プレミアム,高级
 shop.headerTitles.staffItemPoint,はづきさん,叶月
-shop.headerTitles.memorialPiece,メモリアル\nピース,回忆碎片
+shop.headerTitles.piece,ピース,碎片
 shop.headerTitles.exchangeItem,衣装,服装
 shop.headerTitles.trade,リサイクル,回收
 shop.headerTitles.monthlyPassport,283パス,283Pass
@@ -1497,6 +1503,7 @@ shop.smallTabTitles.skin.skins,所持衣装,所持服装
 shop.smallTabTitles.gameEvent.coin,グレフェスコイン,排位Fes币
 shop.smallTabTitles.gameEvent.point,イベントポイント,活动点数
 shop.smallTabTitles.gameEvent.ticket,チケット交換,券兑换
+shop.smallTabTitles.idolPiece.idolEvolutionPiece,アイドルピース,偶像碎片
 shop.smallTabTitles.idolPiece.rainbow,虹,虹
 shop.smallTabTitles.idolPiece.gold,金,金
 shop.smallTabTitles.idolPiece.silver,銀,银
