@@ -1,6 +1,6 @@
 name,url,version
 images/ui/album/parts.json_image,album_parts.png,15
-images/ui/common/parts_buttons.json_image,common_parts_buttons.png,49
+images/ui/common/parts_buttons.json_image,common_parts_buttons.png,50
 images/ui/common/parts_filter.json_image,common_parts_filter.png,4
 images/ui/common/parts_skill_list.json_image,common_parts_skill_list.png,10
 images/ui/fes/parts.json_image,fes_parts.png,29
@@ -10,7 +10,7 @@ images/ui/idol_detail/parts.json_image,idol_detail_parts.png,14
 images/ui/idol_list/parts.json_image,idol_list_parts.png,15
 images/ui/idol_portal/parts.json_image,idol_portal_parts.png,9
 images/ui/mission/parts.json_image,mission_parts.png,20
-images/ui/my_page/parts.json_image,my_page_parts.png,32
+images/ui/my_page/parts.json_image,my_page_parts.png,33
 images/ui/notice/parts.json_image,notice_parts.png,12
 images/ui/present_box/parts.json_image,present_box_parts.png,8
 images/ui/produce_ability/parts.json_image,produce_ability_parts.png,1
