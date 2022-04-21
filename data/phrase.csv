@@ -850,7 +850,7 @@ gasha.popJewelDesc,フェザージュエルを%{price}個消費して\nガシャ
 gasha.popFreeDesc,無料で1回ガシャを引きますか？,要进行一次免费抽卡吗？
 gasha.popRedrawConfirm.title,ご注意,注意
 gasha.popRedrawConfirm.comment,「初回限定！運命の出会いガシャ」は、\nお気に入りのアイドルが出るまで\n何度でもガシャをやり直すことが可能です,「初回限定！命运的相遇」\n可在喜爱的偶像出现之前\n无限次抽卡
-gasha.popRedrawConfirm.notice,「初回限定！運命の出会いガシャ」の\n結果を確定してもよろしいですか？,「初回限定！命运的相遇」\n确认选定偶像吗？
+gasha.popRedrawConfirm.notice,「初回限定！運命の出会いガシャ」の\n結果を確定してもよろしいですか？,　　 「初回限定！命运的相遇」 　　\n　　　　确认选定偶像吗？　　　　
 gasha.popRedrawQuit.title,ご注意,
 gasha.popRedrawQuit.comment,「初回限定！運命の出会いガシャ」の結果を\n確定せずにガシャTOPに戻りますか？\n\nガシャTOPからは再度\n「初回限定！運命の出会いガシャ」を\n引き直すことが可能です,
 gasha.popRedrawQuit.notice,現在のガシャ結果は破棄されます,
