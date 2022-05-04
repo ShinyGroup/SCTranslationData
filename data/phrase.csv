@@ -1146,7 +1146,7 @@ mypageCommunication.producerComment,さて、仕事も一段落したし、\n少
 mypageCommunication.idolComment,だ〜れだ？,我～是谁？
 mypageCommunication.unknownCharacterName,？？？,
 exSkill.none,未設定,未设定
-exSkill.disabled,効果を発揮しません,未生效
+exSkill.disabled,効果を発揮しません,技能不生效
 exSkill.unreleased,未解放,
 exSkill.produceExSkillCondition.title,[条件%{number}],
 exSkill.produceExSkillCondition.supportIdol.level,Lv.%{requiredLevel}達成,Lv.%{requiredLevel}达成
