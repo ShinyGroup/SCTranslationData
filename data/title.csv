@@ -16,6 +16,11 @@ Landing Point編,Landing Point篇,
 【$uk】$numお月見ボイス,【$1】$2赏月语音,exp
 【$uk】$num七夕ボイス,【$1】$2七夕语音,exp
 【$uk】$numハロウィンボイス,【$1】$2万圣节语音,exp
+【$uk】$numホワイトデーボイス,【$1】$2白色情人节语音,exp
+【$numお月見】$uk,【$1赏月】$2,exp
+【$num七夕】$uk,【$1七夕】$2,exp
+【$numハロウィン】$uk,【$1万圣节】$2,exp
+【$numホワイトデー】$uk,【$1白色情人节】$2,exp
 プロデュースボイス,Produce语音,exp
 タッチボイス,触摸语音,exp
 信頼度Lv.$numボイス,信赖度Lv.$1语音,exp
