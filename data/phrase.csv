@@ -1593,7 +1593,7 @@ fanMeeting.live.evaluation.fanMeetingRehearsal.good_dance,グッドダンス,Goo
 fanMeeting.live.evaluation.fanMeetingRehearsal.good_visual,グッドビジュアル,Good Visual
 fanMeeting.live.evaluation.fanMeetingRehearsal.good_mental,グッドメンタル,Good Mental
 fanMeeting.live.evaluation.fanMeetingRehearsal.good_skill,グッドスキル,Good Skill
-fanMeeting.helperSupportIdolFriendShipLevel,アイドルの絆：%{level},偶像之绊：%{level}
+fanMeeting.helperSupportIdolFriendShipLevel,アイドルの絆：%{level},偶像的羁绊：%{level}
 fanMeeting.callHelperSupportIdol,（感謝祭の準備……\nちょっと人手が足りないみたいだったな……）,（感谢祭的准备……\n人手稍微有些不足啊……）
 fanMeeting.selectHelperSupportIdol,（手伝いを頼めたらいいんだけど……\n……誰がいいだろう……？）,（要是能有人来帮帮忙就好了……\n……叫谁比较好呢……？）
 reporterEvent.incomingMail,『%{name}様のご活躍を拝見し、\n是非とも、お話を伺いたいと────────』,『见到%{name}的活跃后，\n无论如何，请您给我采访的机会——————』
