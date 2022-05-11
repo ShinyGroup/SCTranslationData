@@ -1494,10 +1494,10 @@ produceTop.ideaNoteAlertPop.message.default,アイデアノートが設定され
 produceTop.ideaNoteAlertPop.message.complete,アイデアノートをコンプリートしました。\n新たなアイデアノートを設定しますか？,创想笔记已完成。\n要设定新的创想笔记吗？
 produceTop.ideaNoteAlertPop.message.expired,アイデアノートの期限が切れました。\n新たなアイデアノートを設定しますか？,创想笔记已到期。\n要设定新的创想笔记吗？
 produceTop.produceGoalPop.title,プロデュース目標,Produce目标
-produceTop.produceGoalPop.season1,シーズン１ エントリー,
-produceTop.produceGoalPop.season2,シーズン２ ノービス,
-produceTop.produceGoalPop.season3,シーズン３ ミドル,
-produceTop.produceGoalPop.season4,シーズン４ エキスパート,
+produceTop.produceGoalPop.season1,シーズン１ エントリー,第1季度 入门
+produceTop.produceGoalPop.season2,シーズン２ ノービス,第2季度 新手
+produceTop.produceGoalPop.season3,シーズン３ ミドル,第3季度 中级
+produceTop.produceGoalPop.season4,シーズン４ エキスパート,第4季度 专家
 produceTop.produceGoalPop.goalSuffix.fan,人,
 produceTop.produceGoalPop.goalSuffix.week,週,周
 produceTop.produceGoalPop.goalPrefix.fan,あと,还差
@@ -1526,16 +1526,16 @@ produceAction.musicAssignmentChangeConfirmDialog.notice2,変更される課題�
 produceAction.auditionScheduleDialogTitle,スケジュール確認,日程确认
 produceAction.auditionScheduleDialog.weekText,%{week}週,%{week}周
 produceAction.auditionScheduleDialog.seasonText,シーズン%{seasonNum},第%{seasonNum}季度
-produceAction.auditionScheduleDialog.seasonTitleText.1,エントリー,
-produceAction.auditionScheduleDialog.seasonTitleText.2,ノービス,
-produceAction.auditionScheduleDialog.seasonTitleText.3,ミドル,
-produceAction.auditionScheduleDialog.seasonTitleText.4,エキスパート,
+produceAction.auditionScheduleDialog.seasonTitleText.1,エントリー,入门
+produceAction.auditionScheduleDialog.seasonTitleText.2,ノービス,新手
+produceAction.auditionScheduleDialog.seasonTitleText.3,ミドル,中级
+produceAction.auditionScheduleDialog.seasonTitleText.4,エキスパート,专家
 produceAction.clearBonusPanel.bonusText,「%{name}」解放,
 produceAction.clearBonusPanel.conditionalDescription,・%{conditionalDescription},
 produceAction.clearBonusDialog.title,ボーナス確認,奖励确认
-produceAction.clearBonusDialog.message,「%{name}」\n\n効果\n「%{comment}」\nを解放,
-produceAction.clearBonusDialog.passiveMessage,%{name}\n\n%{comment}\nを解放,
-produceAction.reservedAuditionDialog.title,予約確認,
+produceAction.clearBonusDialog.message,「%{name}」\n\n効果\n「%{comment}」\nを解放,「%{name}」\n\n效果\n「%{comment}」\n解放
+produceAction.clearBonusDialog.passiveMessage,%{name}\n\n%{comment}\nを解放,%{name}\n\n%{comment}\n解放
+produceAction.reservedAuditionDialog.title,予約確認,预约确认
 produceAction.reservedAuditionDialog.message,予約した「オーディション/ライブ」があります\n確認しますか？,
 produceEvents.header,発生コミュ一覧,
 produceEvents.eventsDialogTitle,発生イベントコミュ,
@@ -1560,10 +1560,10 @@ produceSeasonResult.season,シーズン%{seasonNum},季度%{seasonNum}
 produceAreaSelect.openTime,%{years}年%{months}月%{days}日%{hours}:%{minutes}以降に,%{years}年%{months}月%{days}日%{hours}:%{minutes}以后
 produceAreaSelect.produceTeachingHintSettingConfirmationPopupTitle,研修設定確認,研修设定确认
 produceAreaSelect.produceTeachingHintSettingPopupTitle,研修設定,研修设定
-proficiencies.sing_ability,歌唱力,
-proficiencies.feel_stable,安定感,
+proficiencies.sing_ability,歌唱力,歌唱力
+proficiencies.feel_stable,安定感,安定感
 proficiencies.expressive_power,表現力,表现力
-proficiencies.concentration,集中力,
+proficiencies.concentration,集中力,集中力
 proficiencies.teamwork,団結力,团结力
 growthPoints.vocalGrowthPoint,歌唱力,歌唱力
 growthPoints.danceGrowthPoint,安定感,安定感
