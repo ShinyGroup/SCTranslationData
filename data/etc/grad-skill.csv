@@ -34,6 +34,8 @@ $ukブロックのファン満足度$percent以上,$1区域的粉丝满足度$2�
 [$nounが多いほど効果UP],[$1越多效果越好],
 [$nounが少ないほど効果UP],[$1越少效果越好],
 思い出,回忆,
+フェスユニット編成時に$nounボーナスを$percent,编入Fes队伍时$1加成$2,
+フェスユニット編成時に全基礎能力へのボーナスを$percent,编入Fes队伍时全部基础能力的加成$2,
 Leader,Leader,noun
 Center,Center,noun
 Dance,Dance,noun
