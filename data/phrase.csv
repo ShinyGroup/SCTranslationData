@@ -1015,10 +1015,10 @@ header.evolutionIdolList,特訓アイドル選択,特训偶像选择
 header.deckEdit,ユニット編成,队伍编成
 header.option,オプション,选项
 header.produceAreaSelect,プロデュース選択,Produce选择
-header.favoriteIdolSelect,アイドル選択,偶像选择
+header.favoriteIdolSelect,アイドル選択,选择偶像
 header.produceItemPreparation,プロデュースアイテム準備,准备Produce所用道具
-header.produceKnowHowBookSelect,ノウハウブック選択,
-header.produceIdolChoice,プロデュースアイドル選択,Produce偶像选择
+header.produceKnowHowBookSelect,ノウハウブック選択,选择诀窍书
+header.produceIdolChoice,プロデュースアイドル選択,选择Produce偶像
 header.invitation,SNS招待,SNS招待
 header.produceIdolSelect,プロデュースアイドル編成,Produce偶像编成
 header.supportIdolSelect,サポートアイドル編成,Support偶像编成
@@ -1846,10 +1846,10 @@ titleSelect.result.message,称号を設定しました,称号已设定
 supportIdol.remaining,あと %{remaining},还需 %{remaining}
 topicPath.produce.areaSelect,プロデュース選択,Produce选择
 topicPath.produce.deckEdit,ユニット編成,队伍编成
-topicPath.produce.knowHowBookSelect,ノウハウブック選択,
+topicPath.produce.knowHowBookSelect,ノウハウブック選択,选择诀窍书
 topicPath.produce.itemSelect,アイテム選択,选择道具
 topicPath.trueEndTeaching.areaSelect,プロデュース選択,Produce选择
-topicPath.trueEndTeaching.idolSelect,アイドル選択,偶像选择
+topicPath.trueEndTeaching.idolSelect,アイドル選択,选择偶像
 topicPath.trueEndTeaching.deckEdit,ユニット編成,队伍编成
 training.levelLabel,Lv.,
 training.gainExpLabel,獲得Exp,获得Exp
