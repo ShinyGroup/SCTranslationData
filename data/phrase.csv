@@ -27,6 +27,9 @@ filter.categories.advantage,アドバンテージ,
 filter.categories.produceType,育成プロデュースシナリオ,
 filter.categories.specialProduceType,特化プロデュース,
 filter.categories.produceDeck,編成中のアイドル,队伍中的偶像
+filter.categories.costumePossession,衣装所持,
+filter.categories.costumeType,種類,
+filter.categories.clearStatus,CLEAR状況,
 filter.cautions.fesIdolMark,アイドル詳細から好きなアイドルマークを設定できます,可在偶像详情中设定偏好的偶像标记
 filter.cautions.ideaMark,ファン感謝祭編の専用パラメータです,粉丝感谢祭篇专用属性值
 filter.cautions.inspiration,G.R.A.D.編の専用パラメータです,G.R.A.D.篇专用属性值
@@ -39,6 +42,8 @@ filter.cautions.produceDeck,現在選択中の編成に含まれるアイドル�
 filter.texts.achieved,達成済み,已达成
 filter.texts.notAchieved,未達成,未达成
 filter.texts.unread,未読あり,未读
+filter.texts.possession,所持済み,
+filter.texts.notPossessed,未所持,
 filter.texts.ideas.vocal,ボーカル,Vocal
 filter.texts.ideas.visual,ビジュアル,Visual
 filter.texts.ideas.dance,ダンス,Dance
@@ -53,6 +58,8 @@ filter.texts.supportSkill.skill,スキル%{num},技能%{num}
 filter.texts.supportSkill.notSet,未設定,未设定
 filter.texts.supportSkill.all,すべて,全部
 filter.texts.liveSkill.includesUnacquired,未解放のライブスキルも含む,包含未解锁的演出技能
+filter.texts.costumeType.produceIdol,プロデュース\nアイドル衣装,
+filter.texts.costumeType.other,その他,
 filter.emptyMessage,該当するアイドルがいません,没有符合条件的偶像
 filter.emptyKnowHowBookMessage,該当するノウハウブックがありません,没有符合条件的诀窍书
 ability.locked,未解放,未解锁
@@ -235,6 +242,8 @@ common.srText,SR,
 common.rText,R,
 common.idolEvolutionPiece,アイドルピース,偶像碎片
 common.producerSkill,プロデューサースキル,制作人技能
+common.plusSkill.conditionSeparator,\[条件:(.*)\]$,
+common.knowHowBook,ノウハウブック,诀窍书
 commonMenu.bannerListTitle,キャンペーン一覧,活动一览
 commonMenu.fesIdolLimit.title,フェスアイドル所属上限,Fes偶像所属上限
 commonMenu.fesIdolLimit.text,これ以上フェスアイドルを所属させられません\nフェスアイドル詳細画面から移籍を行ってください,无法拥有更多的Fes偶像\n请在Fes偶像详情中进行移籍
@@ -257,6 +266,7 @@ commonMenu.loginConfirm.title,ログイン確認,登录确认
 concert.fesTower.liveAutoDisablePopup.title,Auto機能,Auto功能
 concert.fesTower.liveAutoDisablePopup.description,アドバンテージによって解放されます,
 concert.fesTower.liveAutoDisablePopup.notice,アドバンテージを獲得していないため利用できません,
+concert.judge.interestingRatio,%{value}倍,
 concert.judgeDetailDialog.titles.judge.vocal,Vocal審査員,Vocal审查员
 concert.judgeDetailDialog.titles.judge.dance,Dance審査員,Dance审查员
 concert.judgeDetailDialog.titles.judge.visual,Visual審査員,Visual审查员
@@ -270,6 +280,7 @@ concert.judgeDetailDialog.titles.audience.vocal,Vocalステージの観客,Vocal
 concert.judgeDetailDialog.titles.audience.dance,Danceステージの観客,Dance舞台的观众
 concert.judgeDetailDialog.titles.audience.visual,Visualステージの観客,Visual舞台的观众
 concert.judgeDetailDialog.titles.audience.all,Centerステージの観客,Center舞台的观众
+concert.judgeDetailDialog.interestingRatio,×%{value}倍,
 concert.playerIdol.retire,Retire,
 concert.produceIdolComment,私の歌、届け！,传递出去吧，我的歌声！
 concert.pauseDialog.produceSkill,プロデュースアイドル所持スキル,Produce偶像所持技能
@@ -282,6 +293,7 @@ concert.statusEffect.timesAndTurn,残り%{leftTurn}ターン\n残り%{remainTime
 concert.statusEffect.noStatusEffectMessage,効果情報はありません,无状态效果信息
 concert.skill.appealString,倍アピール,倍Appeal
 concert.skill.betweenString,～,
+concert.skillChangeableCount,あと%{skillChangeableCount}回,
 concert.autoLock.unlockConditions.produce,誰か一人のTrue Endを達成すると解放\n(True End研修を除く),达成任意一人True End后解放\n(不包括True End研修)
 concertResult.entryNumber,エントリーNo.%{number},排名No.%{number}
 concertResult.statusUp.message,+%{upPoint},
@@ -426,12 +438,15 @@ errorDialog.produceLock.title,ご確認,确认
 errorDialog.produceLock.produceLockEntered,不正な挙動を検知したため\nプロデュースをロックしました\nロックは5分行われます,
 errorDialog.produceLock.produceLocked,現在プロデュースはロックされています\n少し時間を置いてからお試しください,
 errorDialog.limitedEvolutionItemExpired,使用期限付きはづきさんの期限が切れています\n特訓をやり直してください,
+errorDialog.screenshot.title,撮影失敗,
+errorDialog.screenshot.text,撮影、または保存に失敗しました,
 eventPoint.genericName,ポイント,点数
 eventPoint.game,イベントP,活动P
 eventPoint.scenario,シナリオP,剧情P
 eventPoint.fes,フェスP,FesP
 eventPoint.box,ボックスP,BoxP
 eventPoint.ranking,ランキングP,排名P
+eventPoint.training,育成P,
 evolutionItem,特訓はづきさん,特训叶月
 exchangeItem.costumeTicket.original,衣装交換チケット,服装兑换券
 exchangeItem.costumeTicket.simple,チケット,兑换券
@@ -622,6 +637,8 @@ fes.ready.title,参加ユニット,参加队伍
 fes.ready.description,テンション決定後は前の画面には戻れません\nフェス参加権を%{consumedFesTicket}消費します,心情确定之后将无法回到之前的界面\n将消耗Fes参加权%{consumedFesTicket}
 fes.resumeDialog.title,フェス再開,Fes继续
 fes.resumeDialog.text,進行中のフェスがあります。\nフェスを再開しますか？,有进行中的Fes。\n要继续该Fes吗？
+fes.retireDialog.title,ライブ終了,
+fes.retireDialog.text,ライブを終了しますか？,
 fes.terminateDialog.title,フェス終了,Fes结束
 fes.terminateDialog.text,進行中のフェスを終了します。,结束进行中的Fes
 fes.terminateDialog.textWarning,フェス参加権は返却されません,Fes参加权不返还
@@ -703,11 +720,14 @@ fes.deckMemberPopularity.rankingTextLabel,位,
 fes.deckMemberPopularity.unrankedTextLabel,反映外,
 fes.deckMemberPopularity.bonus,＋%{bonus},
 fes.deckMemberPopularity.bonusTextLabel,pt,
+fesTower.liveAutoSetupPop.title,ライブオート設定,
 fesTower.fesTowerExceptionPop.title,フェスツアーズ,Fes Tours
 fesTower.fesTowerExceptionPop.closeEventText,フェスツアーズは終了しました,Fes Tours已结束
 fesTower.stageEndPop.title,リスタート,重新开始
 fesTower.stageEndPop.description,現在のフェスツアーズの最大ステージに到達しました\n\nツアーメニューの「諦める」より\nリスタートを行ってください,
 fesTower.fesTowerMenuPopTitle,Fes Toursメニュー,Fes Tours菜单
+fesTower.liveItemPresetPop.title,ライブアイテムプリセット,
+fesTower.liveItemPresetPop.groupNumber,プリセット%{groupNumber},
 fesTower.specialBonusIdolEmptyMessage,特別ボーナスを持つアイドルはいません,没有特殊奖励加成的偶像
 fesTower.resumeDialog.title,ライブ再開,再次演出
 fesTower.resumeDialog.noLife,ライブを終了する場合\n進行中のフェスの情報は無くなり\nリスタート画面へと移ります,
@@ -719,6 +739,8 @@ fesTower.restartCheckPop.moneyShortage,マニーが不足しています,金币�
 fesTower.restartCheckPop.needMoneyRestartText,%{count}回目以降の挑戦にはマニーを消費します,%{count}次后进行挑战需要消耗金币
 fesTower.retirePop.title,諦める,放弃
 fesTower.retirePop.text,現在進行中のツアーを諦めますか？,要放弃进行中的Tour吗？
+fesTower.panelUnit.unsetDeckNumber,未設定,
+fesTower.panelUnit.staffComment,流行ごとのライブパネルに参加するユニットを選択しましょう♪\nパネルごとにアイテムも選択できますよ～,
 fesTower.bonus.areaClearedBonusSelectPop.title,地方ツアー達成ボーナス,地区Tour完成奖励
 fesTower.bonus.areaClearedBonusSelectPop.description,%{areaName}ツアーを達成しました\n地方ツアーの達成ボーナスを選択してください,
 fesTower.bonus.areaClearedBonusSelectPop.noticeText,地方ツアーの達成ボーナスは全国ツアー達成まで継続します,
@@ -728,17 +750,27 @@ fesTower.bonus.completeBonusSelectPop.noticeText,全国ツアーの達成ボー�
 fesTower.bonus.extremeBonusSelectPop.title,Extremeライブ達成ボーナス,
 fesTower.bonus.extremeBonusSelectPop.description,ExtremeライブLv.%{extremeLiveLevel}を達成しました\nExtremeライブの達成ボーナスを選択してください,
 fesTower.bonus.extremeBonusSelectPop.noticeText,Extremeライブの達成ボーナスは次のリスタートまで継続します,
+fesTower.bonus.tourBonus.noticeText,ツアー中の地方ボーナスは地方ツアー達成まで継続します,
+fesTower.bonus.tourBonus.unitBonusText,%{unitName}のユニットボーナスUP！,
+fesTower.bonus.tourBonus.genreBonusText,%{genreName}のジャンルボーナスUP！,
+fesTower.bonus.tourBonus.characterBonusText,%{characterName}のアイドルボーナスUP！,
 fesTower.bonus.activeBonusListPop.title,発動ボーナス確認,
 fesTower.bonus.activeBonusListPop.completeCount,%{count}周目,
 fesTower.bonus.activeBonusListPop.extremeLiveLevel,Lv.%{level},
 fesTower.bonus.activeBonusListPop.noBonusComment,発動中のボーナスがありません,
+fesTower.bonus.activeBonusListPop.noUserDeckComment,パネルが選択されていません,
+fesTower.bonus.activeBonusListPop.tab.tabTourBonus,ツアー中,
 fesTower.bonus.activeBonusListPop.tab.tabAreaBonus,地方ツアー,
 fesTower.bonus.activeBonusListPop.tab.tabCompleteBonus,全国ツアー,
 fesTower.bonus.activeBonusListPop.tab.tabExtremeBonus,Extremeライブ,
+fesTower.bonus.activeBonusListPop.tab.tabSpecialBonus,特別ボーナス,
+fesTower.bonus.activeBonusListPop.listTitle.tourBonus,地方ボーナス,
 fesTower.bonus.activeBonusListPop.listTitle.areaClearedBonus,地方ツアー達成ボーナス,
 fesTower.bonus.activeBonusListPop.listTitle.skipAreaClearedBonus,スキップ時の地方ツアー達成ボーナス,
 fesTower.bonus.activeBonusListPop.listTitle.completeBonus,全国ツアー達成ボーナス,
 fesTower.bonus.activeBonusListPop.listTitle.extremeBonus,Extremeライブ達成ボーナス,
+fesTower.bonus.activeBonusListPop.listTitle.specialBonusProduceIdol,プロデュースアイドル,
+fesTower.bonus.activeBonusListPop.listTitle.specialBonusSupportIdol,サポートアイドル,
 fesTower.bonus.specialBonusListPop.title,特別ボーナス一覧,
 fesTower.bonus.specialBonusListPop.switchInfo.evolved,特訓%{evolutionStage}回,
 fesTower.bonus.specialBonusListPop.switchInfo.notEvolved,特訓なし,
@@ -780,11 +812,12 @@ fesTower.concertPause.stageLimitNone,ステージ制限がありません,
 fesTower.concertPause.retryLocked,該当のアドバンテージが\n解放されていません,
 fesTower.tensionResultPop.tensionUp,テンションが上がりました,
 fesTower.tensionResultPop.tensionDown,テンションが下がりました,
+fesTower.levelUp.headerTitle,レベルアップ,
 fesTower.reset.resultBonus,×%{bonus},
 fesTower.reset.resetContentType.item,アイテム,
 fesTower.reset.resetContentType.advantage,アドバンテージ,
-fesTower.reset.staffComment.top,Fes Toursポイントはここでしか使えませんよ～\nたくさん使って次回のFes Toursを有利に進めましょう♪,
-fesTower.reset.staffComment.list,%{resetContentTypeText}の解放やレベルアップをすると\n次回から有利になりますよ〜♪,
+fesTower.reset.staffComment.top,ここでFes Toursポイントを使いましょう\nたくさん使えばFes Toursが有利に進められますよ～♪,
+fesTower.reset.staffComment.list,%{resetContentTypeText}の解放やレベルアップをすると\nFes Toursを有利に進められますよ～♪,
 fesTower.reset.staffComment.itemTakeover,ライブアイテムは、次に引き継ぐことができますよ〜,
 fesTower.reset.headerTitle.top,リスタート,
 fesTower.reset.headerTitle.item,アイテム,
@@ -1060,10 +1093,12 @@ header.raidDeck,コラボフェスユニット編成,COLLABO FES队伍编成
 header.ability,アビリティ習得,能力学习
 header.abilityViewMode,アビリティ一覧,能力一览
 header.produceBlock,ブロック選択,区域选择
+header.fesTowerPanelUnit,パネルユニット編成,
 header.fesTowerDeck,フェスユニット編成,FES队伍编成
 header.fesTowerItem,アイテム一覧,道具一览
 header.fesTowerAdvantage,アドバンテージ一覧,
 header.fesTowerLiveItemSelect,ライブアイテム選択,选择演出道具
+header.photoIdolChange,アイドル変更,
 header.produceMusicList,楽曲一覧,歌曲列表
 header.produceMusicSelect,シーズン%{seasonNum}の楽曲選択,选择第%{seasonNum}个季度的歌曲
 header.produceSupporterSelect,楽曲サポートアイドル選択,选择歌曲的支援偶像
@@ -1073,6 +1108,7 @@ header.produceGrowth,成長,成长
 header.producerDeskTop,Pデスク,P Desk
 header.producerLevel,プロデューサーレベル,制作人等级
 header.producerDeskShop,Pレベルショップ,P等级商店
+header.jewelCounter,フェザージュエルミッション,
 album.campaignOpenDateMsg,%{openDateTime}よりコミュ解放,%{openDateTime}以后解锁剧情
 ideaNote.confirmReplacementPop.title,使用確認,使用确认
 ideaNote.confirmReplacementPop.description,「%{current}」を使用中です。\n「%{selected}」を使用しますか？,正在使用「%{current}」，\n要用「%{selected}」替换吗？
@@ -1121,6 +1157,8 @@ homeDeck.randomSetting.costumeTypes.values.concert,ライブ衣装,演出服装
 homeDeck.loadAlertPop.title,確認,确认
 homeDeck.loadAlertPop.comment,５人表示を行う場合\n「ホームユニット」および「ホーム画面」での\n描画に負荷がかかります,显示5人的情况下\n「主界面队伍」以及「主界面」的渲染\n将会消耗更多时间
 homeDeck.loadAlertPop.checkComment,今後、この警告を表示しない,今后不再显示警告
+homeDeck.presetSettingPop.title,アニメモード プリセット,
+homeDeck.presetSettingPop.presetLabel,プリセット%{presetNum},
 judgeTrend.bonusValue,★%{value}倍,
 landscapeDialog.title,画面の向きについて,关于画面的方向
 landscapeDialog.text,このゲームは画面を横向きにして\nお楽しみください。,本游戏适宜采用横向画面游玩
@@ -1213,6 +1251,7 @@ option.fesTowerContentTitle.recoverPanelConfirmation,回復パネル選択時に
 option.fesTowerContentTitle.presentPanelConfirmation,プレゼントパネル選択時に\n確認画面を表示,
 option.fesTowerContentTitle.randomPanelConfirmation,イベントパネル選択時に\n確認画面を表示,
 option.fesTowerContentTitle.tensionPanelConfirmation,テンションパネル選択時に\n確認画面を表示,
+option.fesTowerContentTitle.levelUpPanelConfirmation,レベルアップパネル選択時に\n確認画面を表示,
 option.fesTowerContentTitle.lowerEndurancePointAlert,アイドルの体力が低下している際に\n警告画面を表示,
 option.homeContent.title.touch,コミュニケーションタッチ判定,对话触摸判定
 option.homeContent.title.conversation,アイドル同士の会話,偶像间的对话
@@ -1346,7 +1385,12 @@ popJoinRecommend.textInvitation,招待機能を利用するには、enzaメン�
 popJoinRecommend.textTicketEntry,チケット応募にはenzaに登録する必要があります。,Ticket应募需要注册enza
 popPaymentLimitation.title,年齢別購入限度額,依年龄段购买额度限制
 popPaymentLimitation.description,アプリ専用通貨等の購入には\n年齢別に限度額が設定されています。,应用专用货币购买时\n依据年龄段设定限制额度
-popPaymentLimitation.limitations,"16歳未満　：　1ヶ月5,400円まで\n16歳～19歳　：　1ヶ月21,600円まで\n20歳以上　：　限度なし","16岁未满　：　1个月5,400円至多16岁～19岁　：　1个月21,600円至多20岁以上　：　无限度"
+popPaymentLimitation.limitations,"16歳未満　：　1ヶ月5,500円まで\n16歳～17歳　：　1ヶ月22,000円まで\n18歳以上　：　限度なし","16岁未满　：　1个月5,500円至多16岁～17岁　：　1个月22,000円至多18岁以上　：　无限度"
+photoMotionDialog.title,ポーズ指定,
+photoMotionDialog.message,アイドルに呼びかけてポーズを取ってもらうことができます,
+photoBootFailDialog.title,カメラの許可,
+photoBootFailDialog.messages.default,フォトモードを使用するためには\nカメラの使用、および端末内の写真への\nアクセスを許可する必要があります,
+photoBootFailDialog.messages.toHelp,フォトモードを使用するためには\nカメラの使用、および端末内の写真への\nアクセスを許可する必要があります\n\nヘルプを参照してカメラの使用を\n許可してください,
 present.headerTitle,プレゼント,礼物
 present.noPresent.present,受け取れるプレゼントはありません,没有可领取的礼物
 present.noPresent.history,受け取り済みのプレゼントはありません,没有已领取的礼物
@@ -1430,6 +1474,9 @@ filterPop.filter.avoidTrouble,トラブル,事故
 filterPop.filter.changeTrend,流行,流行
 filterPop.filter.navigation,ナビゲート,指导
 filterPop.filter.supportIdolsLottery,サポート,Support
+filterPop.filter.individualityExpressionRateUp,発現確率,
+filterPop.filter.individualityDefiniteExpression,ノウハウ,
+filterPop.filter.individualityInheritanceRateUp,継承確率,
 filterPop.filter.memoryPointUp,思い出,回忆
 filterPop.filter.defaultStatusUp,基礎能力,基础能力
 filterPop.filter.dance,Dance,Dance
@@ -1442,6 +1489,7 @@ filterPop.filter.placeAppearRate,レッスン・\nお仕事,课程・\n工作
 filterPop.filter.commu,コミュ,剧情
 produce.header.ideaNote.emptyNotice,使用していません,未使用
 produce.resumePop.progress,シーズン %{season} / 残り %{restOfSeasonWeek}週,季度 %{season} /剩余 %{restOfSeasonWeek}周
+produce.resumePop.titleFormat,%{title} %{produceMode},
 produce.produceItemPop.titleConfirm,使用確認,使用确认
 produce.produceItemPop.titleResult,プロデュースアイテム使用,使用Produce道具
 produce.produceItemPop.messageConfirm,以下のアイテムを使用しますか？,要使用以下道具吗？
@@ -1565,6 +1613,9 @@ proficiencies.feel_stable,安定感,安定感
 proficiencies.expressive_power,表現力,表现力
 proficiencies.concentration,集中力,集中力
 proficiencies.teamwork,団結力,团结力
+photo.option.bg,背景,
+photo.option.effect,エフェクト,
+photo.option.frame,フレーム,
 growthPoints.vocalGrowthPoint,歌唱力,歌唱力
 growthPoints.danceGrowthPoint,安定感,安定感
 growthPoints.visualGrowthPoint,表現力,表现力
@@ -1708,6 +1759,7 @@ shop.purchasedCountLabelText.gameEvent.scenario_event_point,シナリオP,剧情
 shop.purchasedCountLabelText.gameEvent.fes_event_point,フェスP,FesP
 shop.purchasedCountLabelText.gameEvent.box_event_point,ボックスP,BoxP
 shop.purchasedCountLabelText.gameEvent.ranking_event_point,ランキングP,排名P
+shop.purchasedCountLabelText.gameEvent.training_event_point,育成P,
 shop.purchaseResult.title,購入結果,购买结果
 shop.purchaseResult.message,%{title}を購入しました,%{title}已购买
 shop.purchaseResult.twoLinesMessage,%{title}を\n購入しました,%{title}已购买
@@ -1739,6 +1791,8 @@ shop.smallTabTitles.idolPiece.star,星,星
 shop.smallTabTitles.idolPiece.rainbow,虹,虹
 shop.smallTabTitles.idolPiece.gold,金,金
 shop.smallTabTitles.idolPiece.silver,銀,银
+shop.smallTabTitles.premium.beginners,新人P向け,
+shop.smallTabTitles.premium.all,ALL,
 shop.emptyNotice.purchase,購入できる商品がありません,　　没有可以购买的商品　　
 shop.emptyNotice.exchange,交換できる商品がありません,　　没有可以兑换的商品　　
 shop.trade.tradeConfirmation.title,交換確認,兑换确认
@@ -1747,6 +1801,11 @@ shop.trade.tradeConfirmation.shortageMessage,「%{title}」の\n交換に必要�
 shop.monthlyPassport.limitAt,%{limitAt}まで,%{limitAt}截止
 shop.monthlyPassport.price,%{price}円,
 shop.monthlyPassport.unpurchasableBadge.outOfTerm,%{nextOpenDate}から購入可,%{nextOpenDate}起可以购买
+shop.monthlyPassport.dailyRewardPop.title,ログイン報酬,
+shop.monthlyPassport.dailyRewardPop.count,%{count}回目,
+shop.monthlyPassport.dailyRewardPop.rewardJewelName,無償フェザージュエル,
+shop.monthlyPassport.dailyRewardPop.nameAndNum,%{name}×%{num},
+shop.monthlyPassport.dailyRewardPop.period,%{continuousFirstAt} 〜 %{limitAt},
 shop.battlePassport.privilegeSelectPop.title,購入特典選択,
 shop.battlePassport.privilegeSelectPop.notice,購入特典は購入30日後までの使用期限付きです\n期限内に使用しなかった場合、アイテムは失われます,
 shop.battlePassport.privilegeSelectPop.description,シャイニーパス購入特典として\n受け取るアイテムをどちらか選択してください,
@@ -1844,6 +1903,9 @@ spine.stand,等身キャラ,等身主角
 spine.standSub,等身サブキャラ,等身配角
 titleSelect.result.message,称号を設定しました,称号已设定
 supportIdol.remaining,あと %{remaining},还需 %{remaining}
+stepCommunicationReleaseDialog.title,S.T.E.P.編のコミュ解放,
+stepCommunicationReleaseDialog.message,新たなS.T.E.P.編のコミュが解放されました！,
+stepCommunicationReleaseDialog.notice,S.T.E.P.編のコミュはアルバムで読む事ができます,
 topicPath.produce.areaSelect,プロデュース選択,Produce选择
 topicPath.produce.deckEdit,ユニット編成,队伍编成
 topicPath.produce.knowHowBookSelect,ノウハウブック選択,选择诀窍书
@@ -1986,6 +2048,8 @@ workActivityTalkAndCommu.talkCompleteRewardPopContent.rewardName,コンプ数\n%
 workActivityTalkAndCommu.talkCompleteRewardPopContent.title,コンプ報酬,
 workActivityTalkAndCommu.unitLevelRewardPopContent.rewardName,ユニット\nLv.%{num},
 workActivityTalkAndCommu.unitLevelRewardPopContent.title,レベル報酬,
+workActivityTalkAndCommu.categories.clear,CLEAR,
+workActivityTalkAndCommu.categories.notCleared,未CLEAR,
 individualRanking.heldAt,%{time}まで,%{time}截止
 individualRanking.tallyAt,%{time}まで,%{time}截止
 individualRanking.rewardAt,%{time}から,%{time}开始
@@ -2010,13 +2074,24 @@ pushNotification.title,シャニマス,偶像大师 闪耀色彩
 unitSelectGasha.confirmTitle,ピックアップユニット確認,
 unitSelectGasha.confirmText,ピックアップユニットを「%{unitName}」に確定しますか？,
 producerDesk.producerLevel.exp,%{exp}Exp,
+producerDesk.producerLevel.expRange,%{min} 〜 %{max}Exp,
 producerDesk.producerLevel.statusPopupTitle,ステータスアップ一覧,
 producerDesk.producerLevelUp.rewardText,報酬が%{rewardNum}個受け取れます,
+producerDesk.costume.costumeName,%{costumeName}の衣装,
+producerDesk.costume.towLinesCostumeName,%{anotherName}\n%{idolName}の衣装,
 producerDesk.releaseCondition.title,解放条件,
 producerDesk.releaseCondition.wingMission,初心者ミッションをクリアする必要があります,
 producerDesk.releaseCondition.trueEndMission,W.I.N.G.攻略ミッションをクリアする必要があります,
 producerDesk.releaseCondition.fanMeeting,ファン感謝祭を解放する為には「W.I.N.G.編」で\nシーズン2をクリアし、フェスアイドルを\n誕生させる必要があります,
 producerDesk.releaseCondition.grad,G.R.A.D.を解放する為には「ファン感謝祭編」で\nフェスアイドルを誕生させる必要があります,
 producerDesk.releaseCondition.landingPoint,Landing Pointを解放する為には「G.R.A.D.編」で\nフェスアイドルを誕生させる必要があります,
+producerDesk.releaseCondition.step,S.T.E.P.を解放する為には「W.I.N.G.編」で\nシーズン1をクリアし、フェスアイドルを\n誕生させる必要があります。,
 producerDesk.releaseCondition.fesTours,Fes Toursは、ただいま開催期間外です,
 producerDesk.releaseCondition.gradeFes,フェスリハーサルEasyを3位以上でクリアする\n必要があります,
+jewelCounter.sortTitle,並び替え,
+jewelCounter.endedAtFormat,yyyy/mm/dd HH:MMまで,
+jewelCounter.typeText.daily,デイリー,
+jewelCounter.typeText.weekly,ウィークリー,
+jewelCounter.typeText.normal,ノーマル,
+jewelCounter.typeText.special,スペシャル,
+jewelCounter.typeText.event,イベント,
