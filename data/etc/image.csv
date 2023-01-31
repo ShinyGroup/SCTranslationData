@@ -1,12 +1,12 @@
 name,url,version
 images/ui/album/parts.json_image,album_parts.png,16
-images/ui/common/parts_buttons.json_image,common_parts_buttons.png,64
+images/ui/common/parts_buttons.json_image,common_parts_buttons.png,65
 images/ui/common/parts_filter.json_image,common_parts_filter.png,5
 images/ui/common/parts_skill_list.json_image,common_parts_skill_list.png,13
 images/ui/evolution/parts.json_image,evolution_parts.png,8
-images/ui/fes/fes_deck.json_image,fes_fes_deck.png,4
+images/ui/fes/fes_deck.json_image,fes_fes_deck.png,5
 images/ui/fes/parts.json_image,fes_parts.png,36
-images/ui/idol_detail/parts_fes.json_image,idol_detail_parts_fes.png,11
+images/ui/idol_detail/parts_fes.json_image,idol_detail_parts_fes.png,12
 images/ui/idol_detail/parts_support.json_image,idol_detail_parts_support.png,10
 images/ui/idol_detail/parts.json_image,idol_detail_parts.png,17
 images/ui/idol_list/parts.json_image,idol_list_parts.png,19
@@ -32,5 +32,5 @@ images/ui/produce_top/parts.json_image,produce_top_parts.png,22
 images/ui/produce_trend/parts.json_image,produce_trend_parts.png,10
 images/ui/shop/parts_shop_category_tab.json_image,shop_parts_shop_category_tab.png,6
 images/ui/start_and_common/parts.json_image,start_and_common_parts.png,13
-images/tips/true_end_teaching/area_select/001.jpg,tips/true_end_teaching_area_select_001.jpg,3
+images/tips/true_end_teaching/area_select/001.jpg,tips/true_end_teaching_area_select_001.jpg,4
 images/ui/work_activity_top/parts.json_image,work_activity_top_parts.png,10
