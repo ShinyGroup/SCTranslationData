@@ -1,6 +1,6 @@
 name,url,version
 images/ui/album/parts.json_image,album_parts.png,16
-images/ui/common/parts_buttons.json_image,common_parts_buttons.png,68
+images/ui/common/parts_buttons.json_image,common_parts_buttons.png,69
 images/ui/common/parts_filter.json_image,common_parts_filter.png,5
 images/ui/common/parts_skill_list.json_image,common_parts_skill_list.png,13
 images/ui/evolution/parts.json_image,evolution_parts.png,8
@@ -27,7 +27,7 @@ images/ui/produce_common/parts_header.json_image,produce_common_parts_header.png
 images/ui/produce_common/parts_pyramid.json_image,produce_common_parts_pyramid.png,8
 images/ui/produce_deck/parts_deck_edit.json_image,produce_deck_parts_deck_edit.png,17
 images/ui/produce_event/parts_event.json_image,produce_event_parts_event.png,15
-images/ui/produce_item/parts.json_image,produce_item_parts.png,18
+images/ui/produce_item/parts.json_image,produce_item_parts.png,19
 images/ui/produce_top/parts.json_image,produce_top_parts.png,22
 images/ui/produce_trend/parts.json_image,produce_trend_parts.png,10
 images/ui/shop/parts_shop_category_tab.json_image,shop_parts_shop_category_tab.png,6
