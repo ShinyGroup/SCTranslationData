@@ -61,6 +61,7 @@ WINGミッション,WING任务,text
 がっちりアピール,Top + Last Appeal,noun
 トップアピール,Top Appeal,noun
 ラストアピール,Last Appeal,noun
+思い出アピール,回忆Appeal,noun
 プロ根性,Pro根性,noun
 Easy,Easy,rank
 NORMAL,NORMAL,rank
@@ -102,7 +103,7 @@ W.I.N.G.編,W.I.N.G.篇,note
 ファン感謝祭編,粉丝感谢祭篇,note
 G.R.A.D.編,G.R.A.D.篇,note
 LandingPoint編,LandingPoint篇,note
-S.T.E.P.,S.T.E.P.,note
+S.T.E.P.編,S.T.E.P.篇,note
 高難易度,高难度,note
 期間限定,期间限定,note
 白いツバサ,白色之翼,note
@@ -111,6 +112,7 @@ W.I.N.G.,W.I.N.G.,produce
 G.R.A.D.,G.R.A.D.,produce
 ファン感謝祭,粉丝感谢祭,produce
 LandingPoint,LandingPoint,produce
+S.T.E.P.,S.T.E.P.,produce
 【$note】,【$1】,
 シーズン$numを$num回クリアしよう,通过$2次第$1季度,
 $produce決勝に$num回進出しよう,进入$2次$1决赛,
