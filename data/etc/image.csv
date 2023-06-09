@@ -1,10 +1,10 @@
 name,url,version
 images/ui/album/parts.json_image,album_parts.png,16
-images/ui/common/parts_buttons.json_image,common_parts_buttons.png,69
+images/ui/common/parts_buttons.json_image,common_parts_buttons.png,70
 images/ui/common/parts_filter.json_image,common_parts_filter.png,5
 images/ui/common/parts_skill_list.json_image,common_parts_skill_list.png,13
 images/ui/evolution/parts.json_image,evolution_parts.png,8
-images/ui/fes/fes_deck.json_image,fes_fes_deck.png,6
+images/ui/fes/fes_deck.json_image,fes_fes_deck.png,7
 images/ui/fes/parts.json_image,fes_parts.png,37
 images/ui/idol_detail/parts_fes.json_image,idol_detail_parts_fes.png,13
 images/ui/idol_detail/parts_support.json_image,idol_detail_parts_support.png,10
