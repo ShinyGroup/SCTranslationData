@@ -33,7 +33,7 @@ filter.categories.aptitude,適性,
 filter.categories.costumePossession,衣装所持,
 filter.categories.costumeType,種類,种类
 filter.categories.clearStatus,CLEAR状況,CLEAR状态
-filter.categories.fightSkill,ファイトスキル,
+filter.categories.fightSkill,ファイトスキル,对战技能
 filter.categories.voiceType,ボイス種別,
 filter.categories.releaseCondition,解放状況,
 filter.categories.jointFesArea,エリア,
@@ -324,7 +324,7 @@ concert.statusEffect.leftTurn,残り%{leftTurn}ターン,剩余%{leftTurn}回合
 concert.statusEffect.remainTimes,残り%{remainTimes}回,剩余%{remainTimes}回
 concert.statusEffect.timesAndTurn,残り%{leftTurn}ターン\n残り%{remainTimes}回,剩余%{leftTurn}回合\n剩余%{remainTimes}回
 concert.statusEffect.noStatusEffectMessage,効果情報はありません,无状态效果信息
-concert.fightSkill.noFightSkillMessage,ファイトスキルがありません,
+concert.fightSkill.noFightSkillMessage,ファイトスキルがありません,无对战技能
 concert.skill.appealString,倍アピール,倍Appeal
 concert.skill.betweenString,～,
 concert.skillChangeableCount,あと%{skillChangeableCount}回,
@@ -698,7 +698,7 @@ fes.deck.informationTypes.default,デフォルト,默认
 fes.deck.informationTypes.status,フェスアイドル,Fes偶像
 fes.deck.informationTypes.param_bonus,ボーナス,加成
 fes.deck.informationTypes.popularity,使用率,使用率
-fes.deck.informationTypes.fightSkill,ファイトスキル,
+fes.deck.informationTypes.fightSkill,ファイトスキル,对战技能
 fes.deck.informationTypes.aptitude,適性,
 fes.ready.title,参加ユニット,参加队伍
 fes.ready.description,テンション決定後は前の画面には戻れません\nフェス参加権を%{consumedFesTicket}消費します,心情确定之后将无法回到之前的界面\n将消耗Fes参加权%{consumedFesTicket}
@@ -800,7 +800,7 @@ fes.deckMemberAptitude.environment.fine,快晴,晴
 fes.deckMemberAptitude.environment.sunny,晴れ,多云
 fes.deckMemberAptitude.environment.cloudy,くもり,阴
 fes.deckMemberAptitude.environment.rain,雨,
-fes.fightSkillSelect.title,ファイトスキル選択,
+fes.fightSkillSelect.title,ファイトスキル選択,选择对战技能
 fesTower.liveAutoSetupPop.title,ライブオート設定,
 fesTower.fesTowerExceptionPop.title,フェスツアーズ,Fes Tours
 fesTower.fesTowerExceptionPop.closeEventText,フェスツアーズは終了しました,Fes Tours已结束
