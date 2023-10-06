@@ -1,5 +1,6 @@
 name,url,version
 images/ui/album/parts.json_image,album_parts.png,17
+images/ui/auto_play/parts_skip_pop.json_image,auto_play_parts_skip_pop.png,1
 images/ui/auto_play/parts.json_image,auto_play_parts.png,1
 images/ui/common/parts_buttons.json_image,common_parts_buttons.png,73
 images/ui/common/parts_filter.json_image,common_parts_filter.png,5
