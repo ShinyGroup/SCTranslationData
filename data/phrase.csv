@@ -33,7 +33,7 @@ filter.categories.aptitude,適性,
 filter.categories.costumePossession,衣装所持,
 filter.categories.costumeType,種類,种类
 filter.categories.clearStatus,CLEAR状況,CLEAR状态
-filter.categories.fightSkill,ファイトスキル,
+filter.categories.fightSkill,ファイトスキル,对战技能
 filter.categories.voiceType,ボイス種別,
 filter.categories.releaseCondition,解放状況,
 filter.categories.jointFesArea,エリア,
@@ -279,8 +279,10 @@ common.rText,R,
 common.idolEvolutionPiece,アイドルピース,偶像碎片
 common.producerSkill,プロデューサースキル,制作人技能
 common.plusSkill.conditionSeparator,\[条件:(.*)\]$,
+common.exchangeSkill.conditionSeparator,\[条件:(.*)\]$,
 common.knowHowBook,ノウハウブック,诀窍书
 common.skipTicket,スキップチケット,
+common.voteTicket,投票券,
 commonMenu.bannerListTitle,キャンペーン一覧,活动一览
 commonMenu.produceRetire.title,プロデュース終了,Produce结束
 commonMenu.produceRetire.comment1.produce,プロデュース中のデータは失われます\n消費したスタミナと\nプロデュースアイテムは返却されません,　 正在Produce中的数据将会消失 　\n 已消耗的精力值和 \n　　　 Produce道具将不会返还 　　　
@@ -324,7 +326,7 @@ concert.statusEffect.leftTurn,残り%{leftTurn}ターン,剩余%{leftTurn}回合
 concert.statusEffect.remainTimes,残り%{remainTimes}回,剩余%{remainTimes}回
 concert.statusEffect.timesAndTurn,残り%{leftTurn}ターン\n残り%{remainTimes}回,剩余%{leftTurn}回合\n剩余%{remainTimes}回
 concert.statusEffect.noStatusEffectMessage,効果情報はありません,无状态效果信息
-concert.fightSkill.noFightSkillMessage,ファイトスキルがありません,
+concert.fightSkill.noFightSkillMessage,ファイトスキルがありません,无对战技能
 concert.skill.appealString,倍アピール,倍Appeal
 concert.skill.betweenString,～,
 concert.skillChangeableCount,あと%{skillChangeableCount}回,
@@ -698,7 +700,7 @@ fes.deck.informationTypes.default,デフォルト,默认
 fes.deck.informationTypes.status,フェスアイドル,Fes偶像
 fes.deck.informationTypes.param_bonus,ボーナス,加成
 fes.deck.informationTypes.popularity,使用率,使用率
-fes.deck.informationTypes.fightSkill,ファイトスキル,
+fes.deck.informationTypes.fightSkill,ファイトスキル,对战技能
 fes.deck.informationTypes.aptitude,適性,
 fes.ready.title,参加ユニット,参加队伍
 fes.ready.description,テンション決定後は前の画面には戻れません\nフェス参加権を%{consumedFesTicket}消費します,心情确定之后将无法回到之前的界面\n将消耗Fes参加权%{consumedFesTicket}
@@ -800,7 +802,7 @@ fes.deckMemberAptitude.environment.fine,快晴,晴
 fes.deckMemberAptitude.environment.sunny,晴れ,多云
 fes.deckMemberAptitude.environment.cloudy,くもり,阴
 fes.deckMemberAptitude.environment.rain,雨,
-fes.fightSkillSelect.title,ファイトスキル選択,
+fes.fightSkillSelect.title,ファイトスキル選択,选择对战技能
 fesTower.liveAutoSetupPop.title,ライブオート設定,
 fesTower.fesTowerExceptionPop.title,フェスツアーズ,Fes Tours
 fesTower.fesTowerExceptionPop.closeEventText,フェスツアーズは終了しました,Fes Tours已结束
@@ -811,7 +813,7 @@ fesTower.liveItemPresetPop.title,ライブアイテムプリセット,
 fesTower.liveItemPresetPop.groupNumber,プリセット%{groupNumber},
 fesTower.specialBonusIdolEmptyMessage,特別ボーナスを持つアイドルはいません,没有特殊奖励加成的偶像
 fesTower.resumeDialog.title,ライブ再開,再次演出
-fesTower.resumeDialog.noLife,ライブを終了する場合\n進行中のフェスの情報は無くなり\nリスタート画面へと移ります,
+fesTower.resumeDialog.noLife,ライブを終了する場合\n進行中のライブの情報は無くなり\nリスタート画面へと移ります,
 fesTower.resumeDialog.hasLife,ライブを終了する場合\nリタイア可能回数を１消費します,
 fesTower.skip.skipPopTitle,スキップ確認,是否跳过
 fesTower.restartCheckPop.title,挑戦確認,确认挑战
@@ -955,6 +957,26 @@ gameEvent.boxGasha.nextBoxDialog.caution,移動した場合、ボックスの中
 gameEvent.boxGasha.nextBoxDialog.check,移動を有効にする,　　确认移动　　
 gameEvent.boxGasha.rewardDialogTitle,結果,结果
 gameEvent.boxGasha.tabBoxName,ボックス,BOX
+gameEvent.ranking,%{value}位,
+gameEvent.characterVoteEvent.confirmDialogTitle,投票確認,
+gameEvent.characterVoteEvent.successDialogTitle,投票完了,
+gameEvent.characterVoteEvent.successDialogText,%{name}へ\n%{voteNum}枚投票しました,
+gameEvent.characterVoteEvent.limitIdolVoteDialogTitle,アイドル投票終了間近！,
+gameEvent.characterVoteEvent.limitIdolVoteDialogTicketQuantity,%{quantity}枚,
+gameEvent.characterVoteEvent.limitSituationVoteDialogTitle,シチュエーション回答終了間近！,
+gameEvent.characterVoteEvent.voteNum,%{num}票,
+gameEvent.characterVoteEvent.top.replyPeriodEnds,回答期間は終了しました,
+gameEvent.characterVoteEvent.top.alreadyAnswered,すでに回答済みです,
+gameEvent.characterVoteEvent.top.badgeText,%{date}から投票開始予定！,
+gameEvent.characterVoteEvent.ticketUnpossessedPop.title,確認,
+gameEvent.characterVoteEvent.ticketUnpossessedPop.text,投票券がありません,
+gameEvent.characterVoteEvent.historyPop.title,投票履歴,
+gameEvent.characterVoteEvent.historyPop.noHistoryText,投票履歴がありません,
+gameEvent.characterVoteEvent.achievementPop.title,投票実績,
+gameEvent.characterVoteEvent.achievementPop.noAchievementText,投票実績がありません,
+gameEvent.characterVoteEvent.schedule,%{date}まで,
+gameEvent.characterVoteEvent.aggregationSchedule,%{date}予定,
+gameEvent.characterVoteEvent.howToPlayDialogTitle,遊び方,
 unitBonusBanner.schedule,%{closeAt}まで,%{closeAt}截止
 idolList.filterTitle,絞り込み,筛选
 idolList.sortTitle,並び替え,排序
@@ -1056,8 +1078,8 @@ gasha.gashaTicketSubtitle,通常ガシャ提供割合,通常抽卡结果概率
 gasha.gashaTicketSubtitleIdol,通常ガシャの提供アイドル一覧,通常抽卡所含偶像一览
 gasha.campaignGashaSubtitle,キャンペーンガシャ提供割合,活动卡池结果概率
 gasha.campaignGashaSubtitleIdol,キャンペーンガシャの提供アイドル一覧,活动卡池提供偶像一览
-gasha.step1Subtitle,通常ガシャ提供割合,通常抽卡结果概率
-gasha.step1SubtitleIdol,通常ガシャの提供アイドル一覧,通常抽卡所含偶像一览
+gasha.stepSubtitle,通常ガシャ提供割合,
+gasha.stepSubtitleIdol,通常ガシャの提供アイドル一覧,
 gasha.skinFixSubtitle,通常ガシャ提供割合,通常抽卡结果概率
 gasha.skinFixSubtitleIdol,衣装確定の衣装一覧,服装确定的服装一览
 gasha.normalWithSkinSubtitleIdol,通常ガシャの提供アイドル、衣装一覧,通常卡池提供偶像、服装一览
@@ -2227,6 +2249,8 @@ workActivityTop.purchaseSlotDescription,営業枠を１つ解放します\nよ�
 workActivityTop.purchaseBilledOnlyNotice,有償フェザージュエルでのみ購入可能,仅能使用有偿羽石购买
 workActivityTop.possessedJewelShortMessage,所持フェザージュエルが不足しています,所持羽石不足
 workActivityTop.checkUnitDialogTitle,営業編成確認,营业编成确认
+workActivityTop.deletedAbandonedBusinessPop.title,営業破棄確認,
+workActivityTop.deletedAbandonedBusinessPop.text,営業が破棄されました\n\n営業は90日間完了しない場合、破棄されます\n報酬や差し入れは返却されません,
 workActivityReady.startDialogTitle,営業開始確認,营业开始确认
 workActivityReady.motivationLevel,モチベーションボーナス %{motivationLevel},营业积极性加成 %{motivationLevel}
 workActivityReady.motivationBonusDetail,獲得経験値とファン数が%{bonusRate}倍,获得经验值与粉丝数%{bonusRate}倍
@@ -2342,3 +2366,9 @@ autoPlay.skipLimitPop.title,スキップ制限,
 autoPlay.skipLimitPop.comment,本日はこれ以上\nスキップチケットを使用できません,
 autoPlay.skipLimitPop.notice1,スキップチケットは1日%{availableCount}回までしか使用できません,
 autoPlay.skipLimitPop.notice2,使用回数は毎朝5時にリセットされます,
+survey.questionOrder,設問 %{order},
+survey.confirmTitle,アンケート回答確認,
+survey.answeredTitle,回答完了,
+survey.answeredMessage,アンケートに回答しました,
+survey.aggregatingMessage,集計中です,
+survey.aggregatedMessage,回答は締め切りました 結果はお知らせをご確認ください,
