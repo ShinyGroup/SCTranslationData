@@ -1,5 +1,5 @@
 name,url,version
-images/ui/album/parts.json_image,album_parts.png,18
+images/ui/album/parts.json_image,album_parts.png,19
 images/ui/auto_play/parts_skip_pop.json_image,auto_play_parts_skip_pop.png,1
 images/ui/auto_play/parts.json_image,auto_play_parts.png,1
 images/ui/common/parts_buttons.json_image,common_parts_buttons.png,80
@@ -9,7 +9,7 @@ images/ui/evolution/parts.json_image,evolution_parts.png,8
 images/ui/fes/fes_deck.json_image,fes_fes_deck.png,9
 images/ui/fes/parts.json_image,fes_parts.png,40
 images/ui/idol_detail/parts_fes.json_image,idol_detail_parts_fes.png,14
-images/ui/idol_detail/parts_support.json_image,idol_detail_parts_support.png,11
+images/ui/idol_detail/parts_support.json_image,idol_detail_parts_support.png,12
 images/ui/idol_detail/parts.json_image,idol_detail_parts.png,20
 images/ui/idol_list/parts.json_image,idol_list_parts.png,24
 images/ui/idol_portal/parts.json_image,idol_portal_parts.png,10
